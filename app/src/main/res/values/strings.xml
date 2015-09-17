@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Relegation</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_home">Home</string>
+    <string name="ns_menu_open">Relegation</string>
+    <string name="ns_menu_close">Relegation</string>
+    <string name="ns_menu_leaderboard_header">Leaderbaord</string>
+    <string name="ns_menu_chat_header">Chat</string>
+    <string name="ns_menu_questions_header">Questions</string>
+    <string name="ns_menu_admin_header">Admin</string>
+    <string name="ns_menu_account_header">Account</string>
+    <string name="action_save">Save</string>
+    <string name="ns_menu_dashboard_main">Dashboard</string>
+    <string name="ns_menu_leaderboard_overview">Overview</string>
+    <string name="ns_menu_leaderboard_playervsplayer">Player vs Player</string>
+    <string name="ns_menu_leaderboard_full">Extended</string>
+    <string name="ns_menu_leaderboard_history">History</string>
+    <string name="ns_menu_chat_main">Smack Talk</string>
+    <string name="ns_menu_questions_answer">Answer</string>
+    <string name="ns_menu_questions_review">Review</string>
+    <string name="ns_menu_admin_questions">Submit Questions</string>
+    <string name="ns_menu_admin_results">Submit Results</string>
+    <string name="ns_menu_account_profile">Profile</string>
+    <string name="ns_menu_account_settings">Settings</string>
+    <string name="ns_menu_account_logout">Logout</string>
+    <string name="sign_in">Sign in</string>
+    <string name="inbox">Inbox</string>
+    <string name="starred">Starred</string>
+    <string name="sent_mail">Sent Mail</string>
+    <string name="drafts">Drafts</string>
+    <string name="more_markers">+ Markers</string>
+    <string name="trash">Trash</string>
+    <string name="spam">Spam</string>
+    <string name="settings">Settings</string>
+    <string name="add">Add</string>
+    <string name="search">Search</string>
+
+    <!-- Toast -->
+    <string name="open_user_profile">Open user profile</string>
+    <string name="open_settings">Open settings</string>
+    <string name="title_activity_initial">InitialActivity</string>
+    <string name="title_activity_dashboard">Dashboard</string>
+    <string name="title_activity_fixtures_list">FixturesList</string>
+    <string name="title_activity_group_list">GroupList</string>
+
+</resources>

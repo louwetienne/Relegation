@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- A CardView that contains a TextView -->
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+
+
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view_fixture"
+    android:layout_gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    card_view:cardCornerRadius="4dp">
+
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical" >
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Question 2"
+            android:id="@+id/txtQuestionName"
+            android:textAlignment="center"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:layout_weight="72.96"
+            android:gravity="center"
+            android:background="#ff646464"
+            android:autoText="false"
+            android:textColor="@android:color/white" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textSize="10sp"
+        android:text="2015/06/15 19:00"
+        android:id="@+id/txtFixtureDateTime"
+        android:textAlignment="center"
+        android:maxLines="20"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:layout_centerInParent="true" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Will Frank Gore rush for more than 85 yards in the game between the 49ers and the broncos?"
+            android:id="@+id/txtQuestionDescription"
+            android:textAlignment="center"
+            android:maxLines="20"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:layout_centerInParent="true"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"/>
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout_CheckBoxOptions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayout_type_of_days"
+        android:gravity="center|top"
+        android:orientation="horizontal"
+        android:paddingLeft="5dp"
+        android:paddingTop="10dp" >
+
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="wrap_content"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_height="fill_parent" >
+
+
+        <CheckBox
+            android:id="@+id/checkBoxAnswer1"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text="Yes"
+            android:theme="@style/Theme.AppCompat.Light" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="wrap_content"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_height="fill_parent" >
+
+
+        <CheckBox
+            android:id="@+id/checkBoxAnswer2"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text="No"
+            android:checked="false"
+            android:theme="@style/Theme.AppCompat.Light" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
+
+
+</android.support.v7.widget.CardView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:id="@+id/txtScore"
+        android:text="+1.0"
+        android:padding="10dp"
+        android:textColor="@android:color/white" />
+    </RelativeLayout>

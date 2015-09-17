@@ -1,0 +1,13 @@
+C:\Users\Etienne\AndroidStudioProjects\RelegationUpdated\app\build\intermediates\classes\debug
+C:\Users\Etienne\AndroidStudioProjects\RelegationUpdated\app\build\intermediates\pre-dexed\debug\support-annotations-22.2.0-c7277223090a098484831ffb27cbd41109ec3023.jar
+C:\Users\Etienne\AndroidStudioProjects\RelegationUpdated\app\build\intermediates\pre-dexed\debug\classes-307868546b53a49301ac9b388ec58e5ba66aa471.jar
+C:\Users\Etienne\AndroidStudioProjects\RelegationUpdated\app\build\intermediates\pre-dexed\debug\classes-7011a010af15246d23f536cbe7cebda1054c2de5.jar
+C:\Users\Etienne\AndroidStudioProjects\RelegationUpdated\app\build\intermediates\pre-dexed\debug\classes-6426cd9f06a9f7067942187c8ba6304181bcc7b8.jar
+C:\Users\Etienne\AndroidStudioProjects\RelegationUpdated\app\build\intermediates\pre-dexed\debug\classes-440e7082c16722e21fd0536d4ff34e5974aa0c33.jar
+C:\Users\Etienne\AndroidStudioProjects\RelegationUpdated\app\build\intermediates\pre-dexed\debug\classes-5c26922008e688a99f8f7bf8bf668aa6c915e0cf.jar
+C:\Users\Etienne\AndroidStudioProjects\RelegationUpdated\app\build\intermediates\pre-dexed\debug\classes-268af024beeca426d47513c667e3e40c6247fac3.jar
+C:\Users\Etienne\AndroidStudioProjects\RelegationUpdated\app\build\intermediates\pre-dexed\debug\internal_impl-22.2.0-8a200ec594fe2058df459790f7960763c31cb05f.jar
+C:\Users\Etienne\AndroidStudioProjects\RelegationUpdated\app\build\intermediates\pre-dexed\debug\classes-818ab928aba0a10ee5726e4b5b73c3ddd5b5a03a.jar
+C:\Users\Etienne\AndroidStudioProjects\RelegationUpdated\app\build\intermediates\pre-dexed\debug\classes-6d7313b720eadfc74952657c72256cd1ca24a443.jar
+C:\Users\Etienne\AndroidStudioProjects\RelegationUpdated\app\build\intermediates\pre-dexed\debug\classes-23e7d98a5179a65a1f0f247ea5391e638f870e22.jar
+C:\Users\Etienne\AndroidStudioProjects\RelegationUpdated\app\build\intermediates\pre-dexed\debug\mpandroidchartlibrary-1-7-4-b87a1a3f714f75d31a32a47621831c2c4cf5bfa7.jar
