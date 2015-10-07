@@ -172,6 +172,8 @@ public class FixturesList extends android.support.v4.app.Fragment {
 
         //result = new ArrayList<IndividualQuestion>();
 
+        boolean allLockedIn = true;
+
         fixtureList = new ArrayList<IndividualQuestion>();
         try {
 
@@ -265,6 +267,7 @@ public class FixturesList extends android.support.v4.app.Fragment {
                 if (!fixture.isNull("LockedIn")) {
                     if (fixture.getString("LockedIn").equalsIgnoreCase("Open")) {
                         mIndividualQuestion.setIsLockedIn(false);
+                        allLockedIn = false;
                     }
                     else if (fixture.getString("LockedIn").equalsIgnoreCase("Locked")) {
                         mIndividualQuestion.setIsLockedIn(true);
@@ -279,6 +282,20 @@ public class FixturesList extends android.support.v4.app.Fragment {
         } catch (JSONException e) {
             e.printStackTrace();
         }
+
+        final boolean finalAllLockedIn = allLockedIn;
+        getActivity().runOnUiThread(new Runnable() {
+            @Override
+            public void run() {
+                //stuff that updates ui
+                if (finalAllLockedIn == true) {
+                    actionButton.setVisibility(View.INVISIBLE);
+                } else {
+                    actionButton.setVisibility(View.VISIBLE);
+                }
+
+            }
+        });
 
         return fixtureList;
     }
@@ -428,7 +445,7 @@ public class FixturesList extends android.support.v4.app.Fragment {
             if (success) {
                 //finish();
 
-                actionButton.setVisibility(View.VISIBLE);
+                //actionButton.setVisibility(View.VISIBLE);
 
                 actionButton.setImageResource(R.drawable.ic_done_white);
                 actionButton.setButtonColor(getResources().getColor(R.color.fab_material_blue_500));
@@ -438,8 +455,8 @@ public class FixturesList extends android.support.v4.app.Fragment {
                         new MaterialDialog.Builder(getActivity())
 
                                 .title("Confirm Question Answers?")
-                                .content("Would you like to Save these answers to make changes at a later stage, or would you like to Commit all changes now?")
-                                .positiveText("Final Commit")
+                                .content("Would you like to Save these answers to make changes at a later stage, or would you like to Lock In all changes now?")
+                                .positiveText("Lock In")
                                 .negativeText("Save For Later")
 
                                 .callback(new MaterialDialog.ButtonCallback() {

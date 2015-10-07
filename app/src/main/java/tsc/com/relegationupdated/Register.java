@@ -209,10 +209,13 @@ public class Register extends Activity  implements LoaderManager.LoaderCallbacks
         } else {
             // Show a progress spinner, and kick off a background task to
             // perform the user login attempt.
-            showProgress(true);
 
-            mAuthTask = new UserRegisterTask(fullName, email, password);
-            mAuthTask.execute((Void) null);
+            //TODO return this code once I have screens to add you to groups.
+
+//            showProgress(true);
+//
+//            mAuthTask = new UserRegisterTask(fullName, email, password);
+//            mAuthTask.execute((Void) null);
         }
 
     }
