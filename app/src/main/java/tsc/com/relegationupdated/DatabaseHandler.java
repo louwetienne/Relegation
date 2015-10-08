@@ -223,7 +223,7 @@ public class DatabaseHandler extends SQLiteOpenHelper {
     }
 
     /**
-     * Re crate database
+     * Re create database
      * Delete all tables and create them again
      * */
     public void resetTables(){

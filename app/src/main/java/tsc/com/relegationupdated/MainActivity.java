@@ -34,6 +34,7 @@ import org.json.JSONObject;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
+import java.util.concurrent.ExecutionException;
 
 //import br.liveo.interfaces.NavigationLiveoListener;
 import br.liveo.Model.HelpLiveo;
@@ -73,33 +74,49 @@ public class MainActivity extends NavigationLiveo implements OnItemClickListener
             //If group is not null and has a value in then I can use the function activeGroupGamesByUserID
             //with the user id and group id.
 
+            //This is here as a temp, it will always pull from the live DB and get the latest games.
+
+            mAuthTask = new GetGameGroupTask();
+            mAuthTask.execute((Void) null);
+
+//            try {
+//                mAuthTask.get();
+//            } catch (InterruptedException e) {
+//                e.printStackTrace();
+//            } catch (ExecutionException e) {
+//                e.printStackTrace();
+//            }
+
             if (userFunctions.isGameActive(getApplicationContext())) {
 
                 DatabaseHandler db = new DatabaseHandler(getApplicationContext());
                 Globals g = (Globals) getApplication();
 
                 // Get the current active game from the SQLlite database with groupID and gameID
-                HashMap<String,Integer> game = new HashMap<String,Integer>();
 
-                game = db.getActiveGroupGame();
+                //TODO resolve the local DB to save game so it is not doing network calls all the time.
 
-                // If there are values for the groupID and gameID add it to the global
-                if ((game != null) && (game.size() > 0)) {
-                    if ((game.get(KEY_GROUPID) != null) && (game.get(KEY_GAMEID) != null)) {
-
-                        g.setGroupID(game.get(KEY_GROUPID));
-                        g.setGameID(game.get(KEY_GAMEID));
-                    }
-                }
-                // Otherwise if fields are null with no entries in the SQLlite database, fetch from the live database
-                else {
-                    //set this in dashboard, check if these are empty and retrieve them from live database
-                    //g.setGroupID(1);
-                    //g.setGameID(1);
-
-                    mAuthTask = new GetGameGroupTask();
-                    mAuthTask.execute((Void) null);
-                }
+//                HashMap<String,Integer> game = new HashMap<String,Integer>();
+//
+//                game = db.getActiveGroupGame();
+//
+//                // If there are values for the groupID and gameID add it to the global
+//                if ((game != null) && (game.size() > 0)) {
+//                    if ((game.get(KEY_GROUPID) != null) && (game.get(KEY_GAMEID) != null)) {
+//
+//                        g.setGroupID(game.get(KEY_GROUPID));
+//                        g.setGameID(game.get(KEY_GAMEID));
+//                    }
+//                }
+//                // Otherwise if fields are null with no entries in the SQLlite database, fetch from the live database
+//                else {
+//                    //set this in dashboard, check if these are empty and retrieve them from live database
+//                    //g.setGroupID(1);
+//                    //g.setGameID(1);
+//
+//                    mAuthTask = new GetGameGroupTask();
+//                    mAuthTask.execute((Void) null);
+//                }
             }
             else {
                 mAuthTask = new GetGameGroupTask();
@@ -370,7 +387,7 @@ public class MainActivity extends NavigationLiveo implements OnItemClickListener
                             if (!group.isNull("groupid"))
                                 g.setGroupID(group.getInt("groupid"));
                             if (!group.isNull("gamesid"))
-                                g.setGroupID(group.getInt("gamesid"));
+                                g.setGameID(group.getInt("gamesid"));
                         }
                     }
                     else {
@@ -381,6 +398,30 @@ public class MainActivity extends NavigationLiveo implements OnItemClickListener
 
 
                 }
+
+
+
+                if (userFunctions.isGameActive(getApplicationContext())) {
+
+                    // Get the current active game from the SQLlite database with groupID and gameID
+
+                    //TODO resolve the local DB to save game so it is not doing network calls all the time.
+
+//                    HashMap<String, Integer> game = new HashMap<String, Integer>();
+//
+//                    game = db.getActiveGroupGame();
+//
+//                    // If there are values for the groupID and gameID add it to the global
+//                    if ((game != null) && (game.size() > 0)) {
+//                        if ((game.get(KEY_GROUPID) != null) && (game.get(KEY_GAMEID) != null)) {
+//
+//                            g.setGroupID(game.get(KEY_GROUPID));
+//                            g.setGameID(game.get(KEY_GAMEID));
+//                        }
+//                    }
+                }
+
+
 
 
             } catch (JSONException e) {
