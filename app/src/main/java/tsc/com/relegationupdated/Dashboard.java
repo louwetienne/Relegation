@@ -601,8 +601,14 @@ public class Dashboard extends android.support.v4.app.Fragment implements OnChar
 
 
 
-        yVals1.add(new Entry(firstOptionCount, 0, new String("Fixtures")));
-        yVals1.add(new Entry(secondOptionCount, 1, new String("Fixtures")));
+        if (firstOptionCount > 0) {
+            yVals1.add(new Entry(firstOptionCount, 0, new String("Fixtures")));
+        }
+        if (secondOptionCount > 0) {
+            yVals1.add(new Entry(secondOptionCount, 1, new String("Fixtures")));
+        }
+
+
         //xVals.add("Rosberg");
         //xVals.add("Hamilton");
 

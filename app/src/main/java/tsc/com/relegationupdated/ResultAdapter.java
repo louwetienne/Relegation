@@ -70,17 +70,19 @@ public class ResultAdapter extends RecyclerView.Adapter<ResultAdapter.FixtureVie
         fixtureViewHolder.mOption2Description.setText(mIndividualQuestion.getOptionDescription2());
         fixtureViewHolder.mOption1Description.setChecked(questionList.get(pos).isOptionSelected1());
         fixtureViewHolder.mOption2Description.setChecked(questionList.get(pos).isOptionSelected2());
+        fixtureViewHolder.mOption1Description.setEnabled(false);
+        fixtureViewHolder.mOption2Description.setEnabled(false);
 
-        if (questionList.get(pos).isLockedIn()) {
-            //fixtureViewHolder.mCardView.setEnabled(false);
-            fixtureViewHolder.mOption1Description.setEnabled(false);
-            fixtureViewHolder.mOption2Description.setEnabled(false);
-        }
-        else {
-            //fixtureViewHolder.mCardView.setEnabled(true);
-            fixtureViewHolder.mOption1Description.setEnabled(true);
-            fixtureViewHolder.mOption2Description.setEnabled(true);
-        }
+//        if (questionList.get(pos).isLockedIn()) {
+//            //fixtureViewHolder.mCardView.setEnabled(false);
+//            fixtureViewHolder.mOption1Description.setEnabled(false);
+//            fixtureViewHolder.mOption2Description.setEnabled(false);
+//        }
+//        else {
+//            //fixtureViewHolder.mCardView.setEnabled(true);
+//            fixtureViewHolder.mOption1Description.setEnabled(true);
+//            fixtureViewHolder.mOption2Description.setEnabled(true);
+//        }
 
 
 

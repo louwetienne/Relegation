@@ -79,13 +79,13 @@ public class MainActivity extends NavigationLiveo implements OnItemClickListener
             mAuthTask = new GetGameGroupTask();
             mAuthTask.execute((Void) null);
 
-//            try {
-//                mAuthTask.get();
-//            } catch (InterruptedException e) {
-//                e.printStackTrace();
-//            } catch (ExecutionException e) {
-//                e.printStackTrace();
-//            }
+            try {
+                mAuthTask.get();
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            } catch (ExecutionException e) {
+                e.printStackTrace();
+            }
 
             if (userFunctions.isGameActive(getApplicationContext())) {
 
