@@ -43,10 +43,9 @@ import com.github.mikephil.charting.data.BarEntry;
 import com.github.mikephil.charting.data.Entry;
 import com.github.mikephil.charting.data.PieData;
 import com.github.mikephil.charting.data.PieDataSet;
-import com.github.mikephil.charting.interfaces.OnChartValueSelectedListener;
-import com.github.mikephil.charting.utils.Legend;
-import com.github.mikephil.charting.utils.XLabels;
-import com.github.mikephil.charting.utils.YLabels;
+import com.github.mikephil.charting.highlight.Highlight;
+import com.github.mikephil.charting.listener.OnChartValueSelectedListener;
+import com.github.mikephil.charting.components.Legend;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -142,8 +141,10 @@ public class Dashboard extends android.support.v4.app.Fragment implements OnChar
     }
 
     private void generateLeaderboardBarGraph() {
+
         // enable the drawing of values
-        mLeaderboardChart.setDrawYValues(true);
+        //mLeaderboardChart.setDrawYValues(true);
+        mLeaderboardChart.getLegend().setEnabled(false);
 
         mLeaderboardChart.setDrawValueAboveBar(true);
 
@@ -154,39 +155,30 @@ public class Dashboard extends android.support.v4.app.Fragment implements OnChar
         mLeaderboardChart.setMaxVisibleValueCount(60);
 
         // disable 3D
-        mLeaderboardChart.set3DEnabled(false);
+        //mLeaderboardChart.set3DEnabled(false);
 
         // scaling can now only be done on x- and y-axis separately
         mLeaderboardChart.setPinchZoom(true);
 
         mLeaderboardChart.setDrawGridBackground(false);
-        mLeaderboardChart.setDrawHorizontalGrid(true);
-        mLeaderboardChart.setDrawVerticalGrid(false);
+        //mLeaderboardChart.setDrawHorizontalGrid(true);
+        //mLeaderboardChart.setDrawVerticalGrid(false);
 
         // sets the text size of the values inside the chart
-        mLeaderboardChart.setValueTextSize(10f);
+        //mLeaderboardChart.setValueTextSize(10f);
 
-        //mLeaderboardChart.setYRange(-2.f,7f,false);
-        mLeaderboardChart.setYRange((float) leaderboardUsers.get(leaderboardUsers.size() - 1).getScore() - 1, (float) leaderboardUsers.get(0).getScore() + 1, false);
+        //mLeaderboardChart.setYRange((float) leaderboardUsers.get(leaderboardUsers.size() - 1).getScore() - 1, (float) leaderboardUsers.get(0).getScore() + 1, false);
 
 
-        mLeaderboardChart.setDrawBorder(false);
-        // mLeaderboardChart.setBorderPositions(new BorderPosition[] {BorderPosition.LEFT,
-        // BorderPosition.RIGHT});
+        //mLeaderboardChart.setDrawBorder(false);
 
-        //Typeface tf = Typeface.createFromAsset(getAssets(), "OpenSans-Regular.ttf");
+        //XLabels xl = mLeaderboardChart.getXLabels();
+        //xl.setPosition(XLabels.XLabelPosition.BOTTOM);
+        //xl.setCenterXLabelText(true);
 
-        XLabels xl = mLeaderboardChart.getXLabels();
-        xl.setPosition(XLabels.XLabelPosition.BOTTOM);
-        xl.setCenterXLabelText(true);
-        //xl.setTypeface(tf);
-
-        YLabels yl = mLeaderboardChart.getYLabels();
-        //yl.setTypeface(tf);
-        yl.setLabelCount(8);
-        yl.setPosition(YLabels.YLabelPosition.BOTH_SIDED);
-
-        //mLeaderboardChart.setValueTypeface(tf);
+        //YLabels yl = mLeaderboardChart.getYLabels();
+        //yl.setLabelCount(8);
+        //yl.setPosition(YLabels.YLabelPosition.BOTH_SIDED);
 
         setLeaderboardData();
         mLeaderboardChart.animateY(2500);
@@ -207,9 +199,10 @@ public class Dashboard extends android.support.v4.app.Fragment implements OnChar
         mLatestResultChart.setHoleColor((Color.rgb(235, 235, 235)));
         mLatestResultChart.setTransparentCircleRadius(30f);
 
+
         mLatestResultChart.setDescription("");
 
-        mLatestResultChart.setDrawYValues(true);
+        //mLatestResultChart.setDrawYValues(true);
         mLatestResultChart.setDrawCenterText(true);
 
         mLatestResultChart.setDrawHoleEnabled(true);
@@ -217,7 +210,7 @@ public class Dashboard extends android.support.v4.app.Fragment implements OnChar
         mLatestResultChart.setRotationAngle(0);
 
         // draws the corresponding description value into the slice
-        mLatestResultChart.setDrawXValues(false);
+        //mLatestResultChart.setDrawXValues(false);
 
         // enable rotation of the chart by touch
         mLatestResultChart.setRotationEnabled(false);
@@ -233,9 +226,11 @@ public class Dashboard extends android.support.v4.app.Fragment implements OnChar
         setLatestResultChartData();
 
         mLatestResultChart.animateXY(1500, 1500);
-        mLatestResultChart.spin(2000, 0, 360);
+        mLatestResultChart.setDescriptionTextSize(80);
 
-        mLatestResultChart.setDrawLegend(true);
+        //mLatestResultChart.spin(2000, 0, 360);
+
+        //mLatestResultChart.setDrawLegend(true);
 
         Legend l = mLatestResultChart.getLegend();
 
@@ -262,7 +257,7 @@ public class Dashboard extends android.support.v4.app.Fragment implements OnChar
 
         mNextFixtureChart.setDescription("");
 
-        mNextFixtureChart.setDrawYValues(true);
+        //mNextFixtureChart.setDrawYValues(true);
         mNextFixtureChart.setDrawCenterText(true);
 
         mNextFixtureChart.setDrawHoleEnabled(true);
@@ -270,7 +265,7 @@ public class Dashboard extends android.support.v4.app.Fragment implements OnChar
         mNextFixtureChart.setRotationAngle(0);
 
         // draws the corresponding description value into the slice
-        mNextFixtureChart.setDrawXValues(false);
+        //mNextFixtureChart.setDrawXValues(false);
 
         // enable rotation of the chart by touch
         mNextFixtureChart.setRotationEnabled(false);
@@ -319,7 +314,7 @@ public class Dashboard extends android.support.v4.app.Fragment implements OnChar
 
         final LinearLayout linearLayoutFormGuide = (LinearLayout) rootView.findViewById(R.id.linearLayoutFormGuide);
 
-        int numberOfFormGuides = Math.min((int) (width / (pixels + leftMargin)),5);
+        int numberOfFormGuides = Math.min(width / (pixels + leftMargin),5);
 
         numberOfFormGuides = Math.min(numberOfFormGuides,formGuideList.size());
 
@@ -443,20 +438,8 @@ public class Dashboard extends android.support.v4.app.Fragment implements OnChar
             }
             xVals.add(leaderboardUsers.get(i % leaderboardUsers.size()).getInitials());
             yVals1.add(new BarEntry((float) leaderboardUsers.get(i % leaderboardUsers.size()).getScore(), i));
+            //yVals1.add(new BarEntry((float) (Math.random() * 50) - 10 , i));
         }
-
-//        for (int i = 0; i < count; i++) {
-//            xVals.add(mUsers[i % count]);
-//            yVals1.add(new BarEntry((float) mUserScore[i % count], i));
-//        }
-
-
-
-//        for (int i = 0; i < count; i++) {
-//            float mult = (range + 1);
-//            float val = (float) (Math.random() * mult);
-//            yVals1.add(new BarEntry(val, i));
-//        }
 
         int[] ColourBands;
         ColourBands = getColorBands(leaderboardUsers.size());
@@ -532,14 +515,23 @@ public class Dashboard extends android.support.v4.app.Fragment implements OnChar
 
             if (lastestResultQuestion.getCorrectAnswerID() == lastestResultQuestion.getAnswerID1()) {
                 xVals.add(lastestResultQuestion.getAnswerDescription1()); // Correct - Green
-                xVals.add(lastestResultQuestion.getAnswerDescription2()); // Incorrect - Red
                 colors.add(RESULTS_COLORS[0]);
                 yVals1.add(new Entry(correctAnswerCount, 0, new String("Results")));
-            } else {
-                xVals.add(lastestResultQuestion.getAnswerDescription2()); // Correct - Green
-                xVals.add(lastestResultQuestion.getAnswerDescription1()); // Incorrect - Red
+
+
+                xVals.add(lastestResultQuestion.getAnswerDescription2()); // Incorrect - Red
                 colors.add(RESULTS_COLORS[1]);
                 yVals1.add(new Entry(incorrectAnswerCount, 1, new String("Results")));
+
+            } else {
+                xVals.add(lastestResultQuestion.getAnswerDescription2()); // Correct - Green
+                colors.add(RESULTS_COLORS[1]);
+                yVals1.add(new Entry(incorrectAnswerCount, 0, new String("Results")));
+
+
+                xVals.add(lastestResultQuestion.getAnswerDescription1()); // Incorrect - Red
+                colors.add(RESULTS_COLORS[0]);
+                yVals1.add(new Entry(correctAnswerCount, 1, new String("Results")));
             }
         }
         else if (correctAnswerCount > 0) {
@@ -562,7 +554,7 @@ public class Dashboard extends android.support.v4.app.Fragment implements OnChar
                 xVals.add(lastestResultQuestion.getAnswerDescription2());
             }
             colors.add(RESULTS_COLORS[1]);
-            yVals1.add(new Entry(incorrectAnswerCount, 1, new String("Results")));
+            yVals1.add(new Entry(incorrectAnswerCount, 0, new String("Results")));
         }
 
 
@@ -578,6 +570,7 @@ public class Dashboard extends android.support.v4.app.Fragment implements OnChar
 
         if (xVals.get(0) != null) {
             PieData data = new PieData(xVals, set1);
+            data.setValueTextSize(10);
             mLatestResultChart.setData(data);
         }
 
@@ -651,6 +644,7 @@ public class Dashboard extends android.support.v4.app.Fragment implements OnChar
         set1.setColors(colors);
 
         PieData data = new PieData(xVals, set1);
+        data.setValueTextSize(10);
         mNextFixtureChart.setData(data);
 
         // undo all highlights
@@ -676,7 +670,7 @@ public class Dashboard extends android.support.v4.app.Fragment implements OnChar
     };
 
     @Override
-    public void onValueSelected(Entry entry, int i) {
+    public void onValueSelected(Entry entry, int i, Highlight highlight) {
 
         if (entry == null)
             return;
@@ -760,12 +754,24 @@ public class Dashboard extends android.support.v4.app.Fragment implements OnChar
                 // Third parameter - ID of the TextView to which the data is written
                 // Forth - the Array of data
 
-                ArrayAdapter<String> adapter = new ArrayAdapter<String>(getActivity(),
-                        R.layout.leaderboard_list_item, R.id.leaderboradTextName, latestResultIncorrectUsers);
+                if (entry.getVal() == latestResultCorrectUsers.size()) {
+
+                    ArrayAdapter<String> adapter = new ArrayAdapter<String>(getActivity(),
+                            R.layout.leaderboard_list_item, R.id.leaderboradTextName, latestResultCorrectUsers);
+                    // Assign adapter to ListView
+                    listView.setAdapter(adapter);
+                }
+                else if (entry.getVal() == latestResultIncorrectUsers.size()) {
+
+                    ArrayAdapter<String> adapter = new ArrayAdapter<String>(getActivity(),
+                            R.layout.leaderboard_list_item, R.id.leaderboradTextName, latestResultIncorrectUsers);
+                    // Assign adapter to ListView
+                    listView.setAdapter(adapter);
+                }
 
 
-                // Assign adapter to ListView
-                listView.setAdapter(adapter);
+//                // Assign adapter to ListView
+//                listView.setAdapter(adapter);
 
 
                 listView.setOnTouchListener(new View.OnTouchListener() {
@@ -1111,8 +1117,8 @@ public class Dashboard extends android.support.v4.app.Fragment implements OnChar
                 Date FixtureDate = sdf.parse(FixtureDateString);
                 lastestResultQuestion.setDate(FixtureDate);
             }
-            if (!question.isNull("answerid"))
-                lastestResultQuestion.setCorrectAnswerID(question.getInt("answerid"));
+            //if (!question.isNull("answerid"))
+            //    lastestResultQuestion.setCorrectAnswerID(question.getInt("answerid"));
             if (!question.isNull("Outcome"))
                 lastestResultQuestion.setOutcome(question.getString("Outcome"));
             if (!question.isNull("CorrectAnswer"))
@@ -1342,6 +1348,7 @@ public class Dashboard extends android.support.v4.app.Fragment implements OnChar
         JSONArray upcomingFixture = null;
         JSONArray upcomingFixtureUserPicks = null;
         JSONArray formGuide = null;
+        boolean isUserLockedIn;
 
         //FixtureFunctions fixtureFunction = new FixtureFunctions();
         DashboardFunctions dashboardFunction = new DashboardFunctions();
@@ -1365,6 +1372,8 @@ public class Dashboard extends android.support.v4.app.Fragment implements OnChar
 
 
 
+
+
             //json = fixtureFunction.getFixtureListForGroup(mUserID,mGroupID,mGameID);
             json = dashboardFunction.getDashboard(mUserID,mGroupID,mGameID);
 
@@ -1379,6 +1388,7 @@ public class Dashboard extends android.support.v4.app.Fragment implements OnChar
                 upcomingFixture = json.getJSONArray("upcomingFixture");
                 upcomingFixtureUserPicks = json.getJSONArray("upcomingFixtureUserPicks");
                 formGuide = json.getJSONArray("formGuide");
+                isUserLockedIn = json.getBoolean("isUserLockedIn");
 
 
                 Log.i("JSON_Leaderboard",String.valueOf(leaderboard.length()));
@@ -1388,11 +1398,17 @@ public class Dashboard extends android.support.v4.app.Fragment implements OnChar
                 Log.i("JSON_FixtureUser", String.valueOf(upcomingFixtureUserPicks.length()));
                 Log.i("JSON_FormGuide", String.valueOf(formGuide.length()));
 
-                createLeaderboardList(leaderboard);
+                if (isUserLockedIn) {
+                    createLeaderboardList(leaderboard);
+                    if ((upcomingFixture.length() > 0) && (upcomingFixtureUserPicks.length() > 0))
+                        createNextFixture(upcomingFixture, upcomingFixtureUserPicks);
+                }
+
                 if ((latestResult.length() > 0) && (latestResultUserPicks.length() >0))
                     createLatestResult(latestResult, latestResultUserPicks);
-                if ((upcomingFixture.length() > 0) && (upcomingFixtureUserPicks.length() > 0))
-                    createNextFixture(upcomingFixture, upcomingFixtureUserPicks);
+
+
+
                 createFormGuide(formGuide);
 
             } catch (JSONException e) {
@@ -1419,14 +1435,21 @@ public class Dashboard extends android.support.v4.app.Fragment implements OnChar
                 //FixtureAdapter ca = new FixtureAdapter(leaderboardUsers);
                 //recList.setAdapter(ca);
 
-                if ((leaderboard.length() > 0))
-                    generateLeaderboardBarGraph();
+                if (isUserLockedIn) {
+
+                    if ((leaderboard.length() > 0))
+                        generateLeaderboardBarGraph();
+                    if ((upcomingFixture.length() > 0) && (upcomingFixtureUserPicks.length() > 0))
+                        generateNextFixturePieChart();
+                }
+                else {
+                    mCurrentPosition.setText("???");
+                }
 
                 if ((latestResult.length() > 0) && (latestResultUserPicks.length() >0))
                     generateLatestResultPieChart();
 
-                if ((upcomingFixture.length() > 0) && (upcomingFixtureUserPicks.length() > 0))
-                    generateNextFixturePieChart();
+
 
                 generateFormGuide();
 

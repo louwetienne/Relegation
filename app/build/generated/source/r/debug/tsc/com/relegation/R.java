@@ -5,39 +5,39 @@
  * should not be modified by hand.
  */
 
-package tsc.com.relegationupdated;
+package tsc.com.relegation;
 
 public final class R {
     public static final class anim {
-        public static final int abc_fade_in=0x7f040000;
-        public static final int abc_fade_out=0x7f040001;
-        public static final int abc_grow_fade_in_from_bottom=0x7f040002;
-        public static final int abc_popup_enter=0x7f040003;
-        public static final int abc_popup_exit=0x7f040004;
-        public static final int abc_shrink_fade_out_from_bottom=0x7f040005;
-        public static final int abc_slide_in_bottom=0x7f040006;
-        public static final int abc_slide_in_top=0x7f040007;
-        public static final int abc_slide_out_bottom=0x7f040008;
-        public static final int abc_slide_out_top=0x7f040009;
-        public static final int decelerate_cubic=0x7f04000a;
-        public static final int fab_fade_in=0x7f04000b;
-        public static final int fab_fade_out=0x7f04000c;
-        public static final int fab_in=0x7f04000d;
-        public static final int fab_jump_from_down=0x7f04000e;
-        public static final int fab_jump_from_right=0x7f04000f;
-        public static final int fab_jump_to_down=0x7f040010;
-        public static final int fab_jump_to_right=0x7f040011;
-        public static final int fab_out=0x7f040012;
-        public static final int fab_roll_from_down=0x7f040013;
-        public static final int fab_roll_from_right=0x7f040014;
-        public static final int fab_roll_to_down=0x7f040015;
-        public static final int fab_roll_to_right=0x7f040016;
-        public static final int fab_scale_down=0x7f040017;
-        public static final int fab_scale_up=0x7f040018;
-        public static final int popup_enter=0x7f040019;
-        public static final int popup_exit=0x7f04001a;
-        public static final int snackbar_in=0x7f04001b;
-        public static final int snackbar_out=0x7f04001c;
+        public static final int abc_fade_in=0x7f050000;
+        public static final int abc_fade_out=0x7f050001;
+        public static final int abc_grow_fade_in_from_bottom=0x7f050002;
+        public static final int abc_popup_enter=0x7f050003;
+        public static final int abc_popup_exit=0x7f050004;
+        public static final int abc_shrink_fade_out_from_bottom=0x7f050005;
+        public static final int abc_slide_in_bottom=0x7f050006;
+        public static final int abc_slide_in_top=0x7f050007;
+        public static final int abc_slide_out_bottom=0x7f050008;
+        public static final int abc_slide_out_top=0x7f050009;
+        public static final int decelerate_cubic=0x7f05000a;
+        public static final int fab_fade_in=0x7f05000b;
+        public static final int fab_fade_out=0x7f05000c;
+        public static final int fab_in=0x7f05000d;
+        public static final int fab_jump_from_down=0x7f05000e;
+        public static final int fab_jump_from_right=0x7f05000f;
+        public static final int fab_jump_to_down=0x7f050010;
+        public static final int fab_jump_to_right=0x7f050011;
+        public static final int fab_out=0x7f050012;
+        public static final int fab_roll_from_down=0x7f050013;
+        public static final int fab_roll_from_right=0x7f050014;
+        public static final int fab_roll_to_down=0x7f050015;
+        public static final int fab_roll_to_right=0x7f050016;
+        public static final int fab_scale_down=0x7f050017;
+        public static final int fab_scale_up=0x7f050018;
+        public static final int popup_enter=0x7f050019;
+        public static final int popup_exit=0x7f05001a;
+        public static final int snackbar_in=0x7f05001b;
+        public static final int snackbar_out=0x7f05001c;
     }
     public static final class attr {
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
@@ -2244,332 +2244,332 @@ containing a value of this type.
         public static final int windowNoTitle=0x7f0100bc;
     }
     public static final class bool {
-        public static final int abc_action_bar_embed_tabs=0x7f050000;
-        public static final int abc_action_bar_embed_tabs_pre_jb=0x7f050001;
-        public static final int abc_action_bar_expanded_action_views_exclusive=0x7f050002;
-        public static final int abc_config_actionMenuItemAllCaps=0x7f050003;
-        public static final int abc_config_allowActionMenuItemTextWithIcon=0x7f050004;
-        public static final int abc_config_closeDialogWhenTouchOutside=0x7f050005;
-        public static final int abc_config_showMenuShortcutsWhenKeyboardPresent=0x7f050006;
+        public static final int abc_action_bar_embed_tabs=0x7f060000;
+        public static final int abc_action_bar_embed_tabs_pre_jb=0x7f060001;
+        public static final int abc_action_bar_expanded_action_views_exclusive=0x7f060002;
+        public static final int abc_config_actionMenuItemAllCaps=0x7f060003;
+        public static final int abc_config_allowActionMenuItemTextWithIcon=0x7f060004;
+        public static final int abc_config_closeDialogWhenTouchOutside=0x7f060005;
+        public static final int abc_config_showMenuShortcutsWhenKeyboardPresent=0x7f060006;
     }
     public static final class color {
-        public static final int abc_background_cache_hint_selector_material_dark=0x7f060097;
-        public static final int abc_background_cache_hint_selector_material_light=0x7f060098;
-        public static final int abc_input_method_navigation_guard=0x7f060000;
-        public static final int abc_primary_text_disable_only_material_dark=0x7f060099;
-        public static final int abc_primary_text_disable_only_material_light=0x7f06009a;
-        public static final int abc_primary_text_material_dark=0x7f06009b;
-        public static final int abc_primary_text_material_light=0x7f06009c;
-        public static final int abc_search_url_text=0x7f06009d;
-        public static final int abc_search_url_text_normal=0x7f060001;
-        public static final int abc_search_url_text_pressed=0x7f060002;
-        public static final int abc_search_url_text_selected=0x7f060003;
-        public static final int abc_secondary_text_material_dark=0x7f06009e;
-        public static final int abc_secondary_text_material_light=0x7f06009f;
-        public static final int accent_material_dark=0x7f060004;
-        public static final int accent_material_light=0x7f060005;
-        public static final int background_floating_material_dark=0x7f060006;
-        public static final int background_floating_material_light=0x7f060007;
-        public static final int background_material_dark=0x7f060008;
-        public static final int background_material_light=0x7f060009;
-        public static final int bright_foreground_disabled_material_dark=0x7f06000a;
-        public static final int bright_foreground_disabled_material_light=0x7f06000b;
-        public static final int bright_foreground_inverse_material_dark=0x7f06000c;
-        public static final int bright_foreground_inverse_material_light=0x7f06000d;
-        public static final int bright_foreground_material_dark=0x7f06000e;
-        public static final int bright_foreground_material_light=0x7f06000f;
-        public static final int button_material_dark=0x7f060010;
-        public static final int button_material_light=0x7f060011;
-        public static final int cardview_dark_background=0x7f060012;
-        public static final int cardview_light_background=0x7f060013;
-        public static final int cardview_shadow_end_color=0x7f060014;
-        public static final int cardview_shadow_start_color=0x7f060015;
-        public static final int dim_foreground_disabled_material_dark=0x7f060016;
-        public static final int dim_foreground_disabled_material_light=0x7f060017;
-        public static final int dim_foreground_material_dark=0x7f060018;
-        public static final int dim_foreground_material_light=0x7f060019;
-        public static final int error_color=0x7f06001a;
-        public static final int fab_material_amber_500=0x7f06001b;
-        public static final int fab_material_amber_900=0x7f06001c;
-        public static final int fab_material_black=0x7f06001d;
-        public static final int fab_material_blue_500=0x7f06001e;
-        public static final int fab_material_blue_900=0x7f06001f;
-        public static final int fab_material_blue_grey_500=0x7f060020;
-        public static final int fab_material_blue_grey_900=0x7f060021;
-        public static final int fab_material_brown_500=0x7f060022;
-        public static final int fab_material_brown_900=0x7f060023;
-        public static final int fab_material_cyan_500=0x7f060024;
-        public static final int fab_material_cyan_900=0x7f060025;
-        public static final int fab_material_deep_orange_500=0x7f060026;
-        public static final int fab_material_deep_orange_900=0x7f060027;
-        public static final int fab_material_deep_purple_500=0x7f060028;
-        public static final int fab_material_deep_purple_900=0x7f060029;
-        public static final int fab_material_green_500=0x7f06002a;
-        public static final int fab_material_green_900=0x7f06002b;
-        public static final int fab_material_grey_500=0x7f06002c;
-        public static final int fab_material_grey_900=0x7f06002d;
-        public static final int fab_material_indigo_500=0x7f06002e;
-        public static final int fab_material_indigo_900=0x7f06002f;
-        public static final int fab_material_light_blue_500=0x7f060030;
-        public static final int fab_material_light_blue_900=0x7f060031;
-        public static final int fab_material_light_green_500=0x7f060032;
-        public static final int fab_material_light_green_900=0x7f060033;
-        public static final int fab_material_lime_500=0x7f060034;
-        public static final int fab_material_lime_900=0x7f060035;
-        public static final int fab_material_orange_500=0x7f060036;
-        public static final int fab_material_orange_900=0x7f060037;
-        public static final int fab_material_pink_500=0x7f060038;
-        public static final int fab_material_pink_900=0x7f060039;
-        public static final int fab_material_purple_500=0x7f06003a;
-        public static final int fab_material_purple_900=0x7f06003b;
-        public static final int fab_material_red_500=0x7f06003c;
-        public static final int fab_material_red_900=0x7f06003d;
-        public static final int fab_material_teal_500=0x7f06003e;
-        public static final int fab_material_teal_900=0x7f06003f;
-        public static final int fab_material_white=0x7f060040;
-        public static final int fab_material_yellow_500=0x7f060041;
-        public static final int fab_material_yellow_900=0x7f060042;
-        public static final int fab_stroke_end_inner_color=0x7f060043;
-        public static final int fab_stroke_end_outer_color=0x7f060044;
-        public static final int fab_stroke_top_inner_color=0x7f060045;
-        public static final int fab_stroke_top_outer_color=0x7f060046;
-        public static final int highlighted_text_material_dark=0x7f060047;
-        public static final int highlighted_text_material_light=0x7f060048;
-        public static final int hint_foreground_material_dark=0x7f060049;
-        public static final int hint_foreground_material_light=0x7f06004a;
-        public static final int link_text_material_dark=0x7f06004b;
-        public static final int link_text_material_light=0x7f06004c;
-        public static final int material_blue_grey_800=0x7f06004d;
-        public static final int material_blue_grey_900=0x7f06004e;
-        public static final int material_blue_grey_950=0x7f06004f;
-        public static final int material_deep_teal_200=0x7f060050;
-        public static final int material_deep_teal_500=0x7f060051;
-        public static final int md_btn_selected=0x7f060052;
-        public static final int md_btn_selected_dark=0x7f060053;
-        public static final int md_divider_black=0x7f060054;
-        public static final int md_divider_white=0x7f060055;
-        public static final int md_edittext_error=0x7f060056;
-        public static final int md_material_blue_600=0x7f060057;
-        public static final int md_material_blue_800=0x7f060058;
-        public static final int nliveo_black=0x7f060059;
-        public static final int nliveo_black_light=0x7f06005a;
-        public static final int nliveo_blue_alpha_colorPrimaryDark=0x7f06005b;
-        public static final int nliveo_blue_colorAccent=0x7f06005c;
-        public static final int nliveo_blue_colorPrimary=0x7f06005d;
-        public static final int nliveo_blue_colorPrimaryDark=0x7f06005e;
-        public static final int nliveo_blue_gray_alpha_colorPrimaryDark=0x7f06005f;
-        public static final int nliveo_blue_gray_colorPrimary=0x7f060060;
-        public static final int nliveo_blue_gray_colorPrimaryDark=0x7f060061;
-        public static final int nliveo_brown_alpha_colorPrimaryDark=0x7f060062;
-        public static final int nliveo_brown_colorPrimary=0x7f060063;
-        public static final int nliveo_brown_colorPrimaryDark=0x7f060064;
-        public static final int nliveo_cyan_alpha_colorPrimaryDark=0x7f060065;
-        public static final int nliveo_cyan_colorPrimary=0x7f060066;
-        public static final int nliveo_cyan_colorPrimaryDark=0x7f060067;
-        public static final int nliveo_gray=0x7f060068;
-        public static final int nliveo_green_alpha_colorPrimaryDark=0x7f060069;
-        public static final int nliveo_green_colorAccent=0x7f06006a;
-        public static final int nliveo_green_colorPrimary=0x7f06006b;
-        public static final int nliveo_green_colorPrimaryDark=0x7f06006c;
-        public static final int nliveo_indigo_alpha_colorPrimaryDark=0x7f06006d;
-        public static final int nliveo_indigo_colorPrimary=0x7f06006e;
-        public static final int nliveo_indigo_colorPrimaryDark=0x7f06006f;
-        public static final int nliveo_lime_alpha_colorPrimaryDark=0x7f060070;
-        public static final int nliveo_lime_colorPrimary=0x7f060071;
-        public static final int nliveo_lime_colorPrimaryDark=0x7f060072;
-        public static final int nliveo_orange_alpha_colorPrimaryDark=0x7f060073;
-        public static final int nliveo_orange_colorPrimary=0x7f060074;
-        public static final int nliveo_orange_colorPrimaryDark=0x7f060075;
-        public static final int nliveo_purple_alpha_colorPrimaryDark=0x7f060076;
-        public static final int nliveo_purple_colorPrimary=0x7f060077;
-        public static final int nliveo_purple_colorPrimaryDark=0x7f060078;
-        public static final int nliveo_red_alpha_colorPrimaryDark=0x7f060079;
-        public static final int nliveo_red_colorPrimary=0x7f06007a;
-        public static final int nliveo_red_colorPrimaryDark=0x7f06007b;
-        public static final int nliveo_teal_alpha_colorPrimaryDark=0x7f06007c;
-        public static final int nliveo_teal_colorPrimary=0x7f06007d;
-        public static final int nliveo_teal_colorPrimaryDark=0x7f06007e;
-        public static final int nliveo_transparent=0x7f06007f;
-        public static final int nliveo_white=0x7f060080;
-        public static final int primary_dark_material_dark=0x7f060081;
-        public static final int primary_dark_material_light=0x7f060082;
-        public static final int primary_material_dark=0x7f060083;
-        public static final int primary_material_light=0x7f060084;
-        public static final int primary_text_default_material_dark=0x7f060085;
-        public static final int primary_text_default_material_light=0x7f060086;
-        public static final int primary_text_disabled_material_dark=0x7f060087;
-        public static final int primary_text_disabled_material_light=0x7f060088;
-        public static final int ripple_material_dark=0x7f060089;
-        public static final int ripple_material_light=0x7f06008a;
-        public static final int secondary_text_default_material_dark=0x7f06008b;
-        public static final int secondary_text_default_material_light=0x7f06008c;
-        public static final int secondary_text_disabled_material_dark=0x7f06008d;
-        public static final int secondary_text_disabled_material_light=0x7f06008e;
-        public static final int shadow_end_color=0x7f06008f;
-        public static final int shadow_mid_color=0x7f060090;
-        public static final int shadow_start_color=0x7f060091;
-        public static final int snackbar_background_color=0x7f060092;
-        public static final int switch_thumb_disabled_material_dark=0x7f060093;
-        public static final int switch_thumb_disabled_material_light=0x7f060094;
-        public static final int switch_thumb_material_dark=0x7f0600a0;
-        public static final int switch_thumb_material_light=0x7f0600a1;
-        public static final int switch_thumb_normal_material_dark=0x7f060095;
-        public static final int switch_thumb_normal_material_light=0x7f060096;
+        public static final int abc_background_cache_hint_selector_material_dark=0x7f070097;
+        public static final int abc_background_cache_hint_selector_material_light=0x7f070098;
+        public static final int abc_input_method_navigation_guard=0x7f070000;
+        public static final int abc_primary_text_disable_only_material_dark=0x7f070099;
+        public static final int abc_primary_text_disable_only_material_light=0x7f07009a;
+        public static final int abc_primary_text_material_dark=0x7f07009b;
+        public static final int abc_primary_text_material_light=0x7f07009c;
+        public static final int abc_search_url_text=0x7f07009d;
+        public static final int abc_search_url_text_normal=0x7f070001;
+        public static final int abc_search_url_text_pressed=0x7f070002;
+        public static final int abc_search_url_text_selected=0x7f070003;
+        public static final int abc_secondary_text_material_dark=0x7f07009e;
+        public static final int abc_secondary_text_material_light=0x7f07009f;
+        public static final int accent_material_dark=0x7f070004;
+        public static final int accent_material_light=0x7f070005;
+        public static final int background_floating_material_dark=0x7f070006;
+        public static final int background_floating_material_light=0x7f070007;
+        public static final int background_material_dark=0x7f070008;
+        public static final int background_material_light=0x7f070009;
+        public static final int bright_foreground_disabled_material_dark=0x7f07000a;
+        public static final int bright_foreground_disabled_material_light=0x7f07000b;
+        public static final int bright_foreground_inverse_material_dark=0x7f07000c;
+        public static final int bright_foreground_inverse_material_light=0x7f07000d;
+        public static final int bright_foreground_material_dark=0x7f07000e;
+        public static final int bright_foreground_material_light=0x7f07000f;
+        public static final int button_material_dark=0x7f070010;
+        public static final int button_material_light=0x7f070011;
+        public static final int cardview_dark_background=0x7f070012;
+        public static final int cardview_light_background=0x7f070013;
+        public static final int cardview_shadow_end_color=0x7f070014;
+        public static final int cardview_shadow_start_color=0x7f070015;
+        public static final int dim_foreground_disabled_material_dark=0x7f070016;
+        public static final int dim_foreground_disabled_material_light=0x7f070017;
+        public static final int dim_foreground_material_dark=0x7f070018;
+        public static final int dim_foreground_material_light=0x7f070019;
+        public static final int error_color=0x7f07001a;
+        public static final int fab_material_amber_500=0x7f07001b;
+        public static final int fab_material_amber_900=0x7f07001c;
+        public static final int fab_material_black=0x7f07001d;
+        public static final int fab_material_blue_500=0x7f07001e;
+        public static final int fab_material_blue_900=0x7f07001f;
+        public static final int fab_material_blue_grey_500=0x7f070020;
+        public static final int fab_material_blue_grey_900=0x7f070021;
+        public static final int fab_material_brown_500=0x7f070022;
+        public static final int fab_material_brown_900=0x7f070023;
+        public static final int fab_material_cyan_500=0x7f070024;
+        public static final int fab_material_cyan_900=0x7f070025;
+        public static final int fab_material_deep_orange_500=0x7f070026;
+        public static final int fab_material_deep_orange_900=0x7f070027;
+        public static final int fab_material_deep_purple_500=0x7f070028;
+        public static final int fab_material_deep_purple_900=0x7f070029;
+        public static final int fab_material_green_500=0x7f07002a;
+        public static final int fab_material_green_900=0x7f07002b;
+        public static final int fab_material_grey_500=0x7f07002c;
+        public static final int fab_material_grey_900=0x7f07002d;
+        public static final int fab_material_indigo_500=0x7f07002e;
+        public static final int fab_material_indigo_900=0x7f07002f;
+        public static final int fab_material_light_blue_500=0x7f070030;
+        public static final int fab_material_light_blue_900=0x7f070031;
+        public static final int fab_material_light_green_500=0x7f070032;
+        public static final int fab_material_light_green_900=0x7f070033;
+        public static final int fab_material_lime_500=0x7f070034;
+        public static final int fab_material_lime_900=0x7f070035;
+        public static final int fab_material_orange_500=0x7f070036;
+        public static final int fab_material_orange_900=0x7f070037;
+        public static final int fab_material_pink_500=0x7f070038;
+        public static final int fab_material_pink_900=0x7f070039;
+        public static final int fab_material_purple_500=0x7f07003a;
+        public static final int fab_material_purple_900=0x7f07003b;
+        public static final int fab_material_red_500=0x7f07003c;
+        public static final int fab_material_red_900=0x7f07003d;
+        public static final int fab_material_teal_500=0x7f07003e;
+        public static final int fab_material_teal_900=0x7f07003f;
+        public static final int fab_material_white=0x7f070040;
+        public static final int fab_material_yellow_500=0x7f070041;
+        public static final int fab_material_yellow_900=0x7f070042;
+        public static final int fab_stroke_end_inner_color=0x7f070043;
+        public static final int fab_stroke_end_outer_color=0x7f070044;
+        public static final int fab_stroke_top_inner_color=0x7f070045;
+        public static final int fab_stroke_top_outer_color=0x7f070046;
+        public static final int highlighted_text_material_dark=0x7f070047;
+        public static final int highlighted_text_material_light=0x7f070048;
+        public static final int hint_foreground_material_dark=0x7f070049;
+        public static final int hint_foreground_material_light=0x7f07004a;
+        public static final int link_text_material_dark=0x7f07004b;
+        public static final int link_text_material_light=0x7f07004c;
+        public static final int material_blue_grey_800=0x7f07004d;
+        public static final int material_blue_grey_900=0x7f07004e;
+        public static final int material_blue_grey_950=0x7f07004f;
+        public static final int material_deep_teal_200=0x7f070050;
+        public static final int material_deep_teal_500=0x7f070051;
+        public static final int md_btn_selected=0x7f070052;
+        public static final int md_btn_selected_dark=0x7f070053;
+        public static final int md_divider_black=0x7f070054;
+        public static final int md_divider_white=0x7f070055;
+        public static final int md_edittext_error=0x7f070056;
+        public static final int md_material_blue_600=0x7f070057;
+        public static final int md_material_blue_800=0x7f070058;
+        public static final int nliveo_black=0x7f070059;
+        public static final int nliveo_black_light=0x7f07005a;
+        public static final int nliveo_blue_alpha_colorPrimaryDark=0x7f07005b;
+        public static final int nliveo_blue_colorAccent=0x7f07005c;
+        public static final int nliveo_blue_colorPrimary=0x7f07005d;
+        public static final int nliveo_blue_colorPrimaryDark=0x7f07005e;
+        public static final int nliveo_blue_gray_alpha_colorPrimaryDark=0x7f07005f;
+        public static final int nliveo_blue_gray_colorPrimary=0x7f070060;
+        public static final int nliveo_blue_gray_colorPrimaryDark=0x7f070061;
+        public static final int nliveo_brown_alpha_colorPrimaryDark=0x7f070062;
+        public static final int nliveo_brown_colorPrimary=0x7f070063;
+        public static final int nliveo_brown_colorPrimaryDark=0x7f070064;
+        public static final int nliveo_cyan_alpha_colorPrimaryDark=0x7f070065;
+        public static final int nliveo_cyan_colorPrimary=0x7f070066;
+        public static final int nliveo_cyan_colorPrimaryDark=0x7f070067;
+        public static final int nliveo_gray=0x7f070068;
+        public static final int nliveo_green_alpha_colorPrimaryDark=0x7f070069;
+        public static final int nliveo_green_colorAccent=0x7f07006a;
+        public static final int nliveo_green_colorPrimary=0x7f07006b;
+        public static final int nliveo_green_colorPrimaryDark=0x7f07006c;
+        public static final int nliveo_indigo_alpha_colorPrimaryDark=0x7f07006d;
+        public static final int nliveo_indigo_colorPrimary=0x7f07006e;
+        public static final int nliveo_indigo_colorPrimaryDark=0x7f07006f;
+        public static final int nliveo_lime_alpha_colorPrimaryDark=0x7f070070;
+        public static final int nliveo_lime_colorPrimary=0x7f070071;
+        public static final int nliveo_lime_colorPrimaryDark=0x7f070072;
+        public static final int nliveo_orange_alpha_colorPrimaryDark=0x7f070073;
+        public static final int nliveo_orange_colorPrimary=0x7f070074;
+        public static final int nliveo_orange_colorPrimaryDark=0x7f070075;
+        public static final int nliveo_purple_alpha_colorPrimaryDark=0x7f070076;
+        public static final int nliveo_purple_colorPrimary=0x7f070077;
+        public static final int nliveo_purple_colorPrimaryDark=0x7f070078;
+        public static final int nliveo_red_alpha_colorPrimaryDark=0x7f070079;
+        public static final int nliveo_red_colorPrimary=0x7f07007a;
+        public static final int nliveo_red_colorPrimaryDark=0x7f07007b;
+        public static final int nliveo_teal_alpha_colorPrimaryDark=0x7f07007c;
+        public static final int nliveo_teal_colorPrimary=0x7f07007d;
+        public static final int nliveo_teal_colorPrimaryDark=0x7f07007e;
+        public static final int nliveo_transparent=0x7f07007f;
+        public static final int nliveo_white=0x7f070080;
+        public static final int primary_dark_material_dark=0x7f070081;
+        public static final int primary_dark_material_light=0x7f070082;
+        public static final int primary_material_dark=0x7f070083;
+        public static final int primary_material_light=0x7f070084;
+        public static final int primary_text_default_material_dark=0x7f070085;
+        public static final int primary_text_default_material_light=0x7f070086;
+        public static final int primary_text_disabled_material_dark=0x7f070087;
+        public static final int primary_text_disabled_material_light=0x7f070088;
+        public static final int ripple_material_dark=0x7f070089;
+        public static final int ripple_material_light=0x7f07008a;
+        public static final int secondary_text_default_material_dark=0x7f07008b;
+        public static final int secondary_text_default_material_light=0x7f07008c;
+        public static final int secondary_text_disabled_material_dark=0x7f07008d;
+        public static final int secondary_text_disabled_material_light=0x7f07008e;
+        public static final int shadow_end_color=0x7f07008f;
+        public static final int shadow_mid_color=0x7f070090;
+        public static final int shadow_start_color=0x7f070091;
+        public static final int snackbar_background_color=0x7f070092;
+        public static final int switch_thumb_disabled_material_dark=0x7f070093;
+        public static final int switch_thumb_disabled_material_light=0x7f070094;
+        public static final int switch_thumb_material_dark=0x7f0700a0;
+        public static final int switch_thumb_material_light=0x7f0700a1;
+        public static final int switch_thumb_normal_material_dark=0x7f070095;
+        public static final int switch_thumb_normal_material_light=0x7f070096;
     }
     public static final class dimen {
-        public static final int abc_action_bar_content_inset_material=0x7f070000;
-        public static final int abc_action_bar_default_height_material=0x7f070001;
-        public static final int abc_action_bar_default_padding_material=0x7f070002;
-        public static final int abc_action_bar_icon_vertical_padding_material=0x7f070003;
-        public static final int abc_action_bar_navigation_padding_start_material=0x7f070004;
-        public static final int abc_action_bar_overflow_padding_end_material=0x7f070005;
-        public static final int abc_action_bar_overflow_padding_start_material=0x7f070006;
-        public static final int abc_action_bar_progress_bar_size=0x7f070007;
-        public static final int abc_action_bar_stacked_max_height=0x7f070008;
-        public static final int abc_action_bar_stacked_tab_max_width=0x7f070009;
-        public static final int abc_action_bar_subtitle_bottom_margin_material=0x7f07000a;
-        public static final int abc_action_bar_subtitle_top_margin_material=0x7f07000b;
-        public static final int abc_action_button_min_height_material=0x7f07000c;
-        public static final int abc_action_button_min_width_material=0x7f07000d;
-        public static final int abc_action_button_min_width_overflow_material=0x7f07000e;
-        public static final int abc_alert_dialog_button_bar_height=0x7f07000f;
-        public static final int abc_button_inset_horizontal_material=0x7f070010;
-        public static final int abc_button_inset_vertical_material=0x7f070011;
-        public static final int abc_button_padding_horizontal_material=0x7f070012;
-        public static final int abc_button_padding_vertical_material=0x7f070013;
-        public static final int abc_config_prefDialogWidth=0x7f070014;
-        public static final int abc_control_corner_material=0x7f070015;
-        public static final int abc_control_inset_material=0x7f070016;
-        public static final int abc_control_padding_material=0x7f070017;
-        public static final int abc_dialog_list_padding_vertical_material=0x7f070018;
-        public static final int abc_dialog_min_width_major=0x7f070019;
-        public static final int abc_dialog_min_width_minor=0x7f07001a;
-        public static final int abc_dialog_padding_material=0x7f07001b;
-        public static final int abc_dialog_padding_top_material=0x7f07001c;
-        public static final int abc_disabled_alpha_material_dark=0x7f07001d;
-        public static final int abc_disabled_alpha_material_light=0x7f07001e;
-        public static final int abc_dropdownitem_icon_width=0x7f07001f;
-        public static final int abc_dropdownitem_text_padding_left=0x7f070020;
-        public static final int abc_dropdownitem_text_padding_right=0x7f070021;
-        public static final int abc_edit_text_inset_bottom_material=0x7f070022;
-        public static final int abc_edit_text_inset_horizontal_material=0x7f070023;
-        public static final int abc_edit_text_inset_top_material=0x7f070024;
-        public static final int abc_floating_window_z=0x7f070025;
-        public static final int abc_list_item_padding_horizontal_material=0x7f070026;
-        public static final int abc_panel_menu_list_width=0x7f070027;
-        public static final int abc_search_view_preferred_width=0x7f070028;
-        public static final int abc_search_view_text_min_width=0x7f070029;
-        public static final int abc_switch_padding=0x7f07002a;
-        public static final int abc_text_size_body_1_material=0x7f07002b;
-        public static final int abc_text_size_body_2_material=0x7f07002c;
-        public static final int abc_text_size_button_material=0x7f07002d;
-        public static final int abc_text_size_caption_material=0x7f07002e;
-        public static final int abc_text_size_display_1_material=0x7f07002f;
-        public static final int abc_text_size_display_2_material=0x7f070030;
-        public static final int abc_text_size_display_3_material=0x7f070031;
-        public static final int abc_text_size_display_4_material=0x7f070032;
-        public static final int abc_text_size_headline_material=0x7f070033;
-        public static final int abc_text_size_large_material=0x7f070034;
-        public static final int abc_text_size_medium_material=0x7f070035;
-        public static final int abc_text_size_menu_material=0x7f070036;
-        public static final int abc_text_size_small_material=0x7f070037;
-        public static final int abc_text_size_subhead_material=0x7f070038;
-        public static final int abc_text_size_subtitle_material_toolbar=0x7f070039;
-        public static final int abc_text_size_title_material=0x7f07003a;
-        public static final int abc_text_size_title_material_toolbar=0x7f07003b;
-        public static final int activity_horizontal_margin=0x7f07003c;
-        public static final int activity_vertical_margin=0x7f07003d;
-        public static final int appbar_elevation=0x7f07003e;
-        public static final int cardview_compat_inset_shadow=0x7f07003f;
-        public static final int cardview_default_elevation=0x7f070040;
-        public static final int cardview_default_radius=0x7f070041;
-        public static final int circular_progress_border=0x7f070042;
-        public static final int default_textSize=0x7f070043;
-        public static final int dialog_fixed_height_major=0x7f070044;
-        public static final int dialog_fixed_height_minor=0x7f070045;
-        public static final int dialog_fixed_width_major=0x7f070046;
-        public static final int dialog_fixed_width_minor=0x7f070047;
-        public static final int disabled_alpha_material_dark=0x7f070048;
-        public static final int disabled_alpha_material_light=0x7f070049;
-        public static final int drawer_layout_width=0x7f07004a;
-        public static final int fab_border_width=0x7f07004b;
-        public static final int fab_content_size=0x7f07004c;
-        public static final int fab_elevation=0x7f07004d;
-        public static final int fab_margin=0x7f07004e;
-        public static final int fab_size_mini=0x7f07004f;
-        public static final int fab_size_normal=0x7f070050;
-        public static final int fab_translation_z_pressed=0x7f070051;
-        public static final int item_touch_helper_max_drag_scroll_per_frame=0x7f070052;
-        public static final int md_action_corner_radius=0x7f070053;
-        public static final int md_bg_corner_radius=0x7f070054;
-        public static final int md_button_frame_vertical_padding=0x7f070055;
-        public static final int md_button_height=0x7f070056;
-        public static final int md_button_inset_horizontal=0x7f070057;
-        public static final int md_button_inset_vertical=0x7f070058;
-        public static final int md_button_min_width=0x7f070059;
-        public static final int md_button_padding_frame_side=0x7f07005a;
-        public static final int md_button_padding_horizontal=0x7f07005b;
-        public static final int md_button_padding_horizontal_internalexternal=0x7f07005c;
-        public static final int md_button_padding_vertical=0x7f07005d;
-        public static final int md_button_textpadding_horizontal=0x7f07005e;
-        public static final int md_button_textsize=0x7f07005f;
-        public static final int md_content_padding_bottom=0x7f070060;
-        public static final int md_content_padding_top=0x7f070061;
-        public static final int md_content_textsize=0x7f070062;
-        public static final int md_dialog_frame_margin=0x7f070063;
-        public static final int md_divider_height=0x7f070064;
-        public static final int md_icon_margin=0x7f070065;
-        public static final int md_icon_max_size=0x7f070066;
-        public static final int md_listitem_control_margin=0x7f070067;
-        public static final int md_listitem_height=0x7f070068;
-        public static final int md_listitem_margin_left=0x7f070069;
-        public static final int md_listitem_textsize=0x7f07006a;
-        public static final int md_neutral_button_margin=0x7f07006b;
-        public static final int md_notitle_vertical_padding=0x7f07006c;
-        public static final int md_simplelist_icon=0x7f07006d;
-        public static final int md_simplelist_icon_margin=0x7f07006e;
-        public static final int md_simplelistitem_padding_top=0x7f07006f;
-        public static final int md_title_frame_margin_bottom=0x7f070070;
-        public static final int md_title_textsize=0x7f070071;
-        public static final int navigation_elevation=0x7f070072;
-        public static final int navigation_icon_padding=0x7f070073;
-        public static final int navigation_icon_size=0x7f070074;
-        public static final int navigation_max_width=0x7f070075;
-        public static final int navigation_padding_bottom=0x7f070076;
-        public static final int navigation_padding_top_default=0x7f070077;
-        public static final int navigation_separator_vertical_padding=0x7f070078;
-        public static final int notification_large_icon_height=0x7f070079;
-        public static final int notification_large_icon_width=0x7f07007a;
-        public static final int notification_subtext_size=0x7f07007b;
-        public static final int snackbar_action_inline_max_width=0x7f07007c;
-        public static final int snackbar_background_corner_radius=0x7f07007d;
-        public static final int snackbar_elevation=0x7f07007e;
-        public static final int snackbar_extra_spacing_horizontal=0x7f07007f;
-        public static final int snackbar_max_width=0x7f070080;
-        public static final int snackbar_min_width=0x7f070081;
-        public static final int snackbar_padding_horizontal=0x7f070082;
-        public static final int snackbar_padding_vertical=0x7f070083;
-        public static final int snackbar_padding_vertical_2lines=0x7f070084;
-        public static final int snackbar_text_size=0x7f070085;
-        public static final int tab_max_width=0x7f070086;
-        public static final int tab_min_width=0x7f070087;
-        public static final int userBackground_layout_height=0x7f070088;
-        public static final int userData_layout_height=0x7f070089;
-        public static final int userData_layout_marginBottom=0x7f07008a;
-        public static final int userEmail_layout_marginLeft=0x7f07008b;
-        public static final int userEmail_textSize=0x7f07008c;
-        public static final int userName_layout_marginLeft=0x7f07008d;
-        public static final int userName_textSize=0x7f07008e;
-        public static final int userPhotoTree_layout_height=0x7f07008f;
-        public static final int userPhotoTree_layout_marginRight=0x7f070090;
-        public static final int userPhotoTree_layout_width=0x7f070091;
-        public static final int userPhotoTwo_layout_height=0x7f070092;
-        public static final int userPhotoTwo_layout_marginRight=0x7f070093;
-        public static final int userPhotoTwo_layout_width=0x7f070094;
-        public static final int userPhoto_layout_height=0x7f070095;
-        public static final int userPhoto_layout_marginLeft=0x7f070096;
-        public static final int userPhoto_layout_marginTop=0x7f070097;
-        public static final int userPhoto_layout_width=0x7f070098;
+        public static final int abc_action_bar_content_inset_material=0x7f080000;
+        public static final int abc_action_bar_default_height_material=0x7f080001;
+        public static final int abc_action_bar_default_padding_material=0x7f080002;
+        public static final int abc_action_bar_icon_vertical_padding_material=0x7f080003;
+        public static final int abc_action_bar_navigation_padding_start_material=0x7f080004;
+        public static final int abc_action_bar_overflow_padding_end_material=0x7f080005;
+        public static final int abc_action_bar_overflow_padding_start_material=0x7f080006;
+        public static final int abc_action_bar_progress_bar_size=0x7f080007;
+        public static final int abc_action_bar_stacked_max_height=0x7f080008;
+        public static final int abc_action_bar_stacked_tab_max_width=0x7f080009;
+        public static final int abc_action_bar_subtitle_bottom_margin_material=0x7f08000a;
+        public static final int abc_action_bar_subtitle_top_margin_material=0x7f08000b;
+        public static final int abc_action_button_min_height_material=0x7f08000c;
+        public static final int abc_action_button_min_width_material=0x7f08000d;
+        public static final int abc_action_button_min_width_overflow_material=0x7f08000e;
+        public static final int abc_alert_dialog_button_bar_height=0x7f08000f;
+        public static final int abc_button_inset_horizontal_material=0x7f080010;
+        public static final int abc_button_inset_vertical_material=0x7f080011;
+        public static final int abc_button_padding_horizontal_material=0x7f080012;
+        public static final int abc_button_padding_vertical_material=0x7f080013;
+        public static final int abc_config_prefDialogWidth=0x7f080014;
+        public static final int abc_control_corner_material=0x7f080015;
+        public static final int abc_control_inset_material=0x7f080016;
+        public static final int abc_control_padding_material=0x7f080017;
+        public static final int abc_dialog_list_padding_vertical_material=0x7f080018;
+        public static final int abc_dialog_min_width_major=0x7f080019;
+        public static final int abc_dialog_min_width_minor=0x7f08001a;
+        public static final int abc_dialog_padding_material=0x7f08001b;
+        public static final int abc_dialog_padding_top_material=0x7f08001c;
+        public static final int abc_disabled_alpha_material_dark=0x7f08001d;
+        public static final int abc_disabled_alpha_material_light=0x7f08001e;
+        public static final int abc_dropdownitem_icon_width=0x7f08001f;
+        public static final int abc_dropdownitem_text_padding_left=0x7f080020;
+        public static final int abc_dropdownitem_text_padding_right=0x7f080021;
+        public static final int abc_edit_text_inset_bottom_material=0x7f080022;
+        public static final int abc_edit_text_inset_horizontal_material=0x7f080023;
+        public static final int abc_edit_text_inset_top_material=0x7f080024;
+        public static final int abc_floating_window_z=0x7f080025;
+        public static final int abc_list_item_padding_horizontal_material=0x7f080026;
+        public static final int abc_panel_menu_list_width=0x7f080027;
+        public static final int abc_search_view_preferred_width=0x7f080028;
+        public static final int abc_search_view_text_min_width=0x7f080029;
+        public static final int abc_switch_padding=0x7f08002a;
+        public static final int abc_text_size_body_1_material=0x7f08002b;
+        public static final int abc_text_size_body_2_material=0x7f08002c;
+        public static final int abc_text_size_button_material=0x7f08002d;
+        public static final int abc_text_size_caption_material=0x7f08002e;
+        public static final int abc_text_size_display_1_material=0x7f08002f;
+        public static final int abc_text_size_display_2_material=0x7f080030;
+        public static final int abc_text_size_display_3_material=0x7f080031;
+        public static final int abc_text_size_display_4_material=0x7f080032;
+        public static final int abc_text_size_headline_material=0x7f080033;
+        public static final int abc_text_size_large_material=0x7f080034;
+        public static final int abc_text_size_medium_material=0x7f080035;
+        public static final int abc_text_size_menu_material=0x7f080036;
+        public static final int abc_text_size_small_material=0x7f080037;
+        public static final int abc_text_size_subhead_material=0x7f080038;
+        public static final int abc_text_size_subtitle_material_toolbar=0x7f080039;
+        public static final int abc_text_size_title_material=0x7f08003a;
+        public static final int abc_text_size_title_material_toolbar=0x7f08003b;
+        public static final int activity_horizontal_margin=0x7f08003c;
+        public static final int activity_vertical_margin=0x7f08003d;
+        public static final int appbar_elevation=0x7f08003e;
+        public static final int cardview_compat_inset_shadow=0x7f08003f;
+        public static final int cardview_default_elevation=0x7f080040;
+        public static final int cardview_default_radius=0x7f080041;
+        public static final int circular_progress_border=0x7f080042;
+        public static final int default_textSize=0x7f080043;
+        public static final int dialog_fixed_height_major=0x7f080044;
+        public static final int dialog_fixed_height_minor=0x7f080045;
+        public static final int dialog_fixed_width_major=0x7f080046;
+        public static final int dialog_fixed_width_minor=0x7f080047;
+        public static final int disabled_alpha_material_dark=0x7f080048;
+        public static final int disabled_alpha_material_light=0x7f080049;
+        public static final int drawer_layout_width=0x7f08004a;
+        public static final int fab_border_width=0x7f08004b;
+        public static final int fab_content_size=0x7f08004c;
+        public static final int fab_elevation=0x7f08004d;
+        public static final int fab_margin=0x7f08004e;
+        public static final int fab_size_mini=0x7f08004f;
+        public static final int fab_size_normal=0x7f080050;
+        public static final int fab_translation_z_pressed=0x7f080051;
+        public static final int item_touch_helper_max_drag_scroll_per_frame=0x7f080052;
+        public static final int md_action_corner_radius=0x7f080053;
+        public static final int md_bg_corner_radius=0x7f080054;
+        public static final int md_button_frame_vertical_padding=0x7f080055;
+        public static final int md_button_height=0x7f080056;
+        public static final int md_button_inset_horizontal=0x7f080057;
+        public static final int md_button_inset_vertical=0x7f080058;
+        public static final int md_button_min_width=0x7f080059;
+        public static final int md_button_padding_frame_side=0x7f08005a;
+        public static final int md_button_padding_horizontal=0x7f08005b;
+        public static final int md_button_padding_horizontal_internalexternal=0x7f08005c;
+        public static final int md_button_padding_vertical=0x7f08005d;
+        public static final int md_button_textpadding_horizontal=0x7f08005e;
+        public static final int md_button_textsize=0x7f08005f;
+        public static final int md_content_padding_bottom=0x7f080060;
+        public static final int md_content_padding_top=0x7f080061;
+        public static final int md_content_textsize=0x7f080062;
+        public static final int md_dialog_frame_margin=0x7f080063;
+        public static final int md_divider_height=0x7f080064;
+        public static final int md_icon_margin=0x7f080065;
+        public static final int md_icon_max_size=0x7f080066;
+        public static final int md_listitem_control_margin=0x7f080067;
+        public static final int md_listitem_height=0x7f080068;
+        public static final int md_listitem_margin_left=0x7f080069;
+        public static final int md_listitem_textsize=0x7f08006a;
+        public static final int md_neutral_button_margin=0x7f08006b;
+        public static final int md_notitle_vertical_padding=0x7f08006c;
+        public static final int md_simplelist_icon=0x7f08006d;
+        public static final int md_simplelist_icon_margin=0x7f08006e;
+        public static final int md_simplelistitem_padding_top=0x7f08006f;
+        public static final int md_title_frame_margin_bottom=0x7f080070;
+        public static final int md_title_textsize=0x7f080071;
+        public static final int navigation_elevation=0x7f080072;
+        public static final int navigation_icon_padding=0x7f080073;
+        public static final int navigation_icon_size=0x7f080074;
+        public static final int navigation_max_width=0x7f080075;
+        public static final int navigation_padding_bottom=0x7f080076;
+        public static final int navigation_padding_top_default=0x7f080077;
+        public static final int navigation_separator_vertical_padding=0x7f080078;
+        public static final int notification_large_icon_height=0x7f080079;
+        public static final int notification_large_icon_width=0x7f08007a;
+        public static final int notification_subtext_size=0x7f08007b;
+        public static final int snackbar_action_inline_max_width=0x7f08007c;
+        public static final int snackbar_background_corner_radius=0x7f08007d;
+        public static final int snackbar_elevation=0x7f08007e;
+        public static final int snackbar_extra_spacing_horizontal=0x7f08007f;
+        public static final int snackbar_max_width=0x7f080080;
+        public static final int snackbar_min_width=0x7f080081;
+        public static final int snackbar_padding_horizontal=0x7f080082;
+        public static final int snackbar_padding_vertical=0x7f080083;
+        public static final int snackbar_padding_vertical_2lines=0x7f080084;
+        public static final int snackbar_text_size=0x7f080085;
+        public static final int tab_max_width=0x7f080086;
+        public static final int tab_min_width=0x7f080087;
+        public static final int userBackground_layout_height=0x7f080088;
+        public static final int userData_layout_height=0x7f080089;
+        public static final int userData_layout_marginBottom=0x7f08008a;
+        public static final int userEmail_layout_marginLeft=0x7f08008b;
+        public static final int userEmail_textSize=0x7f08008c;
+        public static final int userName_layout_marginLeft=0x7f08008d;
+        public static final int userName_textSize=0x7f08008e;
+        public static final int userPhotoTree_layout_height=0x7f08008f;
+        public static final int userPhotoTree_layout_marginRight=0x7f080090;
+        public static final int userPhotoTree_layout_width=0x7f080091;
+        public static final int userPhotoTwo_layout_height=0x7f080092;
+        public static final int userPhotoTwo_layout_marginRight=0x7f080093;
+        public static final int userPhotoTwo_layout_width=0x7f080094;
+        public static final int userPhoto_layout_height=0x7f080095;
+        public static final int userPhoto_layout_marginLeft=0x7f080096;
+        public static final int userPhoto_layout_marginTop=0x7f080097;
+        public static final int userPhoto_layout_width=0x7f080098;
     }
     public static final class drawable {
         public static final int abc_ab_share_pack_mtrl_alpha=0x7f020000;
@@ -2671,744 +2671,757 @@ containing a value of this type.
         public static final int snackbar_background=0x7f02005f;
     }
     public static final class id {
-        public static final int DEFAULT=0x7f080018;
-        public static final int MINI=0x7f080019;
-        public static final int RelativeLayout01=0x7f0800d1;
-        public static final int action0=0x7f0800c4;
-        public static final int action_bar=0x7f08005a;
-        public static final int action_bar_activity_content=0x7f080000;
-        public static final int action_bar_container=0x7f080059;
-        public static final int action_bar_root=0x7f080055;
-        public static final int action_bar_spinner=0x7f080001;
-        public static final int action_bar_subtitle=0x7f08003e;
-        public static final int action_bar_title=0x7f08003d;
-        public static final int action_button=0x7f080082;
-        public static final int action_context_bar=0x7f08005b;
-        public static final int action_divider=0x7f0800c8;
-        public static final int action_menu_divider=0x7f080002;
-        public static final int action_menu_presenter=0x7f080003;
-        public static final int action_mode_bar=0x7f080057;
-        public static final int action_mode_bar_stub=0x7f080056;
-        public static final int action_mode_close_button=0x7f08003f;
-        public static final int action_settings=0x7f0800de;
-        public static final int activity_chooser_view_content=0x7f080040;
-        public static final int alertTitle=0x7f08004a;
-        public static final int always=0x7f08002e;
-        public static final int beginning=0x7f08002c;
-        public static final int bottom=0x7f080021;
-        public static final int btnLinkToLoginScreen=0x7f080094;
-        public static final int btnLinkToRegisterScreen=0x7f08008b;
-        public static final int btnRegister=0x7f080093;
-        public static final int buttonDefaultNegative=0x7f0800ab;
-        public static final int buttonDefaultNeutral=0x7f0800aa;
-        public static final int buttonDefaultPositive=0x7f0800ac;
-        public static final int buttonPanel=0x7f080050;
-        public static final int cancel_action=0x7f0800c5;
-        public static final int cardList=0x7f080081;
-        public static final int card_view=0x7f08006f;
-        public static final int card_view0=0x7f08006b;
-        public static final int card_view2=0x7f080071;
-        public static final int card_view3=0x7f080077;
-        public static final int card_view4=0x7f08007c;
-        public static final int card_view_fixture=0x7f080099;
-        public static final int center=0x7f08000b;
-        public static final int center_horizontal=0x7f080022;
-        public static final int center_vertical=0x7f080023;
-        public static final int chart1=0x7f080070;
-        public static final int checkBoxAnswer1=0x7f0800d8;
-        public static final int checkBoxAnswer2=0x7f0800da;
-        public static final int checkbox=0x7f080052;
-        public static final int chronometer=0x7f0800cb;
-        public static final int clip_horizontal=0x7f080024;
-        public static final int clip_vertical=0x7f080025;
-        public static final int collapseActionView=0x7f08002f;
-        public static final int container=0x7f0800af;
-        public static final int containerList=0x7f0800b0;
-        public static final int content=0x7f0800a3;
-        public static final int contentListView=0x7f0800a8;
-        public static final int contentListViewFrame=0x7f0800a7;
-        public static final int contentPanel=0x7f08004b;
-        public static final int contentScrollView=0x7f0800a2;
-        public static final int control=0x7f0800a9;
-        public static final int counter=0x7f0800c0;
-        public static final int custom=0x7f08004f;
-        public static final int customPanel=0x7f08004e;
-        public static final int customViewFrame=0x7f0800a5;
-        public static final int dashboard_progress=0x7f080069;
-        public static final int decor_content_parent=0x7f080058;
-        public static final int default_activity_button=0x7f080043;
-        public static final int dialog=0x7f080033;
-        public static final int disableHome=0x7f080011;
-        public static final int drawerLayout=0x7f0800c1;
-        public static final int dropdown=0x7f080034;
-        public static final int edit_query=0x7f08005c;
-        public static final int email=0x7f080087;
-        public static final int email_login_form=0x7f080086;
-        public static final int email_sign_in_button=0x7f08008a;
-        public static final int end=0x7f08000c;
-        public static final int end_padder=0x7f0800d0;
-        public static final int enterAlways=0x7f08001b;
-        public static final int enterAlwaysCollapsed=0x7f08001c;
-        public static final int exitUntilCollapsed=0x7f08001d;
-        public static final int expand_activities_button=0x7f080041;
-        public static final int expanded_menu=0x7f080051;
-        public static final int fill=0x7f080026;
-        public static final int fill_horizontal=0x7f080027;
-        public static final int fill_vertical=0x7f080028;
-        public static final int fixed=0x7f080035;
-        public static final int fixture_list_progress=0x7f080080;
-        public static final int footerDrawer=0x7f0800b3;
-        public static final int groupData=0x7f08009b;
-        public static final int groupName=0x7f08009c;
-        public static final int groupPhoto=0x7f08009a;
-        public static final int groupSecurity=0x7f08009e;
-        public static final int groupSize=0x7f08009d;
-        public static final int group_list_progress=0x7f080083;
-        public static final int home=0x7f080004;
-        public static final int homeAsUp=0x7f080012;
-        public static final int icon=0x7f080045;
-        public static final int iconFooter=0x7f0800b4;
-        public static final int ifRoom=0x7f080030;
-        public static final int image=0x7f080042;
-        public static final int imageView=0x7f080095;
-        public static final int imgLiveo=0x7f080097;
-        public static final int info=0x7f0800cf;
-        public static final int item_touch_helper_previous_elevation=0x7f080005;
-        public static final int label=0x7f0800ad;
-        public static final int latestResultDescription=0x7f080073;
-        public static final int layoutDados=0x7f0800bf;
-        public static final int layoutFooter=0x7f0800b2;
-        public static final int layoutSeparator=0x7f0800bd;
-        public static final int leaderboradTextName=0x7f0800a1;
-        public static final int left=0x7f080029;
-        public static final int line1=0x7f0800c9;
-        public static final int line3=0x7f0800cd;
-        public static final int linearLayout1=0x7f0800d7;
-        public static final int linearLayout2=0x7f0800d9;
-        public static final int linearLayoutFormGuide=0x7f08007f;
-        public static final int linearLayout_CheckBoxOptions=0x7f0800d5;
-        public static final int linearLayout_type_of_days=0x7f0800d6;
-        public static final int list=0x7f0800b1;
-        public static final int listMode=0x7f08000e;
-        public static final int listView1=0x7f080076;
-        public static final int listView2=0x7f08007a;
-        public static final int list_item=0x7f080044;
-        public static final int login=0x7f080089;
-        public static final int login_form=0x7f080085;
-        public static final int login_progress=0x7f080084;
-        public static final int media_actions=0x7f0800c7;
-        public static final int menu_add=0x7f0800dd;
-        public static final int menu_search=0x7f0800dc;
-        public static final int middle=0x7f08002d;
-        public static final int minMax=0x7f0800a6;
-        public static final int mini=0x7f08001a;
-        public static final int multiply=0x7f080038;
-        public static final int never=0x7f080031;
-        public static final int nextFixtureDescription=0x7f080079;
-        public static final int none=0x7f080013;
-        public static final int normal=0x7f08000f;
-        public static final int parallax=0x7f08001f;
-        public static final int parentPanel=0x7f080047;
-        public static final int password=0x7f080088;
-        public static final int pieChart1=0x7f080074;
-        public static final int pieChart2=0x7f08007b;
-        public static final int pin=0x7f080020;
-        public static final int progress_circular=0x7f080006;
-        public static final int progress_horizontal=0x7f080007;
-        public static final int radio=0x7f080054;
-        public static final int register=0x7f08008f;
-        public static final int registerConfirmPassword=0x7f080092;
-        public static final int registerEmail=0x7f080090;
-        public static final int registerName=0x7f08008e;
-        public static final int registerPassword=0x7f080091;
-        public static final int register_form=0x7f08008d;
-        public static final int register_progress=0x7f08008c;
-        public static final int relativeDrawer=0x7f0800c2;
-        public static final int right=0x7f08002a;
-        public static final int root=0x7f0800a4;
-        public static final int screen=0x7f080039;
-        public static final int scroll=0x7f08001e;
-        public static final int scrollView=0x7f08004c;
-        public static final int scroll_view=0x7f08006a;
-        public static final int scrollable=0x7f080036;
-        public static final int search_badge=0x7f08005e;
-        public static final int search_bar=0x7f08005d;
-        public static final int search_button=0x7f08005f;
-        public static final int search_close_btn=0x7f080064;
-        public static final int search_edit_frame=0x7f080060;
-        public static final int search_go_btn=0x7f080066;
-        public static final int search_mag_icon=0x7f080061;
-        public static final int search_plate=0x7f080062;
-        public static final int search_src_text=0x7f080063;
-        public static final int search_voice_btn=0x7f080067;
-        public static final int seekBar1=0x7f080075;
-        public static final int select_dialog_listview=0x7f080068;
-        public static final int separator=0x7f0800be;
-        public static final int shortcut=0x7f080053;
-        public static final int showCustom=0x7f080014;
-        public static final int showHome=0x7f080015;
-        public static final int showTitle=0x7f080016;
-        public static final int snackbar_action=0x7f0800a0;
-        public static final int snackbar_text=0x7f08009f;
-        public static final int split_action_bar=0x7f080008;
-        public static final int src_atop=0x7f08003a;
-        public static final int src_in=0x7f08003b;
-        public static final int src_over=0x7f08003c;
-        public static final int start=0x7f08000d;
-        public static final int status_bar_latest_event_content=0x7f0800c6;
-        public static final int submit_area=0x7f080065;
-        public static final int tabMode=0x7f080010;
-        public static final int text=0x7f0800ce;
-        public static final int text2=0x7f0800cc;
-        public static final int textSpacerNoButtons=0x7f08004d;
-        public static final int textView=0x7f080072;
-        public static final int textView10=0x7f08006c;
-        public static final int textView2=0x7f080078;
-        public static final int textView3=0x7f08007d;
-        public static final int textView4=0x7f08007e;
-        public static final int textview=0x7f080096;
-        public static final int time=0x7f0800ca;
-        public static final int title=0x7f080046;
-        public static final int titleFooter=0x7f0800b5;
-        public static final int titleFrame=0x7f0800ae;
-        public static final int title_template=0x7f080049;
-        public static final int toolbar=0x7f0800c3;
-        public static final int top=0x7f08002b;
-        public static final int topPanel=0x7f080048;
-        public static final int txtCurrentPosition=0x7f08006d;
-        public static final int txtFixtureDateTime=0x7f0800d3;
-        public static final int txtGameDetails=0x7f08006e;
-        public static final int txtQuestionDescription=0x7f0800d4;
-        public static final int txtQuestionName=0x7f0800d2;
-        public static final int txtScore=0x7f0800db;
-        public static final int txtTitle=0x7f080098;
-        public static final int up=0x7f080009;
-        public static final int useLogo=0x7f080017;
-        public static final int userBackground=0x7f0800b6;
-        public static final int userData=0x7f0800ba;
-        public static final int userEmail=0x7f0800bc;
-        public static final int userName=0x7f0800bb;
-        public static final int userPhoto=0x7f0800b7;
-        public static final int userPhotoTree=0x7f0800b9;
-        public static final int userPhotoTwo=0x7f0800b8;
-        public static final int view_offset_helper=0x7f08000a;
-        public static final int withText=0x7f080032;
-        public static final int wrap_content=0x7f080037;
+        public static final int DEFAULT=0x7f090018;
+        public static final int MINI=0x7f090019;
+        public static final int RelativeLayout01=0x7f0900d0;
+        public static final int action0=0x7f0900c3;
+        public static final int action_bar=0x7f09005a;
+        public static final int action_bar_activity_content=0x7f090000;
+        public static final int action_bar_container=0x7f090059;
+        public static final int action_bar_root=0x7f090055;
+        public static final int action_bar_spinner=0x7f090001;
+        public static final int action_bar_subtitle=0x7f09003e;
+        public static final int action_bar_title=0x7f09003d;
+        public static final int action_button=0x7f090082;
+        public static final int action_context_bar=0x7f09005b;
+        public static final int action_divider=0x7f0900c7;
+        public static final int action_menu_divider=0x7f090002;
+        public static final int action_menu_presenter=0x7f090003;
+        public static final int action_mode_bar=0x7f090057;
+        public static final int action_mode_bar_stub=0x7f090056;
+        public static final int action_mode_close_button=0x7f09003f;
+        public static final int action_settings=0x7f0900dd;
+        public static final int activity_chooser_view_content=0x7f090040;
+        public static final int alertTitle=0x7f09004a;
+        public static final int always=0x7f09002e;
+        public static final int beginning=0x7f09002c;
+        public static final int bottom=0x7f090021;
+        public static final int btnLinkToLoginScreen=0x7f090094;
+        public static final int btnLinkToRegisterScreen=0x7f09008b;
+        public static final int btnRegister=0x7f090093;
+        public static final int buttonDefaultNegative=0x7f0900aa;
+        public static final int buttonDefaultNeutral=0x7f0900a9;
+        public static final int buttonDefaultPositive=0x7f0900ab;
+        public static final int buttonPanel=0x7f090050;
+        public static final int cancel_action=0x7f0900c4;
+        public static final int cardList=0x7f090081;
+        public static final int card_view=0x7f09006f;
+        public static final int card_view0=0x7f09006b;
+        public static final int card_view2=0x7f090071;
+        public static final int card_view3=0x7f090077;
+        public static final int card_view4=0x7f09007c;
+        public static final int card_view_fixture=0x7f090098;
+        public static final int center=0x7f09000b;
+        public static final int center_horizontal=0x7f090022;
+        public static final int center_vertical=0x7f090023;
+        public static final int chart1=0x7f090070;
+        public static final int checkBoxAnswer1=0x7f0900d7;
+        public static final int checkBoxAnswer2=0x7f0900d9;
+        public static final int checkbox=0x7f090052;
+        public static final int chronometer=0x7f0900ca;
+        public static final int clip_horizontal=0x7f090024;
+        public static final int clip_vertical=0x7f090025;
+        public static final int collapseActionView=0x7f09002f;
+        public static final int container=0x7f0900ae;
+        public static final int containerList=0x7f0900af;
+        public static final int content=0x7f0900a2;
+        public static final int contentListView=0x7f0900a7;
+        public static final int contentListViewFrame=0x7f0900a6;
+        public static final int contentPanel=0x7f09004b;
+        public static final int contentScrollView=0x7f0900a1;
+        public static final int control=0x7f0900a8;
+        public static final int counter=0x7f0900bf;
+        public static final int custom=0x7f09004f;
+        public static final int customPanel=0x7f09004e;
+        public static final int customViewFrame=0x7f0900a4;
+        public static final int dashboard_progress=0x7f090069;
+        public static final int decor_content_parent=0x7f090058;
+        public static final int default_activity_button=0x7f090043;
+        public static final int dialog=0x7f090033;
+        public static final int disableHome=0x7f090011;
+        public static final int drawerLayout=0x7f0900c0;
+        public static final int dropdown=0x7f090034;
+        public static final int edit_query=0x7f09005c;
+        public static final int email=0x7f090087;
+        public static final int email_login_form=0x7f090086;
+        public static final int email_sign_in_button=0x7f09008a;
+        public static final int end=0x7f09000c;
+        public static final int end_padder=0x7f0900cf;
+        public static final int enterAlways=0x7f09001b;
+        public static final int enterAlwaysCollapsed=0x7f09001c;
+        public static final int exitUntilCollapsed=0x7f09001d;
+        public static final int expand_activities_button=0x7f090041;
+        public static final int expanded_menu=0x7f090051;
+        public static final int fill=0x7f090026;
+        public static final int fill_horizontal=0x7f090027;
+        public static final int fill_vertical=0x7f090028;
+        public static final int fixed=0x7f090035;
+        public static final int fixture_list_progress=0x7f090080;
+        public static final int footerDrawer=0x7f0900b2;
+        public static final int groupData=0x7f09009a;
+        public static final int groupName=0x7f09009b;
+        public static final int groupPhoto=0x7f090099;
+        public static final int groupSecurity=0x7f09009d;
+        public static final int groupSize=0x7f09009c;
+        public static final int group_list_progress=0x7f090083;
+        public static final int home=0x7f090004;
+        public static final int homeAsUp=0x7f090012;
+        public static final int icon=0x7f090045;
+        public static final int iconFooter=0x7f0900b3;
+        public static final int ifRoom=0x7f090030;
+        public static final int image=0x7f090042;
+        public static final int imageView=0x7f090095;
+        public static final int info=0x7f0900ce;
+        public static final int item_touch_helper_previous_elevation=0x7f090005;
+        public static final int label=0x7f0900ac;
+        public static final int latestResultDescription=0x7f090073;
+        public static final int layoutDados=0x7f0900be;
+        public static final int layoutFooter=0x7f0900b1;
+        public static final int layoutSeparator=0x7f0900bc;
+        public static final int leaderboradTextName=0x7f0900a0;
+        public static final int left=0x7f090029;
+        public static final int line1=0x7f0900c8;
+        public static final int line3=0x7f0900cc;
+        public static final int linearLayout1=0x7f0900d6;
+        public static final int linearLayout2=0x7f0900d8;
+        public static final int linearLayoutFormGuide=0x7f09007f;
+        public static final int linearLayout_CheckBoxOptions=0x7f0900d4;
+        public static final int linearLayout_type_of_days=0x7f0900d5;
+        public static final int list=0x7f0900b0;
+        public static final int listMode=0x7f09000e;
+        public static final int listView1=0x7f090076;
+        public static final int listView2=0x7f09007a;
+        public static final int list_item=0x7f090044;
+        public static final int login=0x7f090089;
+        public static final int login_form=0x7f090085;
+        public static final int login_progress=0x7f090084;
+        public static final int media_actions=0x7f0900c6;
+        public static final int menu_add=0x7f0900dc;
+        public static final int menu_search=0x7f0900db;
+        public static final int middle=0x7f09002d;
+        public static final int minMax=0x7f0900a5;
+        public static final int mini=0x7f09001a;
+        public static final int multiply=0x7f090038;
+        public static final int never=0x7f090031;
+        public static final int nextFixtureDescription=0x7f090079;
+        public static final int none=0x7f090013;
+        public static final int normal=0x7f09000f;
+        public static final int parallax=0x7f09001f;
+        public static final int parentPanel=0x7f090047;
+        public static final int password=0x7f090088;
+        public static final int pieChart1=0x7f090074;
+        public static final int pieChart2=0x7f09007b;
+        public static final int pin=0x7f090020;
+        public static final int progress_circular=0x7f090006;
+        public static final int progress_horizontal=0x7f090007;
+        public static final int radio=0x7f090054;
+        public static final int register=0x7f09008f;
+        public static final int registerConfirmPassword=0x7f090092;
+        public static final int registerEmail=0x7f090090;
+        public static final int registerName=0x7f09008e;
+        public static final int registerPassword=0x7f090091;
+        public static final int register_form=0x7f09008d;
+        public static final int register_progress=0x7f09008c;
+        public static final int relativeDrawer=0x7f0900c1;
+        public static final int right=0x7f09002a;
+        public static final int root=0x7f0900a3;
+        public static final int screen=0x7f090039;
+        public static final int scroll=0x7f09001e;
+        public static final int scrollView=0x7f09004c;
+        public static final int scroll_view=0x7f09006a;
+        public static final int scrollable=0x7f090036;
+        public static final int search_badge=0x7f09005e;
+        public static final int search_bar=0x7f09005d;
+        public static final int search_button=0x7f09005f;
+        public static final int search_close_btn=0x7f090064;
+        public static final int search_edit_frame=0x7f090060;
+        public static final int search_go_btn=0x7f090066;
+        public static final int search_mag_icon=0x7f090061;
+        public static final int search_plate=0x7f090062;
+        public static final int search_src_text=0x7f090063;
+        public static final int search_voice_btn=0x7f090067;
+        public static final int seekBar1=0x7f090075;
+        public static final int select_dialog_listview=0x7f090068;
+        public static final int separator=0x7f0900bd;
+        public static final int shortcut=0x7f090053;
+        public static final int showCustom=0x7f090014;
+        public static final int showHome=0x7f090015;
+        public static final int showTitle=0x7f090016;
+        public static final int snackbar_action=0x7f09009f;
+        public static final int snackbar_text=0x7f09009e;
+        public static final int split_action_bar=0x7f090008;
+        public static final int src_atop=0x7f09003a;
+        public static final int src_in=0x7f09003b;
+        public static final int src_over=0x7f09003c;
+        public static final int start=0x7f09000d;
+        public static final int status_bar_latest_event_content=0x7f0900c5;
+        public static final int submit_area=0x7f090065;
+        public static final int tabMode=0x7f090010;
+        public static final int text=0x7f0900cd;
+        public static final int text2=0x7f0900cb;
+        public static final int textSpacerNoButtons=0x7f09004d;
+        public static final int textView=0x7f090072;
+        public static final int textView10=0x7f09006c;
+        public static final int textView2=0x7f090078;
+        public static final int textView3=0x7f09007d;
+        public static final int textView4=0x7f09007e;
+        public static final int textview=0x7f090096;
+        public static final int time=0x7f0900c9;
+        public static final int title=0x7f090046;
+        public static final int titleFooter=0x7f0900b4;
+        public static final int titleFrame=0x7f0900ad;
+        public static final int title_template=0x7f090049;
+        public static final int toolbar=0x7f0900c2;
+        public static final int top=0x7f09002b;
+        public static final int topPanel=0x7f090048;
+        public static final int txtCurrentPosition=0x7f09006d;
+        public static final int txtFixtureDateTime=0x7f0900d2;
+        public static final int txtGameDetails=0x7f09006e;
+        public static final int txtQuestionDescription=0x7f0900d3;
+        public static final int txtQuestionName=0x7f0900d1;
+        public static final int txtScore=0x7f0900da;
+        public static final int txtTitle=0x7f090097;
+        public static final int up=0x7f090009;
+        public static final int useLogo=0x7f090017;
+        public static final int userBackground=0x7f0900b5;
+        public static final int userData=0x7f0900b9;
+        public static final int userEmail=0x7f0900bb;
+        public static final int userName=0x7f0900ba;
+        public static final int userPhoto=0x7f0900b6;
+        public static final int userPhotoTree=0x7f0900b8;
+        public static final int userPhotoTwo=0x7f0900b7;
+        public static final int view_offset_helper=0x7f09000a;
+        public static final int withText=0x7f090032;
+        public static final int wrap_content=0x7f090037;
     }
     public static final class integer {
-        public static final int abc_config_activityDefaultDur=0x7f090000;
-        public static final int abc_config_activityShortDur=0x7f090001;
-        public static final int abc_max_action_buttons=0x7f090002;
-        public static final int cancel_button_image_alpha=0x7f090003;
-        public static final int snackbar_text_max_lines=0x7f090004;
-        public static final int status_bar_notification_info_maxnum=0x7f090005;
+        public static final int abc_config_activityDefaultDur=0x7f0a0000;
+        public static final int abc_config_activityShortDur=0x7f0a0001;
+        public static final int abc_max_action_buttons=0x7f0a0002;
+        public static final int cancel_button_image_alpha=0x7f0a0003;
+        public static final int snackbar_text_max_lines=0x7f0a0004;
+        public static final int status_bar_notification_info_maxnum=0x7f0a0005;
     }
     public static final class layout {
-        public static final int abc_action_bar_title_item=0x7f030000;
-        public static final int abc_action_bar_up_container=0x7f030001;
-        public static final int abc_action_bar_view_list_nav_layout=0x7f030002;
-        public static final int abc_action_menu_item_layout=0x7f030003;
-        public static final int abc_action_menu_layout=0x7f030004;
-        public static final int abc_action_mode_bar=0x7f030005;
-        public static final int abc_action_mode_close_item_material=0x7f030006;
-        public static final int abc_activity_chooser_view=0x7f030007;
-        public static final int abc_activity_chooser_view_list_item=0x7f030008;
-        public static final int abc_alert_dialog_material=0x7f030009;
-        public static final int abc_dialog_title_material=0x7f03000a;
-        public static final int abc_expanded_menu_layout=0x7f03000b;
-        public static final int abc_list_menu_item_checkbox=0x7f03000c;
-        public static final int abc_list_menu_item_icon=0x7f03000d;
-        public static final int abc_list_menu_item_layout=0x7f03000e;
-        public static final int abc_list_menu_item_radio=0x7f03000f;
-        public static final int abc_popup_menu_item_layout=0x7f030010;
-        public static final int abc_screen_content_include=0x7f030011;
-        public static final int abc_screen_simple=0x7f030012;
-        public static final int abc_screen_simple_overlay_action_mode=0x7f030013;
-        public static final int abc_screen_toolbar=0x7f030014;
-        public static final int abc_search_dropdown_item_icons_2line=0x7f030015;
-        public static final int abc_search_view=0x7f030016;
-        public static final int abc_select_dialog_material=0x7f030017;
-        public static final int abc_simple_dropdown_hint=0x7f030018;
-        public static final int activity_dashboard=0x7f030019;
-        public static final int activity_fixtures_list=0x7f03001a;
-        public static final int activity_group_list=0x7f03001b;
-        public static final int activity_initial=0x7f03001c;
-        public static final int activity_login=0x7f03001d;
-        public static final int activity_main=0x7f03001e;
-        public static final int activity_register=0x7f03001f;
-        public static final int custom_header_user=0x7f030020;
-        public static final int design_navigation_item=0x7f030021;
-        public static final int design_navigation_item_header=0x7f030022;
-        public static final int design_navigation_item_separator=0x7f030023;
-        public static final int design_navigation_item_subheader=0x7f030024;
-        public static final int design_navigation_menu=0x7f030025;
-        public static final int fragment_main=0x7f030026;
-        public static final int group_list_item=0x7f030027;
-        public static final int layout_snackbar=0x7f030028;
-        public static final int layout_snackbar_include=0x7f030029;
-        public static final int leaderboard_list_item=0x7f03002a;
-        public static final int md_dialog_basic=0x7f03002b;
-        public static final int md_dialog_custom=0x7f03002c;
-        public static final int md_dialog_input=0x7f03002d;
-        public static final int md_dialog_list=0x7f03002e;
-        public static final int md_dialog_progress=0x7f03002f;
-        public static final int md_dialog_progress_indeterminate=0x7f030030;
-        public static final int md_dialog_progress_indeterminate_horizontal=0x7f030031;
-        public static final int md_listitem=0x7f030032;
-        public static final int md_listitem_multichoice=0x7f030033;
-        public static final int md_listitem_singlechoice=0x7f030034;
-        public static final int md_simplelist_item=0x7f030035;
-        public static final int md_stub_actionbuttons=0x7f030036;
-        public static final int md_stub_inputpref=0x7f030037;
-        public static final int md_stub_progress=0x7f030038;
-        public static final int md_stub_progress_indeterminate=0x7f030039;
-        public static final int md_stub_progress_indeterminate_horizontal=0x7f03003a;
-        public static final int md_stub_titleframe=0x7f03003b;
-        public static final int navigation_container=0x7f03003c;
-        public static final int navigation_list_drawer=0x7f03003d;
-        public static final int navigation_list_footer=0x7f03003e;
-        public static final int navigation_list_header=0x7f03003f;
-        public static final int navigation_list_item=0x7f030040;
-        public static final int navigation_main=0x7f030041;
-        public static final int navigation_main_actionbar=0x7f030042;
-        public static final int navigation_toolbar=0x7f030043;
-        public static final int notification_media_action=0x7f030044;
-        public static final int notification_media_cancel_action=0x7f030045;
-        public static final int notification_template_big_media=0x7f030046;
-        public static final int notification_template_big_media_narrow=0x7f030047;
-        public static final int notification_template_lines=0x7f030048;
-        public static final int notification_template_media=0x7f030049;
-        public static final int notification_template_part_chronometer=0x7f03004a;
-        public static final int notification_template_part_time=0x7f03004b;
-        public static final int question_list_item=0x7f03004c;
-        public static final int select_dialog_item_material=0x7f03004d;
-        public static final int select_dialog_multichoice_material=0x7f03004e;
-        public static final int select_dialog_singlechoice_material=0x7f03004f;
-        public static final int support_simple_spinner_dropdown_item=0x7f030050;
+        public static final int abc_action_bar_title_item=0x7f040000;
+        public static final int abc_action_bar_up_container=0x7f040001;
+        public static final int abc_action_bar_view_list_nav_layout=0x7f040002;
+        public static final int abc_action_menu_item_layout=0x7f040003;
+        public static final int abc_action_menu_layout=0x7f040004;
+        public static final int abc_action_mode_bar=0x7f040005;
+        public static final int abc_action_mode_close_item_material=0x7f040006;
+        public static final int abc_activity_chooser_view=0x7f040007;
+        public static final int abc_activity_chooser_view_list_item=0x7f040008;
+        public static final int abc_alert_dialog_material=0x7f040009;
+        public static final int abc_dialog_title_material=0x7f04000a;
+        public static final int abc_expanded_menu_layout=0x7f04000b;
+        public static final int abc_list_menu_item_checkbox=0x7f04000c;
+        public static final int abc_list_menu_item_icon=0x7f04000d;
+        public static final int abc_list_menu_item_layout=0x7f04000e;
+        public static final int abc_list_menu_item_radio=0x7f04000f;
+        public static final int abc_popup_menu_item_layout=0x7f040010;
+        public static final int abc_screen_content_include=0x7f040011;
+        public static final int abc_screen_simple=0x7f040012;
+        public static final int abc_screen_simple_overlay_action_mode=0x7f040013;
+        public static final int abc_screen_toolbar=0x7f040014;
+        public static final int abc_search_dropdown_item_icons_2line=0x7f040015;
+        public static final int abc_search_view=0x7f040016;
+        public static final int abc_select_dialog_material=0x7f040017;
+        public static final int abc_simple_dropdown_hint=0x7f040018;
+        public static final int activity_dashboard=0x7f040019;
+        public static final int activity_fixtures_list=0x7f04001a;
+        public static final int activity_group_list=0x7f04001b;
+        public static final int activity_initial=0x7f04001c;
+        public static final int activity_login=0x7f04001d;
+        public static final int activity_main=0x7f04001e;
+        public static final int activity_register=0x7f04001f;
+        public static final int custom_header_user=0x7f040020;
+        public static final int design_navigation_item=0x7f040021;
+        public static final int design_navigation_item_header=0x7f040022;
+        public static final int design_navigation_item_separator=0x7f040023;
+        public static final int design_navigation_item_subheader=0x7f040024;
+        public static final int design_navigation_menu=0x7f040025;
+        public static final int fragment_main=0x7f040026;
+        public static final int group_list_item=0x7f040027;
+        public static final int layout_snackbar=0x7f040028;
+        public static final int layout_snackbar_include=0x7f040029;
+        public static final int leaderboard_list_item=0x7f04002a;
+        public static final int md_dialog_basic=0x7f04002b;
+        public static final int md_dialog_custom=0x7f04002c;
+        public static final int md_dialog_input=0x7f04002d;
+        public static final int md_dialog_list=0x7f04002e;
+        public static final int md_dialog_progress=0x7f04002f;
+        public static final int md_dialog_progress_indeterminate=0x7f040030;
+        public static final int md_dialog_progress_indeterminate_horizontal=0x7f040031;
+        public static final int md_listitem=0x7f040032;
+        public static final int md_listitem_multichoice=0x7f040033;
+        public static final int md_listitem_singlechoice=0x7f040034;
+        public static final int md_simplelist_item=0x7f040035;
+        public static final int md_stub_actionbuttons=0x7f040036;
+        public static final int md_stub_inputpref=0x7f040037;
+        public static final int md_stub_progress=0x7f040038;
+        public static final int md_stub_progress_indeterminate=0x7f040039;
+        public static final int md_stub_progress_indeterminate_horizontal=0x7f04003a;
+        public static final int md_stub_titleframe=0x7f04003b;
+        public static final int navigation_container=0x7f04003c;
+        public static final int navigation_list_drawer=0x7f04003d;
+        public static final int navigation_list_footer=0x7f04003e;
+        public static final int navigation_list_header=0x7f04003f;
+        public static final int navigation_list_item=0x7f040040;
+        public static final int navigation_main=0x7f040041;
+        public static final int navigation_main_actionbar=0x7f040042;
+        public static final int navigation_toolbar=0x7f040043;
+        public static final int notification_media_action=0x7f040044;
+        public static final int notification_media_cancel_action=0x7f040045;
+        public static final int notification_template_big_media=0x7f040046;
+        public static final int notification_template_big_media_narrow=0x7f040047;
+        public static final int notification_template_lines=0x7f040048;
+        public static final int notification_template_media=0x7f040049;
+        public static final int notification_template_part_chronometer=0x7f04004a;
+        public static final int notification_template_part_time=0x7f04004b;
+        public static final int question_list_item=0x7f04004c;
+        public static final int select_dialog_item_material=0x7f04004d;
+        public static final int select_dialog_multichoice_material=0x7f04004e;
+        public static final int select_dialog_singlechoice_material=0x7f04004f;
+        public static final int support_simple_spinner_dropdown_item=0x7f040050;
     }
     public static final class menu {
-        public static final int menu=0x7f0c0000;
-        public static final int menu_dashboard=0x7f0c0001;
-        public static final int menu_fixtures_list=0x7f0c0002;
-        public static final int menu_group_list=0x7f0c0003;
-        public static final int menu_initial=0x7f0c0004;
-        public static final int menu_main=0x7f0c0005;
+        public static final int menu=0x7f0d0000;
+        public static final int menu_dashboard=0x7f0d0001;
+        public static final int menu_fixtures_list=0x7f0d0002;
+        public static final int menu_group_list=0x7f0d0003;
+        public static final int menu_initial=0x7f0d0004;
+        public static final int menu_main=0x7f0d0005;
+    }
+    public static final class mipmap {
+        public static final int ic_add_fixture=0x7f030000;
+        public static final int ic_dashboard=0x7f030001;
+        public static final int ic_fixtures=0x7f030002;
+        public static final int ic_launcher=0x7f030003;
+        public static final int ic_leaderboard_detailed=0x7f030004;
+        public static final int ic_leaderboard_history=0x7f030005;
+        public static final int ic_leaderboard_playervsplayer=0x7f030006;
+        public static final int ic_logout=0x7f030007;
+        public static final int ic_results=0x7f030008;
+        public static final int ic_settings=0x7f030009;
+        public static final int ic_smacktalk=0x7f03000a;
+        public static final int ic_submit_result=0x7f03000b;
     }
     public static final class string {
-        public static final int abc_action_bar_home_description=0x7f0a0000;
-        public static final int abc_action_bar_home_description_format=0x7f0a0001;
-        public static final int abc_action_bar_home_subtitle_description_format=0x7f0a0002;
-        public static final int abc_action_bar_up_description=0x7f0a0003;
-        public static final int abc_action_menu_overflow_description=0x7f0a0004;
-        public static final int abc_action_mode_done=0x7f0a0005;
-        public static final int abc_activity_chooser_view_see_all=0x7f0a0006;
-        public static final int abc_activitychooserview_choose_application=0x7f0a0007;
-        public static final int abc_search_hint=0x7f0a0008;
-        public static final int abc_searchview_description_clear=0x7f0a0009;
-        public static final int abc_searchview_description_query=0x7f0a000a;
-        public static final int abc_searchview_description_search=0x7f0a000b;
-        public static final int abc_searchview_description_submit=0x7f0a000c;
-        public static final int abc_searchview_description_voice=0x7f0a000d;
-        public static final int abc_shareactionprovider_share_with=0x7f0a000e;
-        public static final int abc_shareactionprovider_share_with_application=0x7f0a000f;
-        public static final int abc_toolbar_collapse_description=0x7f0a0010;
-        public static final int action_register_short=0x7f0a0011;
-        public static final int action_save=0x7f0a0012;
-        public static final int action_settings=0x7f0a0013;
-        public static final int action_sign_in=0x7f0a0014;
-        public static final int action_sign_in_short=0x7f0a0015;
-        public static final int add=0x7f0a0016;
-        public static final int app_name=0x7f0a0017;
-        public static final int appbar_scrolling_view_behavior=0x7f0a0018;
-        public static final int clear=0x7f0a0019;
-        public static final int custom_header_not_created=0x7f0a001a;
-        public static final int drafts=0x7f0a001b;
-        public static final int drawer_close=0x7f0a001c;
-        public static final int drawer_open=0x7f0a001d;
-        public static final int enter_item_name_position=0x7f0a001e;
-        public static final int error_duplicate_user=0x7f0a001f;
-        public static final int error_field_required=0x7f0a0020;
-        public static final int error_incorrect_duplicate_password=0x7f0a0021;
-        public static final int error_incorrect_password=0x7f0a0022;
-        public static final int error_invalid_email=0x7f0a0023;
-        public static final int error_invalid_password=0x7f0a0024;
-        public static final int header_not_created=0x7f0a0025;
-        public static final int hello_world=0x7f0a0026;
-        public static final int inbox=0x7f0a0027;
-        public static final int list_hide_item=0x7f0a0028;
-        public static final int list_null_or_empty=0x7f0a0029;
-        public static final int more_markers=0x7f0a002a;
-        public static final int ns_menu_account_header=0x7f0a002b;
-        public static final int ns_menu_account_logout=0x7f0a002c;
-        public static final int ns_menu_account_profile=0x7f0a002d;
-        public static final int ns_menu_account_settings=0x7f0a002e;
-        public static final int ns_menu_admin_header=0x7f0a002f;
-        public static final int ns_menu_admin_questions=0x7f0a0030;
-        public static final int ns_menu_admin_results=0x7f0a0031;
-        public static final int ns_menu_chat_header=0x7f0a0032;
-        public static final int ns_menu_chat_main=0x7f0a0033;
-        public static final int ns_menu_close=0x7f0a0034;
-        public static final int ns_menu_dashboard_main=0x7f0a0035;
-        public static final int ns_menu_leaderboard_full=0x7f0a0036;
-        public static final int ns_menu_leaderboard_header=0x7f0a0037;
-        public static final int ns_menu_leaderboard_history=0x7f0a0038;
-        public static final int ns_menu_leaderboard_overview=0x7f0a0039;
-        public static final int ns_menu_leaderboard_playervsplayer=0x7f0a003a;
-        public static final int ns_menu_open=0x7f0a003b;
-        public static final int ns_menu_questions_answer=0x7f0a003c;
-        public static final int ns_menu_questions_header=0x7f0a003d;
-        public static final int ns_menu_questions_review=0x7f0a003e;
-        public static final int open_settings=0x7f0a003f;
-        public static final int open_user_profile=0x7f0a0040;
-        public static final int prompt_Full_Name=0x7f0a0041;
-        public static final int prompt_confirm_password=0x7f0a0042;
-        public static final int prompt_email=0x7f0a0043;
-        public static final int prompt_password=0x7f0a0044;
-        public static final int remove_selector_navigation=0x7f0a0045;
-        public static final int search=0x7f0a0046;
-        public static final int sent_mail=0x7f0a0047;
-        public static final int settings=0x7f0a0048;
-        public static final int sign_in=0x7f0a0049;
-        public static final int spam=0x7f0a004a;
-        public static final int starred=0x7f0a004b;
-        public static final int start_navigation_listener=0x7f0a004c;
-        public static final int status_bar_notification_info_overflow=0x7f0a004d;
-        public static final int title_activity_dashboard=0x7f0a004e;
-        public static final int title_activity_fixtures_list=0x7f0a004f;
-        public static final int title_activity_group_list=0x7f0a0050;
-        public static final int title_activity_home=0x7f0a0051;
-        public static final int title_activity_initial=0x7f0a0052;
-        public static final int title_activity_login=0x7f0a0053;
-        public static final int title_activity_register=0x7f0a0054;
-        public static final int title_null_or_empty=0x7f0a0055;
-        public static final int trash=0x7f0a0056;
-        public static final int value_icon_should_be_0=0x7f0a0057;
+        public static final int abc_action_bar_home_description=0x7f0b0000;
+        public static final int abc_action_bar_home_description_format=0x7f0b0001;
+        public static final int abc_action_bar_home_subtitle_description_format=0x7f0b0002;
+        public static final int abc_action_bar_up_description=0x7f0b0003;
+        public static final int abc_action_menu_overflow_description=0x7f0b0004;
+        public static final int abc_action_mode_done=0x7f0b0005;
+        public static final int abc_activity_chooser_view_see_all=0x7f0b0006;
+        public static final int abc_activitychooserview_choose_application=0x7f0b0007;
+        public static final int abc_search_hint=0x7f0b0008;
+        public static final int abc_searchview_description_clear=0x7f0b0009;
+        public static final int abc_searchview_description_query=0x7f0b000a;
+        public static final int abc_searchview_description_search=0x7f0b000b;
+        public static final int abc_searchview_description_submit=0x7f0b000c;
+        public static final int abc_searchview_description_voice=0x7f0b000d;
+        public static final int abc_shareactionprovider_share_with=0x7f0b000e;
+        public static final int abc_shareactionprovider_share_with_application=0x7f0b000f;
+        public static final int abc_toolbar_collapse_description=0x7f0b0010;
+        public static final int action_register_short=0x7f0b0011;
+        public static final int action_save=0x7f0b0012;
+        public static final int action_settings=0x7f0b0013;
+        public static final int action_sign_in=0x7f0b0014;
+        public static final int action_sign_in_short=0x7f0b0015;
+        public static final int add=0x7f0b0016;
+        public static final int app_name=0x7f0b0017;
+        public static final int appbar_scrolling_view_behavior=0x7f0b0018;
+        public static final int clear=0x7f0b0019;
+        public static final int custom_header_not_created=0x7f0b001a;
+        public static final int drafts=0x7f0b001b;
+        public static final int drawer_close=0x7f0b001c;
+        public static final int drawer_open=0x7f0b001d;
+        public static final int enter_item_name_position=0x7f0b001e;
+        public static final int error_duplicate_user=0x7f0b001f;
+        public static final int error_field_required=0x7f0b0020;
+        public static final int error_incorrect_duplicate_password=0x7f0b0021;
+        public static final int error_incorrect_password=0x7f0b0022;
+        public static final int error_invalid_email=0x7f0b0023;
+        public static final int error_invalid_password=0x7f0b0024;
+        public static final int header_not_created=0x7f0b0025;
+        public static final int hello_world=0x7f0b0026;
+        public static final int inbox=0x7f0b0027;
+        public static final int list_hide_item=0x7f0b0028;
+        public static final int list_null_or_empty=0x7f0b0029;
+        public static final int more_markers=0x7f0b002a;
+        public static final int ns_menu_account_header=0x7f0b002b;
+        public static final int ns_menu_account_logout=0x7f0b002c;
+        public static final int ns_menu_account_profile=0x7f0b002d;
+        public static final int ns_menu_account_settings=0x7f0b002e;
+        public static final int ns_menu_admin_header=0x7f0b002f;
+        public static final int ns_menu_admin_questions=0x7f0b0030;
+        public static final int ns_menu_admin_results=0x7f0b0031;
+        public static final int ns_menu_chat_header=0x7f0b0032;
+        public static final int ns_menu_chat_main=0x7f0b0033;
+        public static final int ns_menu_close=0x7f0b0034;
+        public static final int ns_menu_dashboard_main=0x7f0b0035;
+        public static final int ns_menu_leaderboard_full=0x7f0b0036;
+        public static final int ns_menu_leaderboard_header=0x7f0b0037;
+        public static final int ns_menu_leaderboard_history=0x7f0b0038;
+        public static final int ns_menu_leaderboard_overview=0x7f0b0039;
+        public static final int ns_menu_leaderboard_playervsplayer=0x7f0b003a;
+        public static final int ns_menu_open=0x7f0b003b;
+        public static final int ns_menu_questions_answer=0x7f0b003c;
+        public static final int ns_menu_questions_header=0x7f0b003d;
+        public static final int ns_menu_questions_review=0x7f0b003e;
+        public static final int open_settings=0x7f0b003f;
+        public static final int open_user_profile=0x7f0b0040;
+        public static final int prompt_Full_Name=0x7f0b0041;
+        public static final int prompt_confirm_password=0x7f0b0042;
+        public static final int prompt_email=0x7f0b0043;
+        public static final int prompt_password=0x7f0b0044;
+        public static final int remove_selector_navigation=0x7f0b0045;
+        public static final int search=0x7f0b0046;
+        public static final int sent_mail=0x7f0b0047;
+        public static final int settings=0x7f0b0048;
+        public static final int sign_in=0x7f0b0049;
+        public static final int spam=0x7f0b004a;
+        public static final int starred=0x7f0b004b;
+        public static final int start_navigation_listener=0x7f0b004c;
+        public static final int status_bar_notification_info_overflow=0x7f0b004d;
+        public static final int title_activity_dashboard=0x7f0b004e;
+        public static final int title_activity_fixtures_list=0x7f0b004f;
+        public static final int title_activity_group_list=0x7f0b0050;
+        public static final int title_activity_home=0x7f0b0051;
+        public static final int title_activity_initial=0x7f0b0052;
+        public static final int title_activity_login=0x7f0b0053;
+        public static final int title_activity_register=0x7f0b0054;
+        public static final int title_null_or_empty=0x7f0b0055;
+        public static final int trash=0x7f0b0056;
+        public static final int value_icon_should_be_0=0x7f0b0057;
     }
     public static final class style {
-        public static final int AlertDialog_AppCompat=0x7f0b0000;
-        public static final int AlertDialog_AppCompat_Light=0x7f0b0001;
-        public static final int Animation_AppCompat_Dialog=0x7f0b0002;
-        public static final int Animation_AppCompat_DropDownUp=0x7f0b0003;
-        public static final int AppTheme_DarkActionBar=0x7f0b0004;
-        public static final int AppTheme_Ligth=0x7f0b0005;
-        public static final int AppThemeDarkActionBar=0x7f0b013e;
-        public static final int AppThemeLigth=0x7f0b013f;
-        public static final int Base_AlertDialog_AppCompat=0x7f0b0006;
-        public static final int Base_AlertDialog_AppCompat_Light=0x7f0b0007;
-        public static final int Base_Animation_AppCompat_Dialog=0x7f0b0008;
-        public static final int Base_Animation_AppCompat_DropDownUp=0x7f0b0009;
-        public static final int Base_DialogWindowTitle_AppCompat=0x7f0b000a;
-        public static final int Base_DialogWindowTitleBackground_AppCompat=0x7f0b000b;
-        public static final int Base_TextAppearance_AppCompat=0x7f0b000c;
-        public static final int Base_TextAppearance_AppCompat_Body1=0x7f0b000d;
-        public static final int Base_TextAppearance_AppCompat_Body2=0x7f0b000e;
-        public static final int Base_TextAppearance_AppCompat_Button=0x7f0b000f;
-        public static final int Base_TextAppearance_AppCompat_Caption=0x7f0b0010;
-        public static final int Base_TextAppearance_AppCompat_Display1=0x7f0b0011;
-        public static final int Base_TextAppearance_AppCompat_Display2=0x7f0b0012;
-        public static final int Base_TextAppearance_AppCompat_Display3=0x7f0b0013;
-        public static final int Base_TextAppearance_AppCompat_Display4=0x7f0b0014;
-        public static final int Base_TextAppearance_AppCompat_Headline=0x7f0b0015;
-        public static final int Base_TextAppearance_AppCompat_Inverse=0x7f0b0016;
-        public static final int Base_TextAppearance_AppCompat_Large=0x7f0b0017;
-        public static final int Base_TextAppearance_AppCompat_Large_Inverse=0x7f0b0018;
-        public static final int Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large=0x7f0b0019;
-        public static final int Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small=0x7f0b001a;
-        public static final int Base_TextAppearance_AppCompat_Medium=0x7f0b001b;
-        public static final int Base_TextAppearance_AppCompat_Medium_Inverse=0x7f0b001c;
-        public static final int Base_TextAppearance_AppCompat_Menu=0x7f0b001d;
-        public static final int Base_TextAppearance_AppCompat_SearchResult=0x7f0b001e;
-        public static final int Base_TextAppearance_AppCompat_SearchResult_Subtitle=0x7f0b001f;
-        public static final int Base_TextAppearance_AppCompat_SearchResult_Title=0x7f0b0020;
-        public static final int Base_TextAppearance_AppCompat_Small=0x7f0b0021;
-        public static final int Base_TextAppearance_AppCompat_Small_Inverse=0x7f0b0022;
-        public static final int Base_TextAppearance_AppCompat_Subhead=0x7f0b0023;
-        public static final int Base_TextAppearance_AppCompat_Subhead_Inverse=0x7f0b0024;
-        public static final int Base_TextAppearance_AppCompat_Title=0x7f0b0025;
-        public static final int Base_TextAppearance_AppCompat_Title_Inverse=0x7f0b0026;
-        public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Menu=0x7f0b0027;
-        public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle=0x7f0b0028;
-        public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse=0x7f0b0029;
-        public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Title=0x7f0b002a;
-        public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse=0x7f0b002b;
-        public static final int Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle=0x7f0b002c;
-        public static final int Base_TextAppearance_AppCompat_Widget_ActionMode_Title=0x7f0b002d;
-        public static final int Base_TextAppearance_AppCompat_Widget_DropDownItem=0x7f0b002e;
-        public static final int Base_TextAppearance_AppCompat_Widget_PopupMenu_Large=0x7f0b002f;
-        public static final int Base_TextAppearance_AppCompat_Widget_PopupMenu_Small=0x7f0b0030;
-        public static final int Base_TextAppearance_AppCompat_Widget_Switch=0x7f0b0031;
-        public static final int Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem=0x7f0b0032;
-        public static final int Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item=0x7f0b0033;
-        public static final int Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle=0x7f0b0034;
-        public static final int Base_TextAppearance_Widget_AppCompat_Toolbar_Title=0x7f0b0035;
-        public static final int Base_Theme_AppCompat=0x7f0b0036;
-        public static final int Base_Theme_AppCompat_CompactMenu=0x7f0b0037;
-        public static final int Base_Theme_AppCompat_Dialog=0x7f0b0038;
-        public static final int Base_Theme_AppCompat_Dialog_Alert=0x7f0b0039;
-        public static final int Base_Theme_AppCompat_Dialog_FixedSize=0x7f0b003a;
-        public static final int Base_Theme_AppCompat_Dialog_MinWidth=0x7f0b003b;
-        public static final int Base_Theme_AppCompat_DialogWhenLarge=0x7f0b003c;
-        public static final int Base_Theme_AppCompat_Light=0x7f0b003d;
-        public static final int Base_Theme_AppCompat_Light_DarkActionBar=0x7f0b003e;
-        public static final int Base_Theme_AppCompat_Light_Dialog=0x7f0b003f;
-        public static final int Base_Theme_AppCompat_Light_Dialog_Alert=0x7f0b0040;
-        public static final int Base_Theme_AppCompat_Light_Dialog_FixedSize=0x7f0b0041;
-        public static final int Base_Theme_AppCompat_Light_Dialog_MinWidth=0x7f0b0042;
-        public static final int Base_Theme_AppCompat_Light_DialogWhenLarge=0x7f0b0043;
-        public static final int Base_ThemeOverlay_AppCompat=0x7f0b0044;
-        public static final int Base_ThemeOverlay_AppCompat_ActionBar=0x7f0b0045;
-        public static final int Base_ThemeOverlay_AppCompat_Dark=0x7f0b0046;
-        public static final int Base_ThemeOverlay_AppCompat_Dark_ActionBar=0x7f0b0047;
-        public static final int Base_ThemeOverlay_AppCompat_Light=0x7f0b0048;
-        public static final int Base_V11_Theme_AppCompat_Dialog=0x7f0b0136;
-        public static final int Base_V11_Theme_AppCompat_Light_Dialog=0x7f0b0137;
-        public static final int Base_V12_Widget_AppCompat_AutoCompleteTextView=0x7f0b013a;
-        public static final int Base_V12_Widget_AppCompat_EditText=0x7f0b013b;
-        public static final int Base_V21_Theme_AppCompat=0x7f0b0140;
-        public static final int Base_V21_Theme_AppCompat_Dialog=0x7f0b0141;
-        public static final int Base_V21_Theme_AppCompat_Light=0x7f0b0142;
-        public static final int Base_V21_Theme_AppCompat_Light_Dialog=0x7f0b0143;
-        public static final int Base_V7_Theme_AppCompat=0x7f0b0049;
-        public static final int Base_V7_Theme_AppCompat_Dialog=0x7f0b004a;
-        public static final int Base_V7_Theme_AppCompat_Light=0x7f0b004b;
-        public static final int Base_V7_Theme_AppCompat_Light_Dialog=0x7f0b004c;
-        public static final int Base_V7_Widget_AppCompat_AutoCompleteTextView=0x7f0b004d;
-        public static final int Base_V7_Widget_AppCompat_EditText=0x7f0b004e;
-        public static final int Base_Widget_AppCompat_ActionBar=0x7f0b004f;
-        public static final int Base_Widget_AppCompat_ActionBar_Solid=0x7f0b0050;
-        public static final int Base_Widget_AppCompat_ActionBar_TabBar=0x7f0b0051;
-        public static final int Base_Widget_AppCompat_ActionBar_TabText=0x7f0b0052;
-        public static final int Base_Widget_AppCompat_ActionBar_TabView=0x7f0b0053;
-        public static final int Base_Widget_AppCompat_ActionButton=0x7f0b0054;
-        public static final int Base_Widget_AppCompat_ActionButton_CloseMode=0x7f0b0055;
-        public static final int Base_Widget_AppCompat_ActionButton_Overflow=0x7f0b0056;
-        public static final int Base_Widget_AppCompat_ActionMode=0x7f0b0057;
-        public static final int Base_Widget_AppCompat_ActivityChooserView=0x7f0b0058;
-        public static final int Base_Widget_AppCompat_AutoCompleteTextView=0x7f0b0059;
-        public static final int Base_Widget_AppCompat_Button=0x7f0b005a;
-        public static final int Base_Widget_AppCompat_Button_Borderless=0x7f0b005b;
-        public static final int Base_Widget_AppCompat_Button_Borderless_Colored=0x7f0b005c;
-        public static final int Base_Widget_AppCompat_Button_ButtonBar_AlertDialog=0x7f0b005d;
-        public static final int Base_Widget_AppCompat_Button_Small=0x7f0b005e;
-        public static final int Base_Widget_AppCompat_ButtonBar=0x7f0b005f;
-        public static final int Base_Widget_AppCompat_ButtonBar_AlertDialog=0x7f0b0060;
-        public static final int Base_Widget_AppCompat_CompoundButton_CheckBox=0x7f0b0061;
-        public static final int Base_Widget_AppCompat_CompoundButton_RadioButton=0x7f0b0062;
-        public static final int Base_Widget_AppCompat_CompoundButton_Switch=0x7f0b0063;
-        public static final int Base_Widget_AppCompat_DrawerArrowToggle=0x7f0b0064;
-        public static final int Base_Widget_AppCompat_DrawerArrowToggle_Common=0x7f0b0065;
-        public static final int Base_Widget_AppCompat_DropDownItem_Spinner=0x7f0b0066;
-        public static final int Base_Widget_AppCompat_EditText=0x7f0b0067;
-        public static final int Base_Widget_AppCompat_Light_ActionBar=0x7f0b0068;
-        public static final int Base_Widget_AppCompat_Light_ActionBar_Solid=0x7f0b0069;
-        public static final int Base_Widget_AppCompat_Light_ActionBar_TabBar=0x7f0b006a;
-        public static final int Base_Widget_AppCompat_Light_ActionBar_TabText=0x7f0b006b;
-        public static final int Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse=0x7f0b006c;
-        public static final int Base_Widget_AppCompat_Light_ActionBar_TabView=0x7f0b006d;
-        public static final int Base_Widget_AppCompat_Light_PopupMenu=0x7f0b006e;
-        public static final int Base_Widget_AppCompat_Light_PopupMenu_Overflow=0x7f0b006f;
-        public static final int Base_Widget_AppCompat_ListPopupWindow=0x7f0b0070;
-        public static final int Base_Widget_AppCompat_ListView=0x7f0b0071;
-        public static final int Base_Widget_AppCompat_ListView_DropDown=0x7f0b0072;
-        public static final int Base_Widget_AppCompat_ListView_Menu=0x7f0b0073;
-        public static final int Base_Widget_AppCompat_PopupMenu=0x7f0b0074;
-        public static final int Base_Widget_AppCompat_PopupMenu_Overflow=0x7f0b0075;
-        public static final int Base_Widget_AppCompat_PopupWindow=0x7f0b0076;
-        public static final int Base_Widget_AppCompat_ProgressBar=0x7f0b0077;
-        public static final int Base_Widget_AppCompat_ProgressBar_Horizontal=0x7f0b0078;
-        public static final int Base_Widget_AppCompat_RatingBar=0x7f0b0079;
-        public static final int Base_Widget_AppCompat_SearchView=0x7f0b007a;
-        public static final int Base_Widget_AppCompat_SearchView_ActionBar=0x7f0b007b;
-        public static final int Base_Widget_AppCompat_Spinner=0x7f0b007c;
-        public static final int Base_Widget_AppCompat_Spinner_DropDown_ActionBar=0x7f0b007d;
-        public static final int Base_Widget_AppCompat_Spinner_Underlined=0x7f0b007e;
-        public static final int Base_Widget_AppCompat_TextView_SpinnerItem=0x7f0b007f;
-        public static final int Base_Widget_AppCompat_Toolbar=0x7f0b0080;
-        public static final int Base_Widget_AppCompat_Toolbar_Button_Navigation=0x7f0b0081;
-        public static final int Base_Widget_Design_TabLayout=0x7f0b0082;
-        public static final int CardView=0x7f0b0083;
-        public static final int CardView_Dark=0x7f0b0084;
-        public static final int CardView_Light=0x7f0b0085;
-        public static final int MD_ActionButton=0x7f0b0086;
-        public static final int MD_ActionButton_Text=0x7f0b0087;
-        public static final int MD_ActionButtonStacked=0x7f0b0088;
-        public static final int MD_Dark=0x7f0b0089;
-        public static final int MD_Light=0x7f0b008a;
-        public static final int MD_WindowAnimation=0x7f0b008b;
-        public static final int Platform_AppCompat=0x7f0b008c;
-        public static final int Platform_AppCompat_Light=0x7f0b008d;
-        public static final int Platform_ThemeOverlay_AppCompat_Dark=0x7f0b008e;
-        public static final int Platform_ThemeOverlay_AppCompat_Light=0x7f0b008f;
-        public static final int Platform_V11_AppCompat=0x7f0b0138;
-        public static final int Platform_V11_AppCompat_Light=0x7f0b0139;
-        public static final int Platform_V14_AppCompat=0x7f0b013c;
-        public static final int Platform_V14_AppCompat_Light=0x7f0b013d;
-        public static final int RtlOverlay_DialogWindowTitle_AppCompat=0x7f0b0090;
-        public static final int RtlOverlay_Widget_AppCompat_ActionBar_TitleItem=0x7f0b0091;
-        public static final int RtlOverlay_Widget_AppCompat_ActionButton_Overflow=0x7f0b0092;
-        public static final int RtlOverlay_Widget_AppCompat_DialogTitle_Icon=0x7f0b0093;
-        public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem=0x7f0b0094;
-        public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup=0x7f0b0095;
-        public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem_Text=0x7f0b0096;
-        public static final int RtlOverlay_Widget_AppCompat_Search_DropDown=0x7f0b0097;
-        public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1=0x7f0b0098;
-        public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2=0x7f0b0099;
-        public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Query=0x7f0b009a;
-        public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Text=0x7f0b009b;
-        public static final int RtlOverlay_Widget_AppCompat_SearchView_MagIcon=0x7f0b009c;
-        public static final int RtlOverlay_Widget_AppCompat_Toolbar_Button_Navigation=0x7f0b009d;
-        public static final int TextAppearance_AppCompat=0x7f0b009e;
-        public static final int TextAppearance_AppCompat_Body1=0x7f0b009f;
-        public static final int TextAppearance_AppCompat_Body2=0x7f0b00a0;
-        public static final int TextAppearance_AppCompat_Button=0x7f0b00a1;
-        public static final int TextAppearance_AppCompat_Caption=0x7f0b00a2;
-        public static final int TextAppearance_AppCompat_Display1=0x7f0b00a3;
-        public static final int TextAppearance_AppCompat_Display2=0x7f0b00a4;
-        public static final int TextAppearance_AppCompat_Display3=0x7f0b00a5;
-        public static final int TextAppearance_AppCompat_Display4=0x7f0b00a6;
-        public static final int TextAppearance_AppCompat_Headline=0x7f0b00a7;
-        public static final int TextAppearance_AppCompat_Inverse=0x7f0b00a8;
-        public static final int TextAppearance_AppCompat_Large=0x7f0b00a9;
-        public static final int TextAppearance_AppCompat_Large_Inverse=0x7f0b00aa;
-        public static final int TextAppearance_AppCompat_Light_SearchResult_Subtitle=0x7f0b00ab;
-        public static final int TextAppearance_AppCompat_Light_SearchResult_Title=0x7f0b00ac;
-        public static final int TextAppearance_AppCompat_Light_Widget_PopupMenu_Large=0x7f0b00ad;
-        public static final int TextAppearance_AppCompat_Light_Widget_PopupMenu_Small=0x7f0b00ae;
-        public static final int TextAppearance_AppCompat_Medium=0x7f0b00af;
-        public static final int TextAppearance_AppCompat_Medium_Inverse=0x7f0b00b0;
-        public static final int TextAppearance_AppCompat_Menu=0x7f0b00b1;
-        public static final int TextAppearance_AppCompat_SearchResult_Subtitle=0x7f0b00b2;
-        public static final int TextAppearance_AppCompat_SearchResult_Title=0x7f0b00b3;
-        public static final int TextAppearance_AppCompat_Small=0x7f0b00b4;
-        public static final int TextAppearance_AppCompat_Small_Inverse=0x7f0b00b5;
-        public static final int TextAppearance_AppCompat_Subhead=0x7f0b00b6;
-        public static final int TextAppearance_AppCompat_Subhead_Inverse=0x7f0b00b7;
-        public static final int TextAppearance_AppCompat_Title=0x7f0b00b8;
-        public static final int TextAppearance_AppCompat_Title_Inverse=0x7f0b00b9;
-        public static final int TextAppearance_AppCompat_Widget_ActionBar_Menu=0x7f0b00ba;
-        public static final int TextAppearance_AppCompat_Widget_ActionBar_Subtitle=0x7f0b00bb;
-        public static final int TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse=0x7f0b00bc;
-        public static final int TextAppearance_AppCompat_Widget_ActionBar_Title=0x7f0b00bd;
-        public static final int TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse=0x7f0b00be;
-        public static final int TextAppearance_AppCompat_Widget_ActionMode_Subtitle=0x7f0b00bf;
-        public static final int TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse=0x7f0b00c0;
-        public static final int TextAppearance_AppCompat_Widget_ActionMode_Title=0x7f0b00c1;
-        public static final int TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse=0x7f0b00c2;
-        public static final int TextAppearance_AppCompat_Widget_DropDownItem=0x7f0b00c3;
-        public static final int TextAppearance_AppCompat_Widget_PopupMenu_Large=0x7f0b00c4;
-        public static final int TextAppearance_AppCompat_Widget_PopupMenu_Small=0x7f0b00c5;
-        public static final int TextAppearance_AppCompat_Widget_Switch=0x7f0b00c6;
-        public static final int TextAppearance_AppCompat_Widget_TextView_SpinnerItem=0x7f0b00c7;
-        public static final int TextAppearance_Design_Error=0x7f0b00c8;
-        public static final int TextAppearance_Design_Hint=0x7f0b00c9;
-        public static final int TextAppearance_Design_Snackbar_Action=0x7f0b00ca;
-        public static final int TextAppearance_Design_Snackbar_Message=0x7f0b00cb;
-        public static final int TextAppearance_Design_Tab=0x7f0b00cc;
-        public static final int TextAppearance_StatusBar_EventContent=0x7f0b00cd;
-        public static final int TextAppearance_StatusBar_EventContent_Info=0x7f0b00ce;
-        public static final int TextAppearance_StatusBar_EventContent_Line2=0x7f0b00cf;
-        public static final int TextAppearance_StatusBar_EventContent_Time=0x7f0b00d0;
-        public static final int TextAppearance_StatusBar_EventContent_Title=0x7f0b00d1;
-        public static final int TextAppearance_Widget_AppCompat_ExpandedMenu_Item=0x7f0b00d2;
-        public static final int TextAppearance_Widget_AppCompat_Toolbar_Subtitle=0x7f0b00d3;
-        public static final int TextAppearance_Widget_AppCompat_Toolbar_Title=0x7f0b00d4;
-        public static final int Theme_AppCompat=0x7f0b00d5;
-        public static final int Theme_AppCompat_CompactMenu=0x7f0b00d6;
-        public static final int Theme_AppCompat_Dialog=0x7f0b00d7;
-        public static final int Theme_AppCompat_Dialog_Alert=0x7f0b00d8;
-        public static final int Theme_AppCompat_Dialog_MinWidth=0x7f0b00d9;
-        public static final int Theme_AppCompat_DialogWhenLarge=0x7f0b00da;
-        public static final int Theme_AppCompat_Light=0x7f0b00db;
-        public static final int Theme_AppCompat_Light_DarkActionBar=0x7f0b00dc;
-        public static final int Theme_AppCompat_Light_Dialog=0x7f0b00dd;
-        public static final int Theme_AppCompat_Light_Dialog_Alert=0x7f0b00de;
-        public static final int Theme_AppCompat_Light_Dialog_MinWidth=0x7f0b00df;
-        public static final int Theme_AppCompat_Light_DialogWhenLarge=0x7f0b00e0;
-        public static final int Theme_AppCompat_Light_NoActionBar=0x7f0b00e1;
-        public static final int Theme_AppCompat_NoActionBar=0x7f0b00e2;
-        public static final int ThemeOverlay_AppCompat=0x7f0b00e3;
-        public static final int ThemeOverlay_AppCompat_ActionBar=0x7f0b00e4;
-        public static final int ThemeOverlay_AppCompat_Dark=0x7f0b00e5;
-        public static final int ThemeOverlay_AppCompat_Dark_ActionBar=0x7f0b00e6;
-        public static final int ThemeOverlay_AppCompat_Light=0x7f0b00e7;
-        public static final int Widget_AppCompat_ActionBar=0x7f0b00e8;
-        public static final int Widget_AppCompat_ActionBar_Solid=0x7f0b00e9;
-        public static final int Widget_AppCompat_ActionBar_TabBar=0x7f0b00ea;
-        public static final int Widget_AppCompat_ActionBar_TabText=0x7f0b00eb;
-        public static final int Widget_AppCompat_ActionBar_TabView=0x7f0b00ec;
-        public static final int Widget_AppCompat_ActionButton=0x7f0b00ed;
-        public static final int Widget_AppCompat_ActionButton_CloseMode=0x7f0b00ee;
-        public static final int Widget_AppCompat_ActionButton_Overflow=0x7f0b00ef;
-        public static final int Widget_AppCompat_ActionMode=0x7f0b00f0;
-        public static final int Widget_AppCompat_ActivityChooserView=0x7f0b00f1;
-        public static final int Widget_AppCompat_AutoCompleteTextView=0x7f0b00f2;
-        public static final int Widget_AppCompat_Button=0x7f0b00f3;
-        public static final int Widget_AppCompat_Button_Borderless=0x7f0b00f4;
-        public static final int Widget_AppCompat_Button_Borderless_Colored=0x7f0b00f5;
-        public static final int Widget_AppCompat_Button_ButtonBar_AlertDialog=0x7f0b00f6;
-        public static final int Widget_AppCompat_Button_Small=0x7f0b00f7;
-        public static final int Widget_AppCompat_ButtonBar=0x7f0b00f8;
-        public static final int Widget_AppCompat_ButtonBar_AlertDialog=0x7f0b00f9;
-        public static final int Widget_AppCompat_CompoundButton_CheckBox=0x7f0b00fa;
-        public static final int Widget_AppCompat_CompoundButton_RadioButton=0x7f0b00fb;
-        public static final int Widget_AppCompat_CompoundButton_Switch=0x7f0b00fc;
-        public static final int Widget_AppCompat_DrawerArrowToggle=0x7f0b00fd;
-        public static final int Widget_AppCompat_DropDownItem_Spinner=0x7f0b00fe;
-        public static final int Widget_AppCompat_EditText=0x7f0b00ff;
-        public static final int Widget_AppCompat_Light_ActionBar=0x7f0b0100;
-        public static final int Widget_AppCompat_Light_ActionBar_Solid=0x7f0b0101;
-        public static final int Widget_AppCompat_Light_ActionBar_Solid_Inverse=0x7f0b0102;
-        public static final int Widget_AppCompat_Light_ActionBar_TabBar=0x7f0b0103;
-        public static final int Widget_AppCompat_Light_ActionBar_TabBar_Inverse=0x7f0b0104;
-        public static final int Widget_AppCompat_Light_ActionBar_TabText=0x7f0b0105;
-        public static final int Widget_AppCompat_Light_ActionBar_TabText_Inverse=0x7f0b0106;
-        public static final int Widget_AppCompat_Light_ActionBar_TabView=0x7f0b0107;
-        public static final int Widget_AppCompat_Light_ActionBar_TabView_Inverse=0x7f0b0108;
-        public static final int Widget_AppCompat_Light_ActionButton=0x7f0b0109;
-        public static final int Widget_AppCompat_Light_ActionButton_CloseMode=0x7f0b010a;
-        public static final int Widget_AppCompat_Light_ActionButton_Overflow=0x7f0b010b;
-        public static final int Widget_AppCompat_Light_ActionMode_Inverse=0x7f0b010c;
-        public static final int Widget_AppCompat_Light_ActivityChooserView=0x7f0b010d;
-        public static final int Widget_AppCompat_Light_AutoCompleteTextView=0x7f0b010e;
-        public static final int Widget_AppCompat_Light_DropDownItem_Spinner=0x7f0b010f;
-        public static final int Widget_AppCompat_Light_ListPopupWindow=0x7f0b0110;
-        public static final int Widget_AppCompat_Light_ListView_DropDown=0x7f0b0111;
-        public static final int Widget_AppCompat_Light_PopupMenu=0x7f0b0112;
-        public static final int Widget_AppCompat_Light_PopupMenu_Overflow=0x7f0b0113;
-        public static final int Widget_AppCompat_Light_SearchView=0x7f0b0114;
-        public static final int Widget_AppCompat_Light_Spinner_DropDown_ActionBar=0x7f0b0115;
-        public static final int Widget_AppCompat_ListPopupWindow=0x7f0b0116;
-        public static final int Widget_AppCompat_ListView=0x7f0b0117;
-        public static final int Widget_AppCompat_ListView_DropDown=0x7f0b0118;
-        public static final int Widget_AppCompat_ListView_Menu=0x7f0b0119;
-        public static final int Widget_AppCompat_PopupMenu=0x7f0b011a;
-        public static final int Widget_AppCompat_PopupMenu_Overflow=0x7f0b011b;
-        public static final int Widget_AppCompat_PopupWindow=0x7f0b011c;
-        public static final int Widget_AppCompat_ProgressBar=0x7f0b011d;
-        public static final int Widget_AppCompat_ProgressBar_Horizontal=0x7f0b011e;
-        public static final int Widget_AppCompat_RatingBar=0x7f0b011f;
-        public static final int Widget_AppCompat_SearchView=0x7f0b0120;
-        public static final int Widget_AppCompat_SearchView_ActionBar=0x7f0b0121;
-        public static final int Widget_AppCompat_Spinner=0x7f0b0122;
-        public static final int Widget_AppCompat_Spinner_DropDown=0x7f0b0123;
-        public static final int Widget_AppCompat_Spinner_DropDown_ActionBar=0x7f0b0124;
-        public static final int Widget_AppCompat_Spinner_Underlined=0x7f0b0125;
-        public static final int Widget_AppCompat_TextView_SpinnerItem=0x7f0b0126;
-        public static final int Widget_AppCompat_Toolbar=0x7f0b0127;
-        public static final int Widget_AppCompat_Toolbar_Button_Navigation=0x7f0b0128;
-        public static final int Widget_Design_AppBarLayout=0x7f0b0129;
-        public static final int Widget_Design_CollapsingToolbar=0x7f0b012a;
-        public static final int Widget_Design_CoordinatorLayout=0x7f0b012b;
-        public static final int Widget_Design_FloatingActionButton=0x7f0b012c;
-        public static final int Widget_Design_NavigationView=0x7f0b012d;
-        public static final int Widget_Design_ScrimInsetsFrameLayout=0x7f0b012e;
-        public static final int Widget_Design_Snackbar=0x7f0b012f;
-        public static final int Widget_Design_TabLayout=0x7f0b0130;
-        public static final int Widget_Design_TextInputLayout=0x7f0b0131;
-        public static final int myTheme=0x7f0b0132;
-        public static final int nLiveo_Theme_DarkActionBar=0x7f0b0133;
-        public static final int nLiveo_Theme_Light=0x7f0b0134;
-        public static final int nLiveoDrawer=0x7f0b0135;
+        public static final int AlertDialog_AppCompat=0x7f0c0000;
+        public static final int AlertDialog_AppCompat_Light=0x7f0c0001;
+        public static final int Animation_AppCompat_Dialog=0x7f0c0002;
+        public static final int Animation_AppCompat_DropDownUp=0x7f0c0003;
+        public static final int AppTheme_DarkActionBar=0x7f0c0004;
+        public static final int AppTheme_Ligth=0x7f0c0005;
+        public static final int AppThemeDarkActionBar=0x7f0c013e;
+        public static final int AppThemeLigth=0x7f0c013f;
+        public static final int Base_AlertDialog_AppCompat=0x7f0c0006;
+        public static final int Base_AlertDialog_AppCompat_Light=0x7f0c0007;
+        public static final int Base_Animation_AppCompat_Dialog=0x7f0c0008;
+        public static final int Base_Animation_AppCompat_DropDownUp=0x7f0c0009;
+        public static final int Base_DialogWindowTitle_AppCompat=0x7f0c000a;
+        public static final int Base_DialogWindowTitleBackground_AppCompat=0x7f0c000b;
+        public static final int Base_TextAppearance_AppCompat=0x7f0c000c;
+        public static final int Base_TextAppearance_AppCompat_Body1=0x7f0c000d;
+        public static final int Base_TextAppearance_AppCompat_Body2=0x7f0c000e;
+        public static final int Base_TextAppearance_AppCompat_Button=0x7f0c000f;
+        public static final int Base_TextAppearance_AppCompat_Caption=0x7f0c0010;
+        public static final int Base_TextAppearance_AppCompat_Display1=0x7f0c0011;
+        public static final int Base_TextAppearance_AppCompat_Display2=0x7f0c0012;
+        public static final int Base_TextAppearance_AppCompat_Display3=0x7f0c0013;
+        public static final int Base_TextAppearance_AppCompat_Display4=0x7f0c0014;
+        public static final int Base_TextAppearance_AppCompat_Headline=0x7f0c0015;
+        public static final int Base_TextAppearance_AppCompat_Inverse=0x7f0c0016;
+        public static final int Base_TextAppearance_AppCompat_Large=0x7f0c0017;
+        public static final int Base_TextAppearance_AppCompat_Large_Inverse=0x7f0c0018;
+        public static final int Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large=0x7f0c0019;
+        public static final int Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small=0x7f0c001a;
+        public static final int Base_TextAppearance_AppCompat_Medium=0x7f0c001b;
+        public static final int Base_TextAppearance_AppCompat_Medium_Inverse=0x7f0c001c;
+        public static final int Base_TextAppearance_AppCompat_Menu=0x7f0c001d;
+        public static final int Base_TextAppearance_AppCompat_SearchResult=0x7f0c001e;
+        public static final int Base_TextAppearance_AppCompat_SearchResult_Subtitle=0x7f0c001f;
+        public static final int Base_TextAppearance_AppCompat_SearchResult_Title=0x7f0c0020;
+        public static final int Base_TextAppearance_AppCompat_Small=0x7f0c0021;
+        public static final int Base_TextAppearance_AppCompat_Small_Inverse=0x7f0c0022;
+        public static final int Base_TextAppearance_AppCompat_Subhead=0x7f0c0023;
+        public static final int Base_TextAppearance_AppCompat_Subhead_Inverse=0x7f0c0024;
+        public static final int Base_TextAppearance_AppCompat_Title=0x7f0c0025;
+        public static final int Base_TextAppearance_AppCompat_Title_Inverse=0x7f0c0026;
+        public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Menu=0x7f0c0027;
+        public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle=0x7f0c0028;
+        public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse=0x7f0c0029;
+        public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Title=0x7f0c002a;
+        public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse=0x7f0c002b;
+        public static final int Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle=0x7f0c002c;
+        public static final int Base_TextAppearance_AppCompat_Widget_ActionMode_Title=0x7f0c002d;
+        public static final int Base_TextAppearance_AppCompat_Widget_DropDownItem=0x7f0c002e;
+        public static final int Base_TextAppearance_AppCompat_Widget_PopupMenu_Large=0x7f0c002f;
+        public static final int Base_TextAppearance_AppCompat_Widget_PopupMenu_Small=0x7f0c0030;
+        public static final int Base_TextAppearance_AppCompat_Widget_Switch=0x7f0c0031;
+        public static final int Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem=0x7f0c0032;
+        public static final int Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item=0x7f0c0033;
+        public static final int Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle=0x7f0c0034;
+        public static final int Base_TextAppearance_Widget_AppCompat_Toolbar_Title=0x7f0c0035;
+        public static final int Base_Theme_AppCompat=0x7f0c0036;
+        public static final int Base_Theme_AppCompat_CompactMenu=0x7f0c0037;
+        public static final int Base_Theme_AppCompat_Dialog=0x7f0c0038;
+        public static final int Base_Theme_AppCompat_Dialog_Alert=0x7f0c0039;
+        public static final int Base_Theme_AppCompat_Dialog_FixedSize=0x7f0c003a;
+        public static final int Base_Theme_AppCompat_Dialog_MinWidth=0x7f0c003b;
+        public static final int Base_Theme_AppCompat_DialogWhenLarge=0x7f0c003c;
+        public static final int Base_Theme_AppCompat_Light=0x7f0c003d;
+        public static final int Base_Theme_AppCompat_Light_DarkActionBar=0x7f0c003e;
+        public static final int Base_Theme_AppCompat_Light_Dialog=0x7f0c003f;
+        public static final int Base_Theme_AppCompat_Light_Dialog_Alert=0x7f0c0040;
+        public static final int Base_Theme_AppCompat_Light_Dialog_FixedSize=0x7f0c0041;
+        public static final int Base_Theme_AppCompat_Light_Dialog_MinWidth=0x7f0c0042;
+        public static final int Base_Theme_AppCompat_Light_DialogWhenLarge=0x7f0c0043;
+        public static final int Base_ThemeOverlay_AppCompat=0x7f0c0044;
+        public static final int Base_ThemeOverlay_AppCompat_ActionBar=0x7f0c0045;
+        public static final int Base_ThemeOverlay_AppCompat_Dark=0x7f0c0046;
+        public static final int Base_ThemeOverlay_AppCompat_Dark_ActionBar=0x7f0c0047;
+        public static final int Base_ThemeOverlay_AppCompat_Light=0x7f0c0048;
+        public static final int Base_V11_Theme_AppCompat_Dialog=0x7f0c0136;
+        public static final int Base_V11_Theme_AppCompat_Light_Dialog=0x7f0c0137;
+        public static final int Base_V12_Widget_AppCompat_AutoCompleteTextView=0x7f0c013a;
+        public static final int Base_V12_Widget_AppCompat_EditText=0x7f0c013b;
+        public static final int Base_V21_Theme_AppCompat=0x7f0c0140;
+        public static final int Base_V21_Theme_AppCompat_Dialog=0x7f0c0141;
+        public static final int Base_V21_Theme_AppCompat_Light=0x7f0c0142;
+        public static final int Base_V21_Theme_AppCompat_Light_Dialog=0x7f0c0143;
+        public static final int Base_V7_Theme_AppCompat=0x7f0c0049;
+        public static final int Base_V7_Theme_AppCompat_Dialog=0x7f0c004a;
+        public static final int Base_V7_Theme_AppCompat_Light=0x7f0c004b;
+        public static final int Base_V7_Theme_AppCompat_Light_Dialog=0x7f0c004c;
+        public static final int Base_V7_Widget_AppCompat_AutoCompleteTextView=0x7f0c004d;
+        public static final int Base_V7_Widget_AppCompat_EditText=0x7f0c004e;
+        public static final int Base_Widget_AppCompat_ActionBar=0x7f0c004f;
+        public static final int Base_Widget_AppCompat_ActionBar_Solid=0x7f0c0050;
+        public static final int Base_Widget_AppCompat_ActionBar_TabBar=0x7f0c0051;
+        public static final int Base_Widget_AppCompat_ActionBar_TabText=0x7f0c0052;
+        public static final int Base_Widget_AppCompat_ActionBar_TabView=0x7f0c0053;
+        public static final int Base_Widget_AppCompat_ActionButton=0x7f0c0054;
+        public static final int Base_Widget_AppCompat_ActionButton_CloseMode=0x7f0c0055;
+        public static final int Base_Widget_AppCompat_ActionButton_Overflow=0x7f0c0056;
+        public static final int Base_Widget_AppCompat_ActionMode=0x7f0c0057;
+        public static final int Base_Widget_AppCompat_ActivityChooserView=0x7f0c0058;
+        public static final int Base_Widget_AppCompat_AutoCompleteTextView=0x7f0c0059;
+        public static final int Base_Widget_AppCompat_Button=0x7f0c005a;
+        public static final int Base_Widget_AppCompat_Button_Borderless=0x7f0c005b;
+        public static final int Base_Widget_AppCompat_Button_Borderless_Colored=0x7f0c005c;
+        public static final int Base_Widget_AppCompat_Button_ButtonBar_AlertDialog=0x7f0c005d;
+        public static final int Base_Widget_AppCompat_Button_Small=0x7f0c005e;
+        public static final int Base_Widget_AppCompat_ButtonBar=0x7f0c005f;
+        public static final int Base_Widget_AppCompat_ButtonBar_AlertDialog=0x7f0c0060;
+        public static final int Base_Widget_AppCompat_CompoundButton_CheckBox=0x7f0c0061;
+        public static final int Base_Widget_AppCompat_CompoundButton_RadioButton=0x7f0c0062;
+        public static final int Base_Widget_AppCompat_CompoundButton_Switch=0x7f0c0063;
+        public static final int Base_Widget_AppCompat_DrawerArrowToggle=0x7f0c0064;
+        public static final int Base_Widget_AppCompat_DrawerArrowToggle_Common=0x7f0c0065;
+        public static final int Base_Widget_AppCompat_DropDownItem_Spinner=0x7f0c0066;
+        public static final int Base_Widget_AppCompat_EditText=0x7f0c0067;
+        public static final int Base_Widget_AppCompat_Light_ActionBar=0x7f0c0068;
+        public static final int Base_Widget_AppCompat_Light_ActionBar_Solid=0x7f0c0069;
+        public static final int Base_Widget_AppCompat_Light_ActionBar_TabBar=0x7f0c006a;
+        public static final int Base_Widget_AppCompat_Light_ActionBar_TabText=0x7f0c006b;
+        public static final int Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse=0x7f0c006c;
+        public static final int Base_Widget_AppCompat_Light_ActionBar_TabView=0x7f0c006d;
+        public static final int Base_Widget_AppCompat_Light_PopupMenu=0x7f0c006e;
+        public static final int Base_Widget_AppCompat_Light_PopupMenu_Overflow=0x7f0c006f;
+        public static final int Base_Widget_AppCompat_ListPopupWindow=0x7f0c0070;
+        public static final int Base_Widget_AppCompat_ListView=0x7f0c0071;
+        public static final int Base_Widget_AppCompat_ListView_DropDown=0x7f0c0072;
+        public static final int Base_Widget_AppCompat_ListView_Menu=0x7f0c0073;
+        public static final int Base_Widget_AppCompat_PopupMenu=0x7f0c0074;
+        public static final int Base_Widget_AppCompat_PopupMenu_Overflow=0x7f0c0075;
+        public static final int Base_Widget_AppCompat_PopupWindow=0x7f0c0076;
+        public static final int Base_Widget_AppCompat_ProgressBar=0x7f0c0077;
+        public static final int Base_Widget_AppCompat_ProgressBar_Horizontal=0x7f0c0078;
+        public static final int Base_Widget_AppCompat_RatingBar=0x7f0c0079;
+        public static final int Base_Widget_AppCompat_SearchView=0x7f0c007a;
+        public static final int Base_Widget_AppCompat_SearchView_ActionBar=0x7f0c007b;
+        public static final int Base_Widget_AppCompat_Spinner=0x7f0c007c;
+        public static final int Base_Widget_AppCompat_Spinner_DropDown_ActionBar=0x7f0c007d;
+        public static final int Base_Widget_AppCompat_Spinner_Underlined=0x7f0c007e;
+        public static final int Base_Widget_AppCompat_TextView_SpinnerItem=0x7f0c007f;
+        public static final int Base_Widget_AppCompat_Toolbar=0x7f0c0080;
+        public static final int Base_Widget_AppCompat_Toolbar_Button_Navigation=0x7f0c0081;
+        public static final int Base_Widget_Design_TabLayout=0x7f0c0082;
+        public static final int CardView=0x7f0c0083;
+        public static final int CardView_Dark=0x7f0c0084;
+        public static final int CardView_Light=0x7f0c0085;
+        public static final int MD_ActionButton=0x7f0c0086;
+        public static final int MD_ActionButton_Text=0x7f0c0087;
+        public static final int MD_ActionButtonStacked=0x7f0c0088;
+        public static final int MD_Dark=0x7f0c0089;
+        public static final int MD_Light=0x7f0c008a;
+        public static final int MD_WindowAnimation=0x7f0c008b;
+        public static final int Platform_AppCompat=0x7f0c008c;
+        public static final int Platform_AppCompat_Light=0x7f0c008d;
+        public static final int Platform_ThemeOverlay_AppCompat_Dark=0x7f0c008e;
+        public static final int Platform_ThemeOverlay_AppCompat_Light=0x7f0c008f;
+        public static final int Platform_V11_AppCompat=0x7f0c0138;
+        public static final int Platform_V11_AppCompat_Light=0x7f0c0139;
+        public static final int Platform_V14_AppCompat=0x7f0c013c;
+        public static final int Platform_V14_AppCompat_Light=0x7f0c013d;
+        public static final int RtlOverlay_DialogWindowTitle_AppCompat=0x7f0c0090;
+        public static final int RtlOverlay_Widget_AppCompat_ActionBar_TitleItem=0x7f0c0091;
+        public static final int RtlOverlay_Widget_AppCompat_ActionButton_Overflow=0x7f0c0092;
+        public static final int RtlOverlay_Widget_AppCompat_DialogTitle_Icon=0x7f0c0093;
+        public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem=0x7f0c0094;
+        public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup=0x7f0c0095;
+        public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem_Text=0x7f0c0096;
+        public static final int RtlOverlay_Widget_AppCompat_Search_DropDown=0x7f0c0097;
+        public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1=0x7f0c0098;
+        public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2=0x7f0c0099;
+        public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Query=0x7f0c009a;
+        public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Text=0x7f0c009b;
+        public static final int RtlOverlay_Widget_AppCompat_SearchView_MagIcon=0x7f0c009c;
+        public static final int RtlOverlay_Widget_AppCompat_Toolbar_Button_Navigation=0x7f0c009d;
+        public static final int TextAppearance_AppCompat=0x7f0c009e;
+        public static final int TextAppearance_AppCompat_Body1=0x7f0c009f;
+        public static final int TextAppearance_AppCompat_Body2=0x7f0c00a0;
+        public static final int TextAppearance_AppCompat_Button=0x7f0c00a1;
+        public static final int TextAppearance_AppCompat_Caption=0x7f0c00a2;
+        public static final int TextAppearance_AppCompat_Display1=0x7f0c00a3;
+        public static final int TextAppearance_AppCompat_Display2=0x7f0c00a4;
+        public static final int TextAppearance_AppCompat_Display3=0x7f0c00a5;
+        public static final int TextAppearance_AppCompat_Display4=0x7f0c00a6;
+        public static final int TextAppearance_AppCompat_Headline=0x7f0c00a7;
+        public static final int TextAppearance_AppCompat_Inverse=0x7f0c00a8;
+        public static final int TextAppearance_AppCompat_Large=0x7f0c00a9;
+        public static final int TextAppearance_AppCompat_Large_Inverse=0x7f0c00aa;
+        public static final int TextAppearance_AppCompat_Light_SearchResult_Subtitle=0x7f0c00ab;
+        public static final int TextAppearance_AppCompat_Light_SearchResult_Title=0x7f0c00ac;
+        public static final int TextAppearance_AppCompat_Light_Widget_PopupMenu_Large=0x7f0c00ad;
+        public static final int TextAppearance_AppCompat_Light_Widget_PopupMenu_Small=0x7f0c00ae;
+        public static final int TextAppearance_AppCompat_Medium=0x7f0c00af;
+        public static final int TextAppearance_AppCompat_Medium_Inverse=0x7f0c00b0;
+        public static final int TextAppearance_AppCompat_Menu=0x7f0c00b1;
+        public static final int TextAppearance_AppCompat_SearchResult_Subtitle=0x7f0c00b2;
+        public static final int TextAppearance_AppCompat_SearchResult_Title=0x7f0c00b3;
+        public static final int TextAppearance_AppCompat_Small=0x7f0c00b4;
+        public static final int TextAppearance_AppCompat_Small_Inverse=0x7f0c00b5;
+        public static final int TextAppearance_AppCompat_Subhead=0x7f0c00b6;
+        public static final int TextAppearance_AppCompat_Subhead_Inverse=0x7f0c00b7;
+        public static final int TextAppearance_AppCompat_Title=0x7f0c00b8;
+        public static final int TextAppearance_AppCompat_Title_Inverse=0x7f0c00b9;
+        public static final int TextAppearance_AppCompat_Widget_ActionBar_Menu=0x7f0c00ba;
+        public static final int TextAppearance_AppCompat_Widget_ActionBar_Subtitle=0x7f0c00bb;
+        public static final int TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse=0x7f0c00bc;
+        public static final int TextAppearance_AppCompat_Widget_ActionBar_Title=0x7f0c00bd;
+        public static final int TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse=0x7f0c00be;
+        public static final int TextAppearance_AppCompat_Widget_ActionMode_Subtitle=0x7f0c00bf;
+        public static final int TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse=0x7f0c00c0;
+        public static final int TextAppearance_AppCompat_Widget_ActionMode_Title=0x7f0c00c1;
+        public static final int TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse=0x7f0c00c2;
+        public static final int TextAppearance_AppCompat_Widget_DropDownItem=0x7f0c00c3;
+        public static final int TextAppearance_AppCompat_Widget_PopupMenu_Large=0x7f0c00c4;
+        public static final int TextAppearance_AppCompat_Widget_PopupMenu_Small=0x7f0c00c5;
+        public static final int TextAppearance_AppCompat_Widget_Switch=0x7f0c00c6;
+        public static final int TextAppearance_AppCompat_Widget_TextView_SpinnerItem=0x7f0c00c7;
+        public static final int TextAppearance_Design_Error=0x7f0c00c8;
+        public static final int TextAppearance_Design_Hint=0x7f0c00c9;
+        public static final int TextAppearance_Design_Snackbar_Action=0x7f0c00ca;
+        public static final int TextAppearance_Design_Snackbar_Message=0x7f0c00cb;
+        public static final int TextAppearance_Design_Tab=0x7f0c00cc;
+        public static final int TextAppearance_StatusBar_EventContent=0x7f0c00cd;
+        public static final int TextAppearance_StatusBar_EventContent_Info=0x7f0c00ce;
+        public static final int TextAppearance_StatusBar_EventContent_Line2=0x7f0c00cf;
+        public static final int TextAppearance_StatusBar_EventContent_Time=0x7f0c00d0;
+        public static final int TextAppearance_StatusBar_EventContent_Title=0x7f0c00d1;
+        public static final int TextAppearance_Widget_AppCompat_ExpandedMenu_Item=0x7f0c00d2;
+        public static final int TextAppearance_Widget_AppCompat_Toolbar_Subtitle=0x7f0c00d3;
+        public static final int TextAppearance_Widget_AppCompat_Toolbar_Title=0x7f0c00d4;
+        public static final int Theme_AppCompat=0x7f0c00d5;
+        public static final int Theme_AppCompat_CompactMenu=0x7f0c00d6;
+        public static final int Theme_AppCompat_Dialog=0x7f0c00d7;
+        public static final int Theme_AppCompat_Dialog_Alert=0x7f0c00d8;
+        public static final int Theme_AppCompat_Dialog_MinWidth=0x7f0c00d9;
+        public static final int Theme_AppCompat_DialogWhenLarge=0x7f0c00da;
+        public static final int Theme_AppCompat_Light=0x7f0c00db;
+        public static final int Theme_AppCompat_Light_DarkActionBar=0x7f0c00dc;
+        public static final int Theme_AppCompat_Light_Dialog=0x7f0c00dd;
+        public static final int Theme_AppCompat_Light_Dialog_Alert=0x7f0c00de;
+        public static final int Theme_AppCompat_Light_Dialog_MinWidth=0x7f0c00df;
+        public static final int Theme_AppCompat_Light_DialogWhenLarge=0x7f0c00e0;
+        public static final int Theme_AppCompat_Light_NoActionBar=0x7f0c00e1;
+        public static final int Theme_AppCompat_NoActionBar=0x7f0c00e2;
+        public static final int ThemeOverlay_AppCompat=0x7f0c00e3;
+        public static final int ThemeOverlay_AppCompat_ActionBar=0x7f0c00e4;
+        public static final int ThemeOverlay_AppCompat_Dark=0x7f0c00e5;
+        public static final int ThemeOverlay_AppCompat_Dark_ActionBar=0x7f0c00e6;
+        public static final int ThemeOverlay_AppCompat_Light=0x7f0c00e7;
+        public static final int Widget_AppCompat_ActionBar=0x7f0c00e8;
+        public static final int Widget_AppCompat_ActionBar_Solid=0x7f0c00e9;
+        public static final int Widget_AppCompat_ActionBar_TabBar=0x7f0c00ea;
+        public static final int Widget_AppCompat_ActionBar_TabText=0x7f0c00eb;
+        public static final int Widget_AppCompat_ActionBar_TabView=0x7f0c00ec;
+        public static final int Widget_AppCompat_ActionButton=0x7f0c00ed;
+        public static final int Widget_AppCompat_ActionButton_CloseMode=0x7f0c00ee;
+        public static final int Widget_AppCompat_ActionButton_Overflow=0x7f0c00ef;
+        public static final int Widget_AppCompat_ActionMode=0x7f0c00f0;
+        public static final int Widget_AppCompat_ActivityChooserView=0x7f0c00f1;
+        public static final int Widget_AppCompat_AutoCompleteTextView=0x7f0c00f2;
+        public static final int Widget_AppCompat_Button=0x7f0c00f3;
+        public static final int Widget_AppCompat_Button_Borderless=0x7f0c00f4;
+        public static final int Widget_AppCompat_Button_Borderless_Colored=0x7f0c00f5;
+        public static final int Widget_AppCompat_Button_ButtonBar_AlertDialog=0x7f0c00f6;
+        public static final int Widget_AppCompat_Button_Small=0x7f0c00f7;
+        public static final int Widget_AppCompat_ButtonBar=0x7f0c00f8;
+        public static final int Widget_AppCompat_ButtonBar_AlertDialog=0x7f0c00f9;
+        public static final int Widget_AppCompat_CompoundButton_CheckBox=0x7f0c00fa;
+        public static final int Widget_AppCompat_CompoundButton_RadioButton=0x7f0c00fb;
+        public static final int Widget_AppCompat_CompoundButton_Switch=0x7f0c00fc;
+        public static final int Widget_AppCompat_DrawerArrowToggle=0x7f0c00fd;
+        public static final int Widget_AppCompat_DropDownItem_Spinner=0x7f0c00fe;
+        public static final int Widget_AppCompat_EditText=0x7f0c00ff;
+        public static final int Widget_AppCompat_Light_ActionBar=0x7f0c0100;
+        public static final int Widget_AppCompat_Light_ActionBar_Solid=0x7f0c0101;
+        public static final int Widget_AppCompat_Light_ActionBar_Solid_Inverse=0x7f0c0102;
+        public static final int Widget_AppCompat_Light_ActionBar_TabBar=0x7f0c0103;
+        public static final int Widget_AppCompat_Light_ActionBar_TabBar_Inverse=0x7f0c0104;
+        public static final int Widget_AppCompat_Light_ActionBar_TabText=0x7f0c0105;
+        public static final int Widget_AppCompat_Light_ActionBar_TabText_Inverse=0x7f0c0106;
+        public static final int Widget_AppCompat_Light_ActionBar_TabView=0x7f0c0107;
+        public static final int Widget_AppCompat_Light_ActionBar_TabView_Inverse=0x7f0c0108;
+        public static final int Widget_AppCompat_Light_ActionButton=0x7f0c0109;
+        public static final int Widget_AppCompat_Light_ActionButton_CloseMode=0x7f0c010a;
+        public static final int Widget_AppCompat_Light_ActionButton_Overflow=0x7f0c010b;
+        public static final int Widget_AppCompat_Light_ActionMode_Inverse=0x7f0c010c;
+        public static final int Widget_AppCompat_Light_ActivityChooserView=0x7f0c010d;
+        public static final int Widget_AppCompat_Light_AutoCompleteTextView=0x7f0c010e;
+        public static final int Widget_AppCompat_Light_DropDownItem_Spinner=0x7f0c010f;
+        public static final int Widget_AppCompat_Light_ListPopupWindow=0x7f0c0110;
+        public static final int Widget_AppCompat_Light_ListView_DropDown=0x7f0c0111;
+        public static final int Widget_AppCompat_Light_PopupMenu=0x7f0c0112;
+        public static final int Widget_AppCompat_Light_PopupMenu_Overflow=0x7f0c0113;
+        public static final int Widget_AppCompat_Light_SearchView=0x7f0c0114;
+        public static final int Widget_AppCompat_Light_Spinner_DropDown_ActionBar=0x7f0c0115;
+        public static final int Widget_AppCompat_ListPopupWindow=0x7f0c0116;
+        public static final int Widget_AppCompat_ListView=0x7f0c0117;
+        public static final int Widget_AppCompat_ListView_DropDown=0x7f0c0118;
+        public static final int Widget_AppCompat_ListView_Menu=0x7f0c0119;
+        public static final int Widget_AppCompat_PopupMenu=0x7f0c011a;
+        public static final int Widget_AppCompat_PopupMenu_Overflow=0x7f0c011b;
+        public static final int Widget_AppCompat_PopupWindow=0x7f0c011c;
+        public static final int Widget_AppCompat_ProgressBar=0x7f0c011d;
+        public static final int Widget_AppCompat_ProgressBar_Horizontal=0x7f0c011e;
+        public static final int Widget_AppCompat_RatingBar=0x7f0c011f;
+        public static final int Widget_AppCompat_SearchView=0x7f0c0120;
+        public static final int Widget_AppCompat_SearchView_ActionBar=0x7f0c0121;
+        public static final int Widget_AppCompat_Spinner=0x7f0c0122;
+        public static final int Widget_AppCompat_Spinner_DropDown=0x7f0c0123;
+        public static final int Widget_AppCompat_Spinner_DropDown_ActionBar=0x7f0c0124;
+        public static final int Widget_AppCompat_Spinner_Underlined=0x7f0c0125;
+        public static final int Widget_AppCompat_TextView_SpinnerItem=0x7f0c0126;
+        public static final int Widget_AppCompat_Toolbar=0x7f0c0127;
+        public static final int Widget_AppCompat_Toolbar_Button_Navigation=0x7f0c0128;
+        public static final int Widget_Design_AppBarLayout=0x7f0c0129;
+        public static final int Widget_Design_CollapsingToolbar=0x7f0c012a;
+        public static final int Widget_Design_CoordinatorLayout=0x7f0c012b;
+        public static final int Widget_Design_FloatingActionButton=0x7f0c012c;
+        public static final int Widget_Design_NavigationView=0x7f0c012d;
+        public static final int Widget_Design_ScrimInsetsFrameLayout=0x7f0c012e;
+        public static final int Widget_Design_Snackbar=0x7f0c012f;
+        public static final int Widget_Design_TabLayout=0x7f0c0130;
+        public static final int Widget_Design_TextInputLayout=0x7f0c0131;
+        public static final int myTheme=0x7f0c0132;
+        public static final int nLiveo_Theme_DarkActionBar=0x7f0c0133;
+        public static final int nLiveo_Theme_Light=0x7f0c0134;
+        public static final int nLiveoDrawer=0x7f0c0135;
     }
     public static final class styleable {
         /** Attributes that can be used with a ActionBar.
@@ -3417,33 +3430,33 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ActionBar_background tsc.com.relegationupdated:background}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_backgroundSplit tsc.com.relegationupdated:backgroundSplit}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_backgroundStacked tsc.com.relegationupdated:backgroundStacked}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetEnd tsc.com.relegationupdated:contentInsetEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetLeft tsc.com.relegationupdated:contentInsetLeft}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetRight tsc.com.relegationupdated:contentInsetRight}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetStart tsc.com.relegationupdated:contentInsetStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_customNavigationLayout tsc.com.relegationupdated:customNavigationLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_displayOptions tsc.com.relegationupdated:displayOptions}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_divider tsc.com.relegationupdated:divider}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_elevation tsc.com.relegationupdated:elevation}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_height tsc.com.relegationupdated:height}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_hideOnContentScroll tsc.com.relegationupdated:hideOnContentScroll}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_homeAsUpIndicator tsc.com.relegationupdated:homeAsUpIndicator}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_homeLayout tsc.com.relegationupdated:homeLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_icon tsc.com.relegationupdated:icon}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_indeterminateProgressStyle tsc.com.relegationupdated:indeterminateProgressStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_itemPadding tsc.com.relegationupdated:itemPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_logo tsc.com.relegationupdated:logo}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_navigationMode tsc.com.relegationupdated:navigationMode}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_popupTheme tsc.com.relegationupdated:popupTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_progressBarPadding tsc.com.relegationupdated:progressBarPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_progressBarStyle tsc.com.relegationupdated:progressBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_subtitle tsc.com.relegationupdated:subtitle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_subtitleTextStyle tsc.com.relegationupdated:subtitleTextStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_title tsc.com.relegationupdated:title}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_titleTextStyle tsc.com.relegationupdated:titleTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_background tsc.com.relegation:background}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_backgroundSplit tsc.com.relegation:backgroundSplit}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_backgroundStacked tsc.com.relegation:backgroundStacked}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetEnd tsc.com.relegation:contentInsetEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetLeft tsc.com.relegation:contentInsetLeft}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetRight tsc.com.relegation:contentInsetRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetStart tsc.com.relegation:contentInsetStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_customNavigationLayout tsc.com.relegation:customNavigationLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_displayOptions tsc.com.relegation:displayOptions}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_divider tsc.com.relegation:divider}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_elevation tsc.com.relegation:elevation}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_height tsc.com.relegation:height}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_hideOnContentScroll tsc.com.relegation:hideOnContentScroll}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_homeAsUpIndicator tsc.com.relegation:homeAsUpIndicator}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_homeLayout tsc.com.relegation:homeLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_icon tsc.com.relegation:icon}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_indeterminateProgressStyle tsc.com.relegation:indeterminateProgressStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_itemPadding tsc.com.relegation:itemPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_logo tsc.com.relegation:logo}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_navigationMode tsc.com.relegation:navigationMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_popupTheme tsc.com.relegation:popupTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_progressBarPadding tsc.com.relegation:progressBarPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_progressBarStyle tsc.com.relegation:progressBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_subtitle tsc.com.relegation:subtitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_subtitleTextStyle tsc.com.relegation:subtitleTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_title tsc.com.relegation:title}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_titleTextStyle tsc.com.relegation:titleTextStyle}</code></td><td></td></tr>
            </table>
            @see #ActionBar_background
            @see #ActionBar_backgroundSplit
@@ -3483,17 +3496,17 @@ containing a value of this type.
             0x7f010034, 0x7f010035, 0x7f0100e9
         };
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#background}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#background}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name tsc.com.relegationupdated:background
+          @attr name tsc.com.relegation:background
         */
         public static final int ActionBar_background = 10;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#backgroundSplit}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#backgroundSplit}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3501,11 +3514,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name tsc.com.relegationupdated:backgroundSplit
+          @attr name tsc.com.relegation:backgroundSplit
         */
         public static final int ActionBar_backgroundSplit = 12;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#backgroundStacked}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#backgroundStacked}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3513,11 +3526,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name tsc.com.relegationupdated:backgroundStacked
+          @attr name tsc.com.relegation:backgroundStacked
         */
         public static final int ActionBar_backgroundStacked = 11;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#contentInsetEnd}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#contentInsetEnd}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3529,11 +3542,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name tsc.com.relegationupdated:contentInsetEnd
+          @attr name tsc.com.relegation:contentInsetEnd
         */
         public static final int ActionBar_contentInsetEnd = 21;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#contentInsetLeft}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#contentInsetLeft}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3545,11 +3558,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name tsc.com.relegationupdated:contentInsetLeft
+          @attr name tsc.com.relegation:contentInsetLeft
         */
         public static final int ActionBar_contentInsetLeft = 22;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#contentInsetRight}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#contentInsetRight}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3561,11 +3574,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name tsc.com.relegationupdated:contentInsetRight
+          @attr name tsc.com.relegation:contentInsetRight
         */
         public static final int ActionBar_contentInsetRight = 23;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#contentInsetStart}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#contentInsetStart}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3577,21 +3590,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name tsc.com.relegationupdated:contentInsetStart
+          @attr name tsc.com.relegation:contentInsetStart
         */
         public static final int ActionBar_contentInsetStart = 20;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#customNavigationLayout}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#customNavigationLayout}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name tsc.com.relegationupdated:customNavigationLayout
+          @attr name tsc.com.relegation:customNavigationLayout
         */
         public static final int ActionBar_customNavigationLayout = 13;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#displayOptions}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#displayOptions}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3609,21 +3622,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>showCustom</code></td><td>0x10</td><td></td></tr>
 <tr><td><code>disableHome</code></td><td>0x20</td><td></td></tr>
 </table>
-          @attr name tsc.com.relegationupdated:displayOptions
+          @attr name tsc.com.relegation:displayOptions
         */
         public static final int ActionBar_displayOptions = 3;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#divider}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#divider}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name tsc.com.relegationupdated:divider
+          @attr name tsc.com.relegation:divider
         */
         public static final int ActionBar_divider = 9;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#elevation}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#elevation}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3635,11 +3648,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name tsc.com.relegationupdated:elevation
+          @attr name tsc.com.relegation:elevation
         */
         public static final int ActionBar_elevation = 24;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#height}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#height}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3651,11 +3664,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name tsc.com.relegationupdated:height
+          @attr name tsc.com.relegation:height
         */
         public static final int ActionBar_height = 0;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#hideOnContentScroll}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#hideOnContentScroll}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3665,51 +3678,51 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name tsc.com.relegationupdated:hideOnContentScroll
+          @attr name tsc.com.relegation:hideOnContentScroll
         */
         public static final int ActionBar_hideOnContentScroll = 19;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#homeAsUpIndicator}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#homeAsUpIndicator}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name tsc.com.relegationupdated:homeAsUpIndicator
+          @attr name tsc.com.relegation:homeAsUpIndicator
         */
         public static final int ActionBar_homeAsUpIndicator = 26;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#homeLayout}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#homeLayout}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name tsc.com.relegationupdated:homeLayout
+          @attr name tsc.com.relegation:homeLayout
         */
         public static final int ActionBar_homeLayout = 14;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#icon}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#icon}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name tsc.com.relegationupdated:icon
+          @attr name tsc.com.relegation:icon
         */
         public static final int ActionBar_icon = 7;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#indeterminateProgressStyle}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#indeterminateProgressStyle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name tsc.com.relegationupdated:indeterminateProgressStyle
+          @attr name tsc.com.relegation:indeterminateProgressStyle
         */
         public static final int ActionBar_indeterminateProgressStyle = 16;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#itemPadding}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#itemPadding}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3721,21 +3734,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name tsc.com.relegationupdated:itemPadding
+          @attr name tsc.com.relegation:itemPadding
         */
         public static final int ActionBar_itemPadding = 18;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#logo}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#logo}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name tsc.com.relegationupdated:logo
+          @attr name tsc.com.relegation:logo
         */
         public static final int ActionBar_logo = 8;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#navigationMode}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#navigationMode}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3749,21 +3762,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>listMode</code></td><td>1</td><td></td></tr>
 <tr><td><code>tabMode</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name tsc.com.relegationupdated:navigationMode
+          @attr name tsc.com.relegation:navigationMode
         */
         public static final int ActionBar_navigationMode = 2;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#popupTheme}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#popupTheme}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name tsc.com.relegationupdated:popupTheme
+          @attr name tsc.com.relegation:popupTheme
         */
         public static final int ActionBar_popupTheme = 25;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#progressBarPadding}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#progressBarPadding}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3775,21 +3788,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name tsc.com.relegationupdated:progressBarPadding
+          @attr name tsc.com.relegation:progressBarPadding
         */
         public static final int ActionBar_progressBarPadding = 17;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#progressBarStyle}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#progressBarStyle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name tsc.com.relegationupdated:progressBarStyle
+          @attr name tsc.com.relegation:progressBarStyle
         */
         public static final int ActionBar_progressBarStyle = 15;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#subtitle}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#subtitle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3799,21 +3812,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name tsc.com.relegationupdated:subtitle
+          @attr name tsc.com.relegation:subtitle
         */
         public static final int ActionBar_subtitle = 4;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#subtitleTextStyle}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#subtitleTextStyle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name tsc.com.relegationupdated:subtitleTextStyle
+          @attr name tsc.com.relegation:subtitleTextStyle
         */
         public static final int ActionBar_subtitleTextStyle = 6;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#title}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#title}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3823,17 +3836,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name tsc.com.relegationupdated:title
+          @attr name tsc.com.relegation:title
         */
         public static final int ActionBar_title = 1;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#titleTextStyle}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#titleTextStyle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name tsc.com.relegationupdated:titleTextStyle
+          @attr name tsc.com.relegation:titleTextStyle
         */
         public static final int ActionBar_titleTextStyle = 5;
         /** Attributes that can be used with a ActionBarLayout.
@@ -3861,21 +3874,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ActionButton_animation_onHide tsc.com.relegationupdated:animation_onHide}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionButton_animation_onShow tsc.com.relegationupdated:animation_onShow}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionButton_button_color tsc.com.relegationupdated:button_color}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionButton_button_colorPressed tsc.com.relegationupdated:button_colorPressed}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionButton_hide_animation tsc.com.relegationupdated:hide_animation}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionButton_image tsc.com.relegationupdated:image}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionButton_image_size tsc.com.relegationupdated:image_size}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionButton_shadow_color tsc.com.relegationupdated:shadow_color}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionButton_shadow_radius tsc.com.relegationupdated:shadow_radius}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionButton_shadow_xOffset tsc.com.relegationupdated:shadow_xOffset}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionButton_shadow_yOffset tsc.com.relegationupdated:shadow_yOffset}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionButton_show_animation tsc.com.relegationupdated:show_animation}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionButton_stroke_color tsc.com.relegationupdated:stroke_color}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionButton_stroke_width tsc.com.relegationupdated:stroke_width}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionButton_type tsc.com.relegationupdated:type}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionButton_animation_onHide tsc.com.relegation:animation_onHide}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionButton_animation_onShow tsc.com.relegation:animation_onShow}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionButton_button_color tsc.com.relegation:button_color}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionButton_button_colorPressed tsc.com.relegation:button_colorPressed}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionButton_hide_animation tsc.com.relegation:hide_animation}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionButton_image tsc.com.relegation:image}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionButton_image_size tsc.com.relegation:image_size}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionButton_shadow_color tsc.com.relegation:shadow_color}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionButton_shadow_radius tsc.com.relegation:shadow_radius}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionButton_shadow_xOffset tsc.com.relegation:shadow_xOffset}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionButton_shadow_yOffset tsc.com.relegation:shadow_yOffset}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionButton_show_animation tsc.com.relegation:show_animation}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionButton_stroke_color tsc.com.relegation:stroke_color}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionButton_stroke_width tsc.com.relegation:stroke_width}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionButton_type tsc.com.relegation:type}</code></td><td></td></tr>
            </table>
            @see #ActionButton_animation_onHide
            @see #ActionButton_animation_onShow
@@ -3900,27 +3913,27 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f010042, 0x7f010043, 0x7f010044
         };
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#animation_onHide}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#animation_onHide}
           attribute's value can be found in the {@link #ActionButton} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name tsc.com.relegationupdated:animation_onHide
+          @attr name tsc.com.relegation:animation_onHide
         */
         public static final int ActionButton_animation_onHide = 14;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#animation_onShow}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#animation_onShow}
           attribute's value can be found in the {@link #ActionButton} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name tsc.com.relegationupdated:animation_onShow
+          @attr name tsc.com.relegation:animation_onShow
         */
         public static final int ActionButton_animation_onShow = 13;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#button_color}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#button_color}
           attribute's value can be found in the {@link #ActionButton} array.
 
 
@@ -3931,11 +3944,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name tsc.com.relegationupdated:button_color
+          @attr name tsc.com.relegation:button_color
         */
         public static final int ActionButton_button_color = 1;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#button_colorPressed}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#button_colorPressed}
           attribute's value can be found in the {@link #ActionButton} array.
 
 
@@ -3946,31 +3959,31 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name tsc.com.relegationupdated:button_colorPressed
+          @attr name tsc.com.relegation:button_colorPressed
         */
         public static final int ActionButton_button_colorPressed = 2;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#hide_animation}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#hide_animation}
           attribute's value can be found in the {@link #ActionButton} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name tsc.com.relegationupdated:hide_animation
+          @attr name tsc.com.relegation:hide_animation
         */
         public static final int ActionButton_hide_animation = 10;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#image}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#image}
           attribute's value can be found in the {@link #ActionButton} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name tsc.com.relegationupdated:image
+          @attr name tsc.com.relegation:image
         */
         public static final int ActionButton_image = 11;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#image_size}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#image_size}
           attribute's value can be found in the {@link #ActionButton} array.
 
 
@@ -3982,11 +3995,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name tsc.com.relegationupdated:image_size
+          @attr name tsc.com.relegation:image_size
         */
         public static final int ActionButton_image_size = 12;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#shadow_color}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#shadow_color}
           attribute's value can be found in the {@link #ActionButton} array.
 
 
@@ -3997,11 +4010,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name tsc.com.relegationupdated:shadow_color
+          @attr name tsc.com.relegation:shadow_color
         */
         public static final int ActionButton_shadow_color = 6;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#shadow_radius}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#shadow_radius}
           attribute's value can be found in the {@link #ActionButton} array.
 
 
@@ -4013,11 +4026,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name tsc.com.relegationupdated:shadow_radius
+          @attr name tsc.com.relegation:shadow_radius
         */
         public static final int ActionButton_shadow_radius = 3;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#shadow_xOffset}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#shadow_xOffset}
           attribute's value can be found in the {@link #ActionButton} array.
 
 
@@ -4029,11 +4042,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name tsc.com.relegationupdated:shadow_xOffset
+          @attr name tsc.com.relegation:shadow_xOffset
         */
         public static final int ActionButton_shadow_xOffset = 4;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#shadow_yOffset}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#shadow_yOffset}
           attribute's value can be found in the {@link #ActionButton} array.
 
 
@@ -4045,21 +4058,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name tsc.com.relegationupdated:shadow_yOffset
+          @attr name tsc.com.relegation:shadow_yOffset
         */
         public static final int ActionButton_shadow_yOffset = 5;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#show_animation}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#show_animation}
           attribute's value can be found in the {@link #ActionButton} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name tsc.com.relegationupdated:show_animation
+          @attr name tsc.com.relegation:show_animation
         */
         public static final int ActionButton_show_animation = 9;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#stroke_color}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#stroke_color}
           attribute's value can be found in the {@link #ActionButton} array.
 
 
@@ -4070,11 +4083,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name tsc.com.relegationupdated:stroke_color
+          @attr name tsc.com.relegation:stroke_color
         */
         public static final int ActionButton_stroke_color = 8;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#stroke_width}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#stroke_width}
           attribute's value can be found in the {@link #ActionButton} array.
 
 
@@ -4086,11 +4099,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name tsc.com.relegationupdated:stroke_width
+          @attr name tsc.com.relegation:stroke_width
         */
         public static final int ActionButton_stroke_width = 7;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#type}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#type}
           attribute's value can be found in the {@link #ActionButton} array.
 
 
@@ -4105,7 +4118,7 @@ containing a value of this type.
 <tr><td><code>normal</code></td><td>0</td><td></td></tr>
 <tr><td><code>mini</code></td><td>1</td><td></td></tr>
 </table>
-          @attr name tsc.com.relegationupdated:type
+          @attr name tsc.com.relegation:type
         */
         public static final int ActionButton_type = 0;
         /** Attributes that can be used with a ActionMenuItemView.
@@ -4138,12 +4151,12 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ActionMode_background tsc.com.relegationupdated:background}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_backgroundSplit tsc.com.relegationupdated:backgroundSplit}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_closeItemLayout tsc.com.relegationupdated:closeItemLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_height tsc.com.relegationupdated:height}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_subtitleTextStyle tsc.com.relegationupdated:subtitleTextStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_titleTextStyle tsc.com.relegationupdated:titleTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_background tsc.com.relegation:background}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_backgroundSplit tsc.com.relegation:backgroundSplit}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_closeItemLayout tsc.com.relegation:closeItemLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_height tsc.com.relegation:height}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_subtitleTextStyle tsc.com.relegation:subtitleTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_titleTextStyle tsc.com.relegation:titleTextStyle}</code></td><td></td></tr>
            </table>
            @see #ActionMode_background
            @see #ActionMode_backgroundSplit
@@ -4157,17 +4170,17 @@ containing a value of this type.
             0x7f010028, 0x7f010045
         };
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#background}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#background}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name tsc.com.relegationupdated:background
+          @attr name tsc.com.relegation:background
         */
         public static final int ActionMode_background = 3;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#backgroundSplit}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#backgroundSplit}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
@@ -4175,21 +4188,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name tsc.com.relegationupdated:backgroundSplit
+          @attr name tsc.com.relegation:backgroundSplit
         */
         public static final int ActionMode_backgroundSplit = 4;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#closeItemLayout}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#closeItemLayout}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name tsc.com.relegationupdated:closeItemLayout
+          @attr name tsc.com.relegation:closeItemLayout
         */
         public static final int ActionMode_closeItemLayout = 5;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#height}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#height}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
@@ -4201,27 +4214,27 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name tsc.com.relegationupdated:height
+          @attr name tsc.com.relegation:height
         */
         public static final int ActionMode_height = 0;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#subtitleTextStyle}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#subtitleTextStyle}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name tsc.com.relegationupdated:subtitleTextStyle
+          @attr name tsc.com.relegation:subtitleTextStyle
         */
         public static final int ActionMode_subtitleTextStyle = 2;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#titleTextStyle}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#titleTextStyle}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name tsc.com.relegationupdated:titleTextStyle
+          @attr name tsc.com.relegation:titleTextStyle
         */
         public static final int ActionMode_titleTextStyle = 1;
         /** Attributes that can be used with a ActivityChooserView.
@@ -4230,8 +4243,8 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ActivityChooserView_expandActivityOverflowButtonDrawable tsc.com.relegationupdated:expandActivityOverflowButtonDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActivityChooserView_initialActivityCount tsc.com.relegationupdated:initialActivityCount}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActivityChooserView_expandActivityOverflowButtonDrawable tsc.com.relegation:expandActivityOverflowButtonDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActivityChooserView_initialActivityCount tsc.com.relegation:initialActivityCount}</code></td><td></td></tr>
            </table>
            @see #ActivityChooserView_expandActivityOverflowButtonDrawable
            @see #ActivityChooserView_initialActivityCount
@@ -4240,17 +4253,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f010046, 0x7f010047
         };
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#expandActivityOverflowButtonDrawable}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#expandActivityOverflowButtonDrawable}
           attribute's value can be found in the {@link #ActivityChooserView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name tsc.com.relegationupdated:expandActivityOverflowButtonDrawable
+          @attr name tsc.com.relegation:expandActivityOverflowButtonDrawable
         */
         public static final int ActivityChooserView_expandActivityOverflowButtonDrawable = 1;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#initialActivityCount}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#initialActivityCount}
           attribute's value can be found in the {@link #ActivityChooserView} array.
 
 
@@ -4260,7 +4273,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name tsc.com.relegationupdated:initialActivityCount
+          @attr name tsc.com.relegation:initialActivityCount
         */
         public static final int ActivityChooserView_initialActivityCount = 0;
         /** Attributes that can be used with a AlertDialog.
@@ -4270,11 +4283,11 @@ containing a value of this type.
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #AlertDialog_android_layout android:layout}</code></td><td></td></tr>
-           <tr><td><code>{@link #AlertDialog_buttonPanelSideLayout tsc.com.relegationupdated:buttonPanelSideLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #AlertDialog_listItemLayout tsc.com.relegationupdated:listItemLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #AlertDialog_listLayout tsc.com.relegationupdated:listLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #AlertDialog_multiChoiceItemLayout tsc.com.relegationupdated:multiChoiceItemLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #AlertDialog_singleChoiceItemLayout tsc.com.relegationupdated:singleChoiceItemLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #AlertDialog_buttonPanelSideLayout tsc.com.relegation:buttonPanelSideLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #AlertDialog_listItemLayout tsc.com.relegation:listItemLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #AlertDialog_listLayout tsc.com.relegation:listLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #AlertDialog_multiChoiceItemLayout tsc.com.relegation:multiChoiceItemLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #AlertDialog_singleChoiceItemLayout tsc.com.relegation:singleChoiceItemLayout}</code></td><td></td></tr>
            </table>
            @see #AlertDialog_android_layout
            @see #AlertDialog_buttonPanelSideLayout
@@ -4294,53 +4307,53 @@ containing a value of this type.
         */
         public static final int AlertDialog_android_layout = 0;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#buttonPanelSideLayout}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#buttonPanelSideLayout}
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name tsc.com.relegationupdated:buttonPanelSideLayout
+          @attr name tsc.com.relegation:buttonPanelSideLayout
         */
         public static final int AlertDialog_buttonPanelSideLayout = 1;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#listItemLayout}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#listItemLayout}
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name tsc.com.relegationupdated:listItemLayout
+          @attr name tsc.com.relegation:listItemLayout
         */
         public static final int AlertDialog_listItemLayout = 5;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#listLayout}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#listLayout}
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name tsc.com.relegationupdated:listLayout
+          @attr name tsc.com.relegation:listLayout
         */
         public static final int AlertDialog_listLayout = 2;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#multiChoiceItemLayout}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#multiChoiceItemLayout}
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name tsc.com.relegationupdated:multiChoiceItemLayout
+          @attr name tsc.com.relegation:multiChoiceItemLayout
         */
         public static final int AlertDialog_multiChoiceItemLayout = 3;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#singleChoiceItemLayout}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#singleChoiceItemLayout}
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name tsc.com.relegationupdated:singleChoiceItemLayout
+          @attr name tsc.com.relegation:singleChoiceItemLayout
         */
         public static final int AlertDialog_singleChoiceItemLayout = 4;
         /** Attributes that can be used with a AppBarLayout.
@@ -4350,7 +4363,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #AppBarLayout_android_background android:background}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppBarLayout_elevation tsc.com.relegationupdated:elevation}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppBarLayout_elevation tsc.com.relegation:elevation}</code></td><td></td></tr>
            </table>
            @see #AppBarLayout_android_background
            @see #AppBarLayout_elevation
@@ -4365,7 +4378,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AppBarLayout_android_background = 0;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#elevation}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#elevation}
           attribute's value can be found in the {@link #AppBarLayout} array.
 
 
@@ -4377,7 +4390,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name tsc.com.relegationupdated:elevation
+          @attr name tsc.com.relegation:elevation
         */
         public static final int AppBarLayout_elevation = 1;
         /** Attributes that can be used with a AppBarLayout_LayoutParams.
@@ -4386,8 +4399,8 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #AppBarLayout_LayoutParams_layout_scrollFlags tsc.com.relegationupdated:layout_scrollFlags}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppBarLayout_LayoutParams_layout_scrollInterpolator tsc.com.relegationupdated:layout_scrollInterpolator}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppBarLayout_LayoutParams_layout_scrollFlags tsc.com.relegation:layout_scrollFlags}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppBarLayout_LayoutParams_layout_scrollInterpolator tsc.com.relegation:layout_scrollInterpolator}</code></td><td></td></tr>
            </table>
            @see #AppBarLayout_LayoutParams_layout_scrollFlags
            @see #AppBarLayout_LayoutParams_layout_scrollInterpolator
@@ -4396,7 +4409,7 @@ containing a value of this type.
             0x7f01004d, 0x7f01004e
         };
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#layout_scrollFlags}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#layout_scrollFlags}
           attribute's value can be found in the {@link #AppBarLayout_LayoutParams} array.
 
 
@@ -4411,17 +4424,17 @@ containing a value of this type.
 <tr><td><code>enterAlways</code></td><td>0x4</td><td></td></tr>
 <tr><td><code>enterAlwaysCollapsed</code></td><td>0x8</td><td></td></tr>
 </table>
-          @attr name tsc.com.relegationupdated:layout_scrollFlags
+          @attr name tsc.com.relegation:layout_scrollFlags
         */
         public static final int AppBarLayout_LayoutParams_layout_scrollFlags = 0;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#layout_scrollInterpolator}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#layout_scrollInterpolator}
           attribute's value can be found in the {@link #AppBarLayout_LayoutParams} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name tsc.com.relegationupdated:layout_scrollInterpolator
+          @attr name tsc.com.relegation:layout_scrollInterpolator
         */
         public static final int AppBarLayout_LayoutParams_layout_scrollInterpolator = 1;
         /** Attributes that can be used with a AppCompatTextView.
@@ -4431,7 +4444,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #AppCompatTextView_android_textAppearance android:textAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTextView_textAllCaps tsc.com.relegationupdated:textAllCaps}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTextView_textAllCaps tsc.com.relegation:textAllCaps}</code></td><td></td></tr>
            </table>
            @see #AppCompatTextView_android_textAppearance
            @see #AppCompatTextView_textAllCaps
@@ -4446,14 +4459,14 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AppCompatTextView_android_textAppearance = 0;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#textAllCaps}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#textAllCaps}
           attribute's value can be found in the {@link #AppCompatTextView} array.
 
 
           <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a boolean value, either "<code>true</code>" or "<code>false</code>".
-          @attr name tsc.com.relegationupdated:textAllCaps
+          @attr name tsc.com.relegation:textAllCaps
         */
         public static final int AppCompatTextView_textAllCaps = 1;
         /** Attributes that can be used with a CardView.
@@ -4462,17 +4475,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #CardView_cardBackgroundColor tsc.com.relegationupdated:cardBackgroundColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #CardView_cardCornerRadius tsc.com.relegationupdated:cardCornerRadius}</code></td><td></td></tr>
-           <tr><td><code>{@link #CardView_cardElevation tsc.com.relegationupdated:cardElevation}</code></td><td></td></tr>
-           <tr><td><code>{@link #CardView_cardMaxElevation tsc.com.relegationupdated:cardMaxElevation}</code></td><td></td></tr>
-           <tr><td><code>{@link #CardView_cardPreventCornerOverlap tsc.com.relegationupdated:cardPreventCornerOverlap}</code></td><td></td></tr>
-           <tr><td><code>{@link #CardView_cardUseCompatPadding tsc.com.relegationupdated:cardUseCompatPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #CardView_contentPadding tsc.com.relegationupdated:contentPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #CardView_contentPaddingBottom tsc.com.relegationupdated:contentPaddingBottom}</code></td><td></td></tr>
-           <tr><td><code>{@link #CardView_contentPaddingLeft tsc.com.relegationupdated:contentPaddingLeft}</code></td><td></td></tr>
-           <tr><td><code>{@link #CardView_contentPaddingRight tsc.com.relegationupdated:contentPaddingRight}</code></td><td></td></tr>
-           <tr><td><code>{@link #CardView_contentPaddingTop tsc.com.relegationupdated:contentPaddingTop}</code></td><td></td></tr>
+           <tr><td><code>{@link #CardView_cardBackgroundColor tsc.com.relegation:cardBackgroundColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #CardView_cardCornerRadius tsc.com.relegation:cardCornerRadius}</code></td><td></td></tr>
+           <tr><td><code>{@link #CardView_cardElevation tsc.com.relegation:cardElevation}</code></td><td></td></tr>
+           <tr><td><code>{@link #CardView_cardMaxElevation tsc.com.relegation:cardMaxElevation}</code></td><td></td></tr>
+           <tr><td><code>{@link #CardView_cardPreventCornerOverlap tsc.com.relegation:cardPreventCornerOverlap}</code></td><td></td></tr>
+           <tr><td><code>{@link #CardView_cardUseCompatPadding tsc.com.relegation:cardUseCompatPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #CardView_contentPadding tsc.com.relegation:contentPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #CardView_contentPaddingBottom tsc.com.relegation:contentPaddingBottom}</code></td><td></td></tr>
+           <tr><td><code>{@link #CardView_contentPaddingLeft tsc.com.relegation:contentPaddingLeft}</code></td><td></td></tr>
+           <tr><td><code>{@link #CardView_contentPaddingRight tsc.com.relegation:contentPaddingRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #CardView_contentPaddingTop tsc.com.relegation:contentPaddingTop}</code></td><td></td></tr>
            </table>
            @see #CardView_cardBackgroundColor
            @see #CardView_cardCornerRadius
@@ -4492,7 +4505,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f010058, 0x7f010059, 0x7f01005a
         };
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#cardBackgroundColor}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#cardBackgroundColor}
           attribute's value can be found in the {@link #CardView} array.
 
 
@@ -4503,11 +4516,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name tsc.com.relegationupdated:cardBackgroundColor
+          @attr name tsc.com.relegation:cardBackgroundColor
         */
         public static final int CardView_cardBackgroundColor = 0;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#cardCornerRadius}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#cardCornerRadius}
           attribute's value can be found in the {@link #CardView} array.
 
 
@@ -4519,11 +4532,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name tsc.com.relegationupdated:cardCornerRadius
+          @attr name tsc.com.relegation:cardCornerRadius
         */
         public static final int CardView_cardCornerRadius = 1;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#cardElevation}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#cardElevation}
           attribute's value can be found in the {@link #CardView} array.
 
 
@@ -4535,11 +4548,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name tsc.com.relegationupdated:cardElevation
+          @attr name tsc.com.relegation:cardElevation
         */
         public static final int CardView_cardElevation = 2;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#cardMaxElevation}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#cardMaxElevation}
           attribute's value can be found in the {@link #CardView} array.
 
 
@@ -4551,11 +4564,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name tsc.com.relegationupdated:cardMaxElevation
+          @attr name tsc.com.relegation:cardMaxElevation
         */
         public static final int CardView_cardMaxElevation = 3;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#cardPreventCornerOverlap}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#cardPreventCornerOverlap}
           attribute's value can be found in the {@link #CardView} array.
 
 
@@ -4565,11 +4578,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name tsc.com.relegationupdated:cardPreventCornerOverlap
+          @attr name tsc.com.relegation:cardPreventCornerOverlap
         */
         public static final int CardView_cardPreventCornerOverlap = 5;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#cardUseCompatPadding}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#cardUseCompatPadding}
           attribute's value can be found in the {@link #CardView} array.
 
 
@@ -4579,11 +4592,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name tsc.com.relegationupdated:cardUseCompatPadding
+          @attr name tsc.com.relegation:cardUseCompatPadding
         */
         public static final int CardView_cardUseCompatPadding = 4;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#contentPadding}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#contentPadding}
           attribute's value can be found in the {@link #CardView} array.
 
 
@@ -4595,11 +4608,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name tsc.com.relegationupdated:contentPadding
+          @attr name tsc.com.relegation:contentPadding
         */
         public static final int CardView_contentPadding = 6;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#contentPaddingBottom}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#contentPaddingBottom}
           attribute's value can be found in the {@link #CardView} array.
 
 
@@ -4611,11 +4624,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name tsc.com.relegationupdated:contentPaddingBottom
+          @attr name tsc.com.relegation:contentPaddingBottom
         */
         public static final int CardView_contentPaddingBottom = 10;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#contentPaddingLeft}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#contentPaddingLeft}
           attribute's value can be found in the {@link #CardView} array.
 
 
@@ -4627,11 +4640,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name tsc.com.relegationupdated:contentPaddingLeft
+          @attr name tsc.com.relegation:contentPaddingLeft
         */
         public static final int CardView_contentPaddingLeft = 7;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#contentPaddingRight}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#contentPaddingRight}
           attribute's value can be found in the {@link #CardView} array.
 
 
@@ -4643,11 +4656,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name tsc.com.relegationupdated:contentPaddingRight
+          @attr name tsc.com.relegation:contentPaddingRight
         */
         public static final int CardView_contentPaddingRight = 8;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#contentPaddingTop}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#contentPaddingTop}
           attribute's value can be found in the {@link #CardView} array.
 
 
@@ -4659,7 +4672,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name tsc.com.relegationupdated:contentPaddingTop
+          @attr name tsc.com.relegation:contentPaddingTop
         */
         public static final int CardView_contentPaddingTop = 9;
         /** Attributes that can be used with a CollapsingAppBarLayout_LayoutParams.
@@ -4668,8 +4681,8 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #CollapsingAppBarLayout_LayoutParams_layout_collapseMode tsc.com.relegationupdated:layout_collapseMode}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingAppBarLayout_LayoutParams_layout_collapseParallaxMultiplier tsc.com.relegationupdated:layout_collapseParallaxMultiplier}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingAppBarLayout_LayoutParams_layout_collapseMode tsc.com.relegation:layout_collapseMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingAppBarLayout_LayoutParams_layout_collapseParallaxMultiplier tsc.com.relegation:layout_collapseParallaxMultiplier}</code></td><td></td></tr>
            </table>
            @see #CollapsingAppBarLayout_LayoutParams_layout_collapseMode
            @see #CollapsingAppBarLayout_LayoutParams_layout_collapseParallaxMultiplier
@@ -4678,7 +4691,7 @@ containing a value of this type.
             0x7f01005b, 0x7f01005c
         };
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#layout_collapseMode}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#layout_collapseMode}
           attribute's value can be found in the {@link #CollapsingAppBarLayout_LayoutParams} array.
 
 
@@ -4692,11 +4705,11 @@ containing a value of this type.
 <tr><td><code>pin</code></td><td>1</td><td></td></tr>
 <tr><td><code>parallax</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name tsc.com.relegationupdated:layout_collapseMode
+          @attr name tsc.com.relegation:layout_collapseMode
         */
         public static final int CollapsingAppBarLayout_LayoutParams_layout_collapseMode = 0;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#layout_collapseParallaxMultiplier}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#layout_collapseParallaxMultiplier}
           attribute's value can be found in the {@link #CollapsingAppBarLayout_LayoutParams} array.
 
 
@@ -4706,7 +4719,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name tsc.com.relegationupdated:layout_collapseParallaxMultiplier
+          @attr name tsc.com.relegation:layout_collapseParallaxMultiplier
         */
         public static final int CollapsingAppBarLayout_LayoutParams_layout_collapseParallaxMultiplier = 1;
         /** Attributes that can be used with a CollapsingToolbarLayout.
@@ -4715,16 +4728,16 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_collapsedTitleTextAppearance tsc.com.relegationupdated:collapsedTitleTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_contentScrim tsc.com.relegationupdated:contentScrim}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMargin tsc.com.relegationupdated:expandedTitleMargin}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginBottom tsc.com.relegationupdated:expandedTitleMarginBottom}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginEnd tsc.com.relegationupdated:expandedTitleMarginEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginStart tsc.com.relegationupdated:expandedTitleMarginStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginTop tsc.com.relegationupdated:expandedTitleMarginTop}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleTextAppearance tsc.com.relegationupdated:expandedTitleTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_statusBarScrim tsc.com.relegationupdated:statusBarScrim}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_toolbarId tsc.com.relegationupdated:toolbarId}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_collapsedTitleTextAppearance tsc.com.relegation:collapsedTitleTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_contentScrim tsc.com.relegation:contentScrim}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMargin tsc.com.relegation:expandedTitleMargin}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginBottom tsc.com.relegation:expandedTitleMarginBottom}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginEnd tsc.com.relegation:expandedTitleMarginEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginStart tsc.com.relegation:expandedTitleMarginStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginTop tsc.com.relegation:expandedTitleMarginTop}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleTextAppearance tsc.com.relegation:expandedTitleTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_statusBarScrim tsc.com.relegation:statusBarScrim}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_toolbarId tsc.com.relegation:toolbarId}</code></td><td></td></tr>
            </table>
            @see #CollapsingToolbarLayout_collapsedTitleTextAppearance
            @see #CollapsingToolbarLayout_contentScrim
@@ -4743,17 +4756,17 @@ containing a value of this type.
             0x7f010065, 0x7f010066
         };
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#collapsedTitleTextAppearance}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#collapsedTitleTextAppearance}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name tsc.com.relegationupdated:collapsedTitleTextAppearance
+          @attr name tsc.com.relegation:collapsedTitleTextAppearance
         */
         public static final int CollapsingToolbarLayout_collapsedTitleTextAppearance = 6;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#contentScrim}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#contentScrim}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -4764,11 +4777,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name tsc.com.relegationupdated:contentScrim
+          @attr name tsc.com.relegation:contentScrim
         */
         public static final int CollapsingToolbarLayout_contentScrim = 7;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#expandedTitleMargin}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#expandedTitleMargin}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -4780,11 +4793,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name tsc.com.relegationupdated:expandedTitleMargin
+          @attr name tsc.com.relegation:expandedTitleMargin
         */
         public static final int CollapsingToolbarLayout_expandedTitleMargin = 0;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#expandedTitleMarginBottom}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#expandedTitleMarginBottom}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -4796,11 +4809,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name tsc.com.relegationupdated:expandedTitleMarginBottom
+          @attr name tsc.com.relegation:expandedTitleMarginBottom
         */
         public static final int CollapsingToolbarLayout_expandedTitleMarginBottom = 4;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#expandedTitleMarginEnd}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#expandedTitleMarginEnd}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -4812,11 +4825,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name tsc.com.relegationupdated:expandedTitleMarginEnd
+          @attr name tsc.com.relegation:expandedTitleMarginEnd
         */
         public static final int CollapsingToolbarLayout_expandedTitleMarginEnd = 3;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#expandedTitleMarginStart}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#expandedTitleMarginStart}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -4828,11 +4841,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name tsc.com.relegationupdated:expandedTitleMarginStart
+          @attr name tsc.com.relegation:expandedTitleMarginStart
         */
         public static final int CollapsingToolbarLayout_expandedTitleMarginStart = 1;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#expandedTitleMarginTop}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#expandedTitleMarginTop}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -4844,21 +4857,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name tsc.com.relegationupdated:expandedTitleMarginTop
+          @attr name tsc.com.relegation:expandedTitleMarginTop
         */
         public static final int CollapsingToolbarLayout_expandedTitleMarginTop = 2;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#expandedTitleTextAppearance}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#expandedTitleTextAppearance}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name tsc.com.relegationupdated:expandedTitleTextAppearance
+          @attr name tsc.com.relegation:expandedTitleTextAppearance
         */
         public static final int CollapsingToolbarLayout_expandedTitleTextAppearance = 5;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#statusBarScrim}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#statusBarScrim}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -4869,17 +4882,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name tsc.com.relegationupdated:statusBarScrim
+          @attr name tsc.com.relegation:statusBarScrim
         */
         public static final int CollapsingToolbarLayout_statusBarScrim = 8;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#toolbarId}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#toolbarId}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name tsc.com.relegationupdated:toolbarId
+          @attr name tsc.com.relegation:toolbarId
         */
         public static final int CollapsingToolbarLayout_toolbarId = 9;
         /** Attributes that can be used with a CoordinatorLayout.
@@ -4888,8 +4901,8 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #CoordinatorLayout_keylines tsc.com.relegationupdated:keylines}</code></td><td></td></tr>
-           <tr><td><code>{@link #CoordinatorLayout_statusBarBackground tsc.com.relegationupdated:statusBarBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #CoordinatorLayout_keylines tsc.com.relegation:keylines}</code></td><td></td></tr>
+           <tr><td><code>{@link #CoordinatorLayout_statusBarBackground tsc.com.relegation:statusBarBackground}</code></td><td></td></tr>
            </table>
            @see #CoordinatorLayout_keylines
            @see #CoordinatorLayout_statusBarBackground
@@ -4898,23 +4911,23 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f010067, 0x7f010068
         };
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#keylines}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#keylines}
           attribute's value can be found in the {@link #CoordinatorLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name tsc.com.relegationupdated:keylines
+          @attr name tsc.com.relegation:keylines
         */
         public static final int CoordinatorLayout_keylines = 0;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#statusBarBackground}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#statusBarBackground}
           attribute's value can be found in the {@link #CoordinatorLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name tsc.com.relegationupdated:statusBarBackground
+          @attr name tsc.com.relegation:statusBarBackground
         */
         public static final int CoordinatorLayout_statusBarBackground = 1;
         /** Attributes that can be used with a CoordinatorLayout_LayoutParams.
@@ -4924,10 +4937,10 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #CoordinatorLayout_LayoutParams_android_layout_gravity android:layout_gravity}</code></td><td></td></tr>
-           <tr><td><code>{@link #CoordinatorLayout_LayoutParams_layout_anchor tsc.com.relegationupdated:layout_anchor}</code></td><td></td></tr>
-           <tr><td><code>{@link #CoordinatorLayout_LayoutParams_layout_anchorGravity tsc.com.relegationupdated:layout_anchorGravity}</code></td><td></td></tr>
-           <tr><td><code>{@link #CoordinatorLayout_LayoutParams_layout_behavior tsc.com.relegationupdated:layout_behavior}</code></td><td></td></tr>
-           <tr><td><code>{@link #CoordinatorLayout_LayoutParams_layout_keyline tsc.com.relegationupdated:layout_keyline}</code></td><td></td></tr>
+           <tr><td><code>{@link #CoordinatorLayout_LayoutParams_layout_anchor tsc.com.relegation:layout_anchor}</code></td><td></td></tr>
+           <tr><td><code>{@link #CoordinatorLayout_LayoutParams_layout_anchorGravity tsc.com.relegation:layout_anchorGravity}</code></td><td></td></tr>
+           <tr><td><code>{@link #CoordinatorLayout_LayoutParams_layout_behavior tsc.com.relegation:layout_behavior}</code></td><td></td></tr>
+           <tr><td><code>{@link #CoordinatorLayout_LayoutParams_layout_keyline tsc.com.relegation:layout_keyline}</code></td><td></td></tr>
            </table>
            @see #CoordinatorLayout_LayoutParams_android_layout_gravity
            @see #CoordinatorLayout_LayoutParams_layout_anchor
@@ -4946,17 +4959,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int CoordinatorLayout_LayoutParams_android_layout_gravity = 0;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#layout_anchor}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#layout_anchor}
           attribute's value can be found in the {@link #CoordinatorLayout_LayoutParams} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name tsc.com.relegationupdated:layout_anchor
+          @attr name tsc.com.relegation:layout_anchor
         */
         public static final int CoordinatorLayout_LayoutParams_layout_anchor = 2;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#layout_anchorGravity}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#layout_anchorGravity}
           attribute's value can be found in the {@link #CoordinatorLayout_LayoutParams} array.
 
 
@@ -4981,11 +4994,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>start</code></td><td>0x00800003</td><td></td></tr>
 <tr><td><code>end</code></td><td>0x00800005</td><td></td></tr>
 </table>
-          @attr name tsc.com.relegationupdated:layout_anchorGravity
+          @attr name tsc.com.relegation:layout_anchorGravity
         */
         public static final int CoordinatorLayout_LayoutParams_layout_anchorGravity = 4;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#layout_behavior}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#layout_behavior}
           attribute's value can be found in the {@link #CoordinatorLayout_LayoutParams} array.
 
 
@@ -4995,11 +5008,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name tsc.com.relegationupdated:layout_behavior
+          @attr name tsc.com.relegation:layout_behavior
         */
         public static final int CoordinatorLayout_LayoutParams_layout_behavior = 1;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#layout_keyline}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#layout_keyline}
           attribute's value can be found in the {@link #CoordinatorLayout_LayoutParams} array.
 
 
@@ -5009,7 +5022,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name tsc.com.relegationupdated:layout_keyline
+          @attr name tsc.com.relegation:layout_keyline
         */
         public static final int CoordinatorLayout_LayoutParams_layout_keyline = 3;
         /** Attributes that can be used with a DrawerArrowToggle.
@@ -5018,14 +5031,14 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_barSize tsc.com.relegationupdated:barSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_color tsc.com.relegationupdated:color}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_drawableSize tsc.com.relegationupdated:drawableSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_gapBetweenBars tsc.com.relegationupdated:gapBetweenBars}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_middleBarArrowSize tsc.com.relegationupdated:middleBarArrowSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_spinBars tsc.com.relegationupdated:spinBars}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_thickness tsc.com.relegationupdated:thickness}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_topBottomBarArrowSize tsc.com.relegationupdated:topBottomBarArrowSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_barSize tsc.com.relegation:barSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_color tsc.com.relegation:color}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_drawableSize tsc.com.relegation:drawableSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_gapBetweenBars tsc.com.relegation:gapBetweenBars}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_middleBarArrowSize tsc.com.relegation:middleBarArrowSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_spinBars tsc.com.relegation:spinBars}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_thickness tsc.com.relegation:thickness}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_topBottomBarArrowSize tsc.com.relegation:topBottomBarArrowSize}</code></td><td></td></tr>
            </table>
            @see #DrawerArrowToggle_barSize
            @see #DrawerArrowToggle_color
@@ -5041,7 +5054,7 @@ containing a value of this type.
             0x7f010071, 0x7f010072, 0x7f010073, 0x7f010074
         };
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#barSize}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#barSize}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -5053,11 +5066,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name tsc.com.relegationupdated:barSize
+          @attr name tsc.com.relegation:barSize
         */
         public static final int DrawerArrowToggle_barSize = 6;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#color}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#color}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -5068,11 +5081,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name tsc.com.relegationupdated:color
+          @attr name tsc.com.relegation:color
         */
         public static final int DrawerArrowToggle_color = 0;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#drawableSize}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#drawableSize}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -5084,11 +5097,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name tsc.com.relegationupdated:drawableSize
+          @attr name tsc.com.relegation:drawableSize
         */
         public static final int DrawerArrowToggle_drawableSize = 2;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#gapBetweenBars}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#gapBetweenBars}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -5100,11 +5113,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name tsc.com.relegationupdated:gapBetweenBars
+          @attr name tsc.com.relegation:gapBetweenBars
         */
         public static final int DrawerArrowToggle_gapBetweenBars = 3;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#middleBarArrowSize}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#middleBarArrowSize}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -5116,11 +5129,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name tsc.com.relegationupdated:middleBarArrowSize
+          @attr name tsc.com.relegation:middleBarArrowSize
         */
         public static final int DrawerArrowToggle_middleBarArrowSize = 5;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#spinBars}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#spinBars}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -5130,11 +5143,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name tsc.com.relegationupdated:spinBars
+          @attr name tsc.com.relegation:spinBars
         */
         public static final int DrawerArrowToggle_spinBars = 1;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#thickness}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#thickness}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -5146,11 +5159,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name tsc.com.relegationupdated:thickness
+          @attr name tsc.com.relegation:thickness
         */
         public static final int DrawerArrowToggle_thickness = 7;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#topBottomBarArrowSize}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#topBottomBarArrowSize}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -5162,7 +5175,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name tsc.com.relegationupdated:topBottomBarArrowSize
+          @attr name tsc.com.relegation:topBottomBarArrowSize
         */
         public static final int DrawerArrowToggle_topBottomBarArrowSize = 4;
         /** Attributes that can be used with a FloatingActionButton.
@@ -5172,13 +5185,13 @@ containing a value of this type.
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #FloatingActionButton_android_background android:background}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_backgroundTint tsc.com.relegationupdated:backgroundTint}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_backgroundTintMode tsc.com.relegationupdated:backgroundTintMode}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_borderWidth tsc.com.relegationupdated:borderWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_elevation tsc.com.relegationupdated:elevation}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_fabSize tsc.com.relegationupdated:fabSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_pressedTranslationZ tsc.com.relegationupdated:pressedTranslationZ}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_rippleColor tsc.com.relegationupdated:rippleColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_backgroundTint tsc.com.relegation:backgroundTint}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_backgroundTintMode tsc.com.relegation:backgroundTintMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_borderWidth tsc.com.relegation:borderWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_elevation tsc.com.relegation:elevation}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_fabSize tsc.com.relegation:fabSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_pressedTranslationZ tsc.com.relegation:pressedTranslationZ}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_rippleColor tsc.com.relegation:rippleColor}</code></td><td></td></tr>
            </table>
            @see #FloatingActionButton_android_background
            @see #FloatingActionButton_backgroundTint
@@ -5200,7 +5213,7 @@ containing a value of this type.
         */
         public static final int FloatingActionButton_android_background = 0;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#backgroundTint}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#backgroundTint}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -5211,11 +5224,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name tsc.com.relegationupdated:backgroundTint
+          @attr name tsc.com.relegation:backgroundTint
         */
         public static final int FloatingActionButton_backgroundTint = 6;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#backgroundTintMode}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#backgroundTintMode}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -5231,11 +5244,11 @@ containing a value of this type.
 <tr><td><code>multiply</code></td><td>14</td><td></td></tr>
 <tr><td><code>screen</code></td><td>15</td><td></td></tr>
 </table>
-          @attr name tsc.com.relegationupdated:backgroundTintMode
+          @attr name tsc.com.relegation:backgroundTintMode
         */
         public static final int FloatingActionButton_backgroundTintMode = 7;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#borderWidth}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#borderWidth}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -5247,11 +5260,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name tsc.com.relegationupdated:borderWidth
+          @attr name tsc.com.relegation:borderWidth
         */
         public static final int FloatingActionButton_borderWidth = 5;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#elevation}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#elevation}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -5263,11 +5276,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name tsc.com.relegationupdated:elevation
+          @attr name tsc.com.relegation:elevation
         */
         public static final int FloatingActionButton_elevation = 1;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#fabSize}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#fabSize}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -5280,11 +5293,11 @@ containing a value of this type.
 <tr><td><code>normal</code></td><td>0</td><td></td></tr>
 <tr><td><code>mini</code></td><td>1</td><td></td></tr>
 </table>
-          @attr name tsc.com.relegationupdated:fabSize
+          @attr name tsc.com.relegation:fabSize
         */
         public static final int FloatingActionButton_fabSize = 3;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#pressedTranslationZ}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#pressedTranslationZ}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -5296,11 +5309,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name tsc.com.relegationupdated:pressedTranslationZ
+          @attr name tsc.com.relegation:pressedTranslationZ
         */
         public static final int FloatingActionButton_pressedTranslationZ = 4;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#rippleColor}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#rippleColor}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -5311,7 +5324,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name tsc.com.relegationupdated:rippleColor
+          @attr name tsc.com.relegation:rippleColor
         */
         public static final int FloatingActionButton_rippleColor = 2;
         /** Attributes that can be used with a LinearLayoutCompat.
@@ -5325,10 +5338,10 @@ containing a value of this type.
            <tr><td><code>{@link #LinearLayoutCompat_android_gravity android:gravity}</code></td><td></td></tr>
            <tr><td><code>{@link #LinearLayoutCompat_android_orientation android:orientation}</code></td><td></td></tr>
            <tr><td><code>{@link #LinearLayoutCompat_android_weightSum android:weightSum}</code></td><td></td></tr>
-           <tr><td><code>{@link #LinearLayoutCompat_divider tsc.com.relegationupdated:divider}</code></td><td></td></tr>
-           <tr><td><code>{@link #LinearLayoutCompat_dividerPadding tsc.com.relegationupdated:dividerPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #LinearLayoutCompat_measureWithLargestChild tsc.com.relegationupdated:measureWithLargestChild}</code></td><td></td></tr>
-           <tr><td><code>{@link #LinearLayoutCompat_showDividers tsc.com.relegationupdated:showDividers}</code></td><td></td></tr>
+           <tr><td><code>{@link #LinearLayoutCompat_divider tsc.com.relegation:divider}</code></td><td></td></tr>
+           <tr><td><code>{@link #LinearLayoutCompat_dividerPadding tsc.com.relegation:dividerPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #LinearLayoutCompat_measureWithLargestChild tsc.com.relegation:measureWithLargestChild}</code></td><td></td></tr>
+           <tr><td><code>{@link #LinearLayoutCompat_showDividers tsc.com.relegation:showDividers}</code></td><td></td></tr>
            </table>
            @see #LinearLayoutCompat_android_baselineAligned
            @see #LinearLayoutCompat_android_baselineAlignedChildIndex
@@ -5376,17 +5389,17 @@ containing a value of this type.
         */
         public static final int LinearLayoutCompat_android_weightSum = 4;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#divider}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#divider}
           attribute's value can be found in the {@link #LinearLayoutCompat} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name tsc.com.relegationupdated:divider
+          @attr name tsc.com.relegation:divider
         */
         public static final int LinearLayoutCompat_divider = 5;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#dividerPadding}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#dividerPadding}
           attribute's value can be found in the {@link #LinearLayoutCompat} array.
 
 
@@ -5398,11 +5411,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name tsc.com.relegationupdated:dividerPadding
+          @attr name tsc.com.relegation:dividerPadding
         */
         public static final int LinearLayoutCompat_dividerPadding = 8;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#measureWithLargestChild}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#measureWithLargestChild}
           attribute's value can be found in the {@link #LinearLayoutCompat} array.
 
 
@@ -5412,11 +5425,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name tsc.com.relegationupdated:measureWithLargestChild
+          @attr name tsc.com.relegation:measureWithLargestChild
         */
         public static final int LinearLayoutCompat_measureWithLargestChild = 6;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#showDividers}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#showDividers}
           attribute's value can be found in the {@link #LinearLayoutCompat} array.
 
 
@@ -5431,7 +5444,7 @@ containing a value of this type.
 <tr><td><code>middle</code></td><td>2</td><td></td></tr>
 <tr><td><code>end</code></td><td>4</td><td></td></tr>
 </table>
-          @attr name tsc.com.relegationupdated:showDividers
+          @attr name tsc.com.relegation:showDividers
         */
         public static final int LinearLayoutCompat_showDividers = 7;
         /** Attributes that can be used with a LinearLayoutCompat_Layout.
@@ -5510,7 +5523,7 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #MDRootLayout_md_reduce_padding_no_title_no_buttons tsc.com.relegationupdated:md_reduce_padding_no_title_no_buttons}</code></td><td></td></tr>
+           <tr><td><code>{@link #MDRootLayout_md_reduce_padding_no_title_no_buttons tsc.com.relegation:md_reduce_padding_no_title_no_buttons}</code></td><td></td></tr>
            </table>
            @see #MDRootLayout_md_reduce_padding_no_title_no_buttons
          */
@@ -5518,7 +5531,7 @@ containing a value of this type.
             0x7f01007c
         };
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#md_reduce_padding_no_title_no_buttons}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#md_reduce_padding_no_title_no_buttons}
           attribute's value can be found in the {@link #MDRootLayout} array.
 
 
@@ -5528,7 +5541,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name tsc.com.relegationupdated:md_reduce_padding_no_title_no_buttons
+          @attr name tsc.com.relegation:md_reduce_padding_no_title_no_buttons
         */
         public static final int MDRootLayout_md_reduce_padding_no_title_no_buttons = 0;
         /** Attributes that can be used with a MenuGroup.
@@ -5597,9 +5610,9 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #MenuItem_actionLayout tsc.com.relegationupdated:actionLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuItem_actionProviderClass tsc.com.relegationupdated:actionProviderClass}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuItem_actionViewClass tsc.com.relegationupdated:actionViewClass}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_actionLayout tsc.com.relegation:actionLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_actionProviderClass tsc.com.relegation:actionProviderClass}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_actionViewClass tsc.com.relegation:actionViewClass}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_alphabeticShortcut android:alphabeticShortcut}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_checkable android:checkable}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_checked android:checked}</code></td><td></td></tr>
@@ -5613,7 +5626,7 @@ containing a value of this type.
            <tr><td><code>{@link #MenuItem_android_title android:title}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_titleCondensed android:titleCondensed}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_visible android:visible}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuItem_showAsAction tsc.com.relegationupdated:showAsAction}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_showAsAction tsc.com.relegation:showAsAction}</code></td><td></td></tr>
            </table>
            @see #MenuItem_actionLayout
            @see #MenuItem_actionProviderClass
@@ -5641,17 +5654,17 @@ containing a value of this type.
             0x7f010080
         };
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#actionLayout}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#actionLayout}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name tsc.com.relegationupdated:actionLayout
+          @attr name tsc.com.relegation:actionLayout
         */
         public static final int MenuItem_actionLayout = 14;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#actionProviderClass}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#actionProviderClass}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
@@ -5661,11 +5674,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name tsc.com.relegationupdated:actionProviderClass
+          @attr name tsc.com.relegation:actionProviderClass
         */
         public static final int MenuItem_actionProviderClass = 16;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#actionViewClass}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#actionViewClass}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
@@ -5675,7 +5688,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name tsc.com.relegationupdated:actionViewClass
+          @attr name tsc.com.relegation:actionViewClass
         */
         public static final int MenuItem_actionViewClass = 15;
         /**
@@ -5757,7 +5770,7 @@ containing a value of this type.
         */
         public static final int MenuItem_android_visible = 4;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#showAsAction}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#showAsAction}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
@@ -5773,7 +5786,7 @@ containing a value of this type.
 <tr><td><code>withText</code></td><td>4</td><td></td></tr>
 <tr><td><code>collapseActionView</code></td><td>8</td><td></td></tr>
 </table>
-          @attr name tsc.com.relegationupdated:showAsAction
+          @attr name tsc.com.relegation:showAsAction
         */
         public static final int MenuItem_showAsAction = 13;
         /** Attributes that can be used with a MenuView.
@@ -5789,7 +5802,7 @@ containing a value of this type.
            <tr><td><code>{@link #MenuView_android_itemTextAppearance android:itemTextAppearance}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuView_android_verticalDivider android:verticalDivider}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuView_android_windowAnimationStyle android:windowAnimationStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuView_preserveIconSpacing tsc.com.relegationupdated:preserveIconSpacing}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuView_preserveIconSpacing tsc.com.relegation:preserveIconSpacing}</code></td><td></td></tr>
            </table>
            @see #MenuView_android_headerBackground
            @see #MenuView_android_horizontalDivider
@@ -5847,7 +5860,7 @@ containing a value of this type.
         */
         public static final int MenuView_android_windowAnimationStyle = 0;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#preserveIconSpacing}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#preserveIconSpacing}
           attribute's value can be found in the {@link #MenuView} array.
 
 
@@ -5857,7 +5870,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name tsc.com.relegationupdated:preserveIconSpacing
+          @attr name tsc.com.relegation:preserveIconSpacing
         */
         public static final int MenuView_preserveIconSpacing = 7;
         /** Attributes that can be used with a NavigationView.
@@ -5869,12 +5882,12 @@ containing a value of this type.
            <tr><td><code>{@link #NavigationView_android_background android:background}</code></td><td></td></tr>
            <tr><td><code>{@link #NavigationView_android_fitsSystemWindows android:fitsSystemWindows}</code></td><td></td></tr>
            <tr><td><code>{@link #NavigationView_android_maxWidth android:maxWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #NavigationView_elevation tsc.com.relegationupdated:elevation}</code></td><td></td></tr>
-           <tr><td><code>{@link #NavigationView_headerLayout tsc.com.relegationupdated:headerLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #NavigationView_itemBackground tsc.com.relegationupdated:itemBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #NavigationView_itemIconTint tsc.com.relegationupdated:itemIconTint}</code></td><td></td></tr>
-           <tr><td><code>{@link #NavigationView_itemTextColor tsc.com.relegationupdated:itemTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #NavigationView_menu tsc.com.relegationupdated:menu}</code></td><td></td></tr>
+           <tr><td><code>{@link #NavigationView_elevation tsc.com.relegation:elevation}</code></td><td></td></tr>
+           <tr><td><code>{@link #NavigationView_headerLayout tsc.com.relegation:headerLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #NavigationView_itemBackground tsc.com.relegation:itemBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #NavigationView_itemIconTint tsc.com.relegation:itemIconTint}</code></td><td></td></tr>
+           <tr><td><code>{@link #NavigationView_itemTextColor tsc.com.relegation:itemTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #NavigationView_menu tsc.com.relegation:menu}</code></td><td></td></tr>
            </table>
            @see #NavigationView_android_background
            @see #NavigationView_android_fitsSystemWindows
@@ -5910,7 +5923,7 @@ containing a value of this type.
         */
         public static final int NavigationView_android_maxWidth = 2;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#elevation}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#elevation}
           attribute's value can be found in the {@link #NavigationView} array.
 
 
@@ -5922,31 +5935,31 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name tsc.com.relegationupdated:elevation
+          @attr name tsc.com.relegation:elevation
         */
         public static final int NavigationView_elevation = 3;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#headerLayout}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#headerLayout}
           attribute's value can be found in the {@link #NavigationView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name tsc.com.relegationupdated:headerLayout
+          @attr name tsc.com.relegation:headerLayout
         */
         public static final int NavigationView_headerLayout = 8;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#itemBackground}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#itemBackground}
           attribute's value can be found in the {@link #NavigationView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name tsc.com.relegationupdated:itemBackground
+          @attr name tsc.com.relegation:itemBackground
         */
         public static final int NavigationView_itemBackground = 7;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#itemIconTint}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#itemIconTint}
           attribute's value can be found in the {@link #NavigationView} array.
 
 
@@ -5957,11 +5970,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name tsc.com.relegationupdated:itemIconTint
+          @attr name tsc.com.relegation:itemIconTint
         */
         public static final int NavigationView_itemIconTint = 5;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#itemTextColor}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#itemTextColor}
           attribute's value can be found in the {@link #NavigationView} array.
 
 
@@ -5972,17 +5985,17 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name tsc.com.relegationupdated:itemTextColor
+          @attr name tsc.com.relegation:itemTextColor
         */
         public static final int NavigationView_itemTextColor = 6;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#menu}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#menu}
           attribute's value can be found in the {@link #NavigationView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name tsc.com.relegationupdated:menu
+          @attr name tsc.com.relegation:menu
         */
         public static final int NavigationView_menu = 4;
         /** Attributes that can be used with a PopupWindow.
@@ -5992,7 +6005,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #PopupWindow_android_popupBackground android:popupBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #PopupWindow_overlapAnchor tsc.com.relegationupdated:overlapAnchor}</code></td><td></td></tr>
+           <tr><td><code>{@link #PopupWindow_overlapAnchor tsc.com.relegation:overlapAnchor}</code></td><td></td></tr>
            </table>
            @see #PopupWindow_android_popupBackground
            @see #PopupWindow_overlapAnchor
@@ -6007,7 +6020,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int PopupWindow_android_popupBackground = 0;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#overlapAnchor}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#overlapAnchor}
           attribute's value can be found in the {@link #PopupWindow} array.
 
 
@@ -6017,7 +6030,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name tsc.com.relegationupdated:overlapAnchor
+          @attr name tsc.com.relegation:overlapAnchor
         */
         public static final int PopupWindow_overlapAnchor = 1;
         /** Attributes that can be used with a PopupWindowBackgroundState.
@@ -6026,7 +6039,7 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #PopupWindowBackgroundState_state_above_anchor tsc.com.relegationupdated:state_above_anchor}</code></td><td></td></tr>
+           <tr><td><code>{@link #PopupWindowBackgroundState_state_above_anchor tsc.com.relegation:state_above_anchor}</code></td><td></td></tr>
            </table>
            @see #PopupWindowBackgroundState_state_above_anchor
          */
@@ -6034,7 +6047,7 @@ containing a value of this type.
             0x7f010088
         };
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#state_above_anchor}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#state_above_anchor}
           attribute's value can be found in the {@link #PopupWindowBackgroundState} array.
 
 
@@ -6044,7 +6057,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name tsc.com.relegationupdated:state_above_anchor
+          @attr name tsc.com.relegation:state_above_anchor
         */
         public static final int PopupWindowBackgroundState_state_above_anchor = 0;
         /** Attributes that can be used with a RecyclerView.
@@ -6054,10 +6067,10 @@ containing a value of this type.
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #RecyclerView_android_orientation android:orientation}</code></td><td></td></tr>
-           <tr><td><code>{@link #RecyclerView_layoutManager tsc.com.relegationupdated:layoutManager}</code></td><td></td></tr>
-           <tr><td><code>{@link #RecyclerView_reverseLayout tsc.com.relegationupdated:reverseLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #RecyclerView_spanCount tsc.com.relegationupdated:spanCount}</code></td><td></td></tr>
-           <tr><td><code>{@link #RecyclerView_stackFromEnd tsc.com.relegationupdated:stackFromEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #RecyclerView_layoutManager tsc.com.relegation:layoutManager}</code></td><td></td></tr>
+           <tr><td><code>{@link #RecyclerView_reverseLayout tsc.com.relegation:reverseLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #RecyclerView_spanCount tsc.com.relegation:spanCount}</code></td><td></td></tr>
+           <tr><td><code>{@link #RecyclerView_stackFromEnd tsc.com.relegation:stackFromEnd}</code></td><td></td></tr>
            </table>
            @see #RecyclerView_android_orientation
            @see #RecyclerView_layoutManager
@@ -6076,7 +6089,7 @@ containing a value of this type.
         */
         public static final int RecyclerView_android_orientation = 0;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#layoutManager}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#layoutManager}
           attribute's value can be found in the {@link #RecyclerView} array.
 
 
@@ -6086,11 +6099,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name tsc.com.relegationupdated:layoutManager
+          @attr name tsc.com.relegation:layoutManager
         */
         public static final int RecyclerView_layoutManager = 1;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#reverseLayout}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#reverseLayout}
           attribute's value can be found in the {@link #RecyclerView} array.
 
 
@@ -6100,11 +6113,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name tsc.com.relegationupdated:reverseLayout
+          @attr name tsc.com.relegation:reverseLayout
         */
         public static final int RecyclerView_reverseLayout = 3;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#spanCount}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#spanCount}
           attribute's value can be found in the {@link #RecyclerView} array.
 
 
@@ -6114,11 +6127,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name tsc.com.relegationupdated:spanCount
+          @attr name tsc.com.relegation:spanCount
         */
         public static final int RecyclerView_spanCount = 2;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#stackFromEnd}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#stackFromEnd}
           attribute's value can be found in the {@link #RecyclerView} array.
 
 
@@ -6128,7 +6141,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name tsc.com.relegationupdated:stackFromEnd
+          @attr name tsc.com.relegation:stackFromEnd
         */
         public static final int RecyclerView_stackFromEnd = 4;
         /** Attributes that can be used with a ScrimInsetsFrameLayout.
@@ -6137,7 +6150,7 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ScrimInsetsFrameLayout_insetForeground tsc.com.relegationupdated:insetForeground}</code></td><td></td></tr>
+           <tr><td><code>{@link #ScrimInsetsFrameLayout_insetForeground tsc.com.relegation:insetForeground}</code></td><td></td></tr>
            </table>
            @see #ScrimInsetsFrameLayout_insetForeground
          */
@@ -6145,7 +6158,7 @@ containing a value of this type.
             0x7f01008d
         };
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#insetForeground}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#insetForeground}
           attribute's value can be found in the {@link #ScrimInsetsFrameLayout} array.
 
 
@@ -6153,7 +6166,7 @@ containing a value of this type.
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name tsc.com.relegationupdated:insetForeground
+          @attr name tsc.com.relegation:insetForeground
         */
         public static final int ScrimInsetsFrameLayout_insetForeground = 0;
         /** Attributes that can be used with a ScrollingViewBehavior_Params.
@@ -6162,7 +6175,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ScrollingViewBehavior_Params_behavior_overlapTop tsc.com.relegationupdated:behavior_overlapTop}</code></td><td></td></tr>
+           <tr><td><code>{@link #ScrollingViewBehavior_Params_behavior_overlapTop tsc.com.relegation:behavior_overlapTop}</code></td><td></td></tr>
            </table>
            @see #ScrollingViewBehavior_Params_behavior_overlapTop
          */
@@ -6170,7 +6183,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f01008e
         };
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#behavior_overlapTop}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#behavior_overlapTop}
           attribute's value can be found in the {@link #ScrollingViewBehavior_Params} array.
 
 
@@ -6182,7 +6195,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name tsc.com.relegationupdated:behavior_overlapTop
+          @attr name tsc.com.relegation:behavior_overlapTop
         */
         public static final int ScrollingViewBehavior_Params_behavior_overlapTop = 0;
         /** Attributes that can be used with a SearchView.
@@ -6195,19 +6208,19 @@ containing a value of this type.
            <tr><td><code>{@link #SearchView_android_imeOptions android:imeOptions}</code></td><td></td></tr>
            <tr><td><code>{@link #SearchView_android_inputType android:inputType}</code></td><td></td></tr>
            <tr><td><code>{@link #SearchView_android_maxWidth android:maxWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_closeIcon tsc.com.relegationupdated:closeIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_commitIcon tsc.com.relegationupdated:commitIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_defaultQueryHint tsc.com.relegationupdated:defaultQueryHint}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_goIcon tsc.com.relegationupdated:goIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_iconifiedByDefault tsc.com.relegationupdated:iconifiedByDefault}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_layout tsc.com.relegationupdated:layout}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_queryBackground tsc.com.relegationupdated:queryBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_queryHint tsc.com.relegationupdated:queryHint}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_searchHintIcon tsc.com.relegationupdated:searchHintIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_searchIcon tsc.com.relegationupdated:searchIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_submitBackground tsc.com.relegationupdated:submitBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_suggestionRowLayout tsc.com.relegationupdated:suggestionRowLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_voiceIcon tsc.com.relegationupdated:voiceIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_closeIcon tsc.com.relegation:closeIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_commitIcon tsc.com.relegation:commitIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_defaultQueryHint tsc.com.relegation:defaultQueryHint}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_goIcon tsc.com.relegation:goIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_iconifiedByDefault tsc.com.relegation:iconifiedByDefault}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_layout tsc.com.relegation:layout}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_queryBackground tsc.com.relegation:queryBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_queryHint tsc.com.relegation:queryHint}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_searchHintIcon tsc.com.relegation:searchHintIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_searchIcon tsc.com.relegation:searchIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_submitBackground tsc.com.relegation:submitBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_suggestionRowLayout tsc.com.relegation:suggestionRowLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_voiceIcon tsc.com.relegation:voiceIcon}</code></td><td></td></tr>
            </table>
            @see #SearchView_android_focusable
            @see #SearchView_android_imeOptions
@@ -6259,27 +6272,27 @@ containing a value of this type.
         */
         public static final int SearchView_android_maxWidth = 1;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#closeIcon}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#closeIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name tsc.com.relegationupdated:closeIcon
+          @attr name tsc.com.relegation:closeIcon
         */
         public static final int SearchView_closeIcon = 8;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#commitIcon}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#commitIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name tsc.com.relegationupdated:commitIcon
+          @attr name tsc.com.relegation:commitIcon
         */
         public static final int SearchView_commitIcon = 13;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#defaultQueryHint}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#defaultQueryHint}
           attribute's value can be found in the {@link #SearchView} array.
 
 
@@ -6289,21 +6302,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name tsc.com.relegationupdated:defaultQueryHint
+          @attr name tsc.com.relegation:defaultQueryHint
         */
         public static final int SearchView_defaultQueryHint = 7;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#goIcon}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#goIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name tsc.com.relegationupdated:goIcon
+          @attr name tsc.com.relegation:goIcon
         */
         public static final int SearchView_goIcon = 9;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#iconifiedByDefault}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#iconifiedByDefault}
           attribute's value can be found in the {@link #SearchView} array.
 
 
@@ -6313,31 +6326,31 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name tsc.com.relegationupdated:iconifiedByDefault
+          @attr name tsc.com.relegation:iconifiedByDefault
         */
         public static final int SearchView_iconifiedByDefault = 5;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#layout}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#layout}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name tsc.com.relegationupdated:layout
+          @attr name tsc.com.relegation:layout
         */
         public static final int SearchView_layout = 4;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#queryBackground}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#queryBackground}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name tsc.com.relegationupdated:queryBackground
+          @attr name tsc.com.relegation:queryBackground
         */
         public static final int SearchView_queryBackground = 15;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#queryHint}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#queryHint}
           attribute's value can be found in the {@link #SearchView} array.
 
 
@@ -6347,57 +6360,57 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name tsc.com.relegationupdated:queryHint
+          @attr name tsc.com.relegation:queryHint
         */
         public static final int SearchView_queryHint = 6;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#searchHintIcon}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#searchHintIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name tsc.com.relegationupdated:searchHintIcon
+          @attr name tsc.com.relegation:searchHintIcon
         */
         public static final int SearchView_searchHintIcon = 11;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#searchIcon}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#searchIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name tsc.com.relegationupdated:searchIcon
+          @attr name tsc.com.relegation:searchIcon
         */
         public static final int SearchView_searchIcon = 10;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#submitBackground}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#submitBackground}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name tsc.com.relegationupdated:submitBackground
+          @attr name tsc.com.relegation:submitBackground
         */
         public static final int SearchView_submitBackground = 16;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#suggestionRowLayout}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#suggestionRowLayout}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name tsc.com.relegationupdated:suggestionRowLayout
+          @attr name tsc.com.relegation:suggestionRowLayout
         */
         public static final int SearchView_suggestionRowLayout = 14;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#voiceIcon}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#voiceIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name tsc.com.relegationupdated:voiceIcon
+          @attr name tsc.com.relegation:voiceIcon
         */
         public static final int SearchView_voiceIcon = 12;
         /** Attributes that can be used with a SnackbarLayout.
@@ -6407,8 +6420,8 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #SnackbarLayout_android_maxWidth android:maxWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #SnackbarLayout_elevation tsc.com.relegationupdated:elevation}</code></td><td></td></tr>
-           <tr><td><code>{@link #SnackbarLayout_maxActionInlineWidth tsc.com.relegationupdated:maxActionInlineWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #SnackbarLayout_elevation tsc.com.relegation:elevation}</code></td><td></td></tr>
+           <tr><td><code>{@link #SnackbarLayout_maxActionInlineWidth tsc.com.relegation:maxActionInlineWidth}</code></td><td></td></tr>
            </table>
            @see #SnackbarLayout_android_maxWidth
            @see #SnackbarLayout_elevation
@@ -6424,7 +6437,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int SnackbarLayout_android_maxWidth = 0;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#elevation}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#elevation}
           attribute's value can be found in the {@link #SnackbarLayout} array.
 
 
@@ -6436,11 +6449,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name tsc.com.relegationupdated:elevation
+          @attr name tsc.com.relegation:elevation
         */
         public static final int SnackbarLayout_elevation = 1;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#maxActionInlineWidth}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#maxActionInlineWidth}
           attribute's value can be found in the {@link #SnackbarLayout} array.
 
 
@@ -6452,7 +6465,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name tsc.com.relegationupdated:maxActionInlineWidth
+          @attr name tsc.com.relegation:maxActionInlineWidth
         */
         public static final int SnackbarLayout_maxActionInlineWidth = 2;
         /** Attributes that can be used with a Spinner.
@@ -6468,10 +6481,10 @@ containing a value of this type.
            <tr><td><code>{@link #Spinner_android_dropDownWidth android:dropDownWidth}</code></td><td></td></tr>
            <tr><td><code>{@link #Spinner_android_gravity android:gravity}</code></td><td></td></tr>
            <tr><td><code>{@link #Spinner_android_popupBackground android:popupBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #Spinner_disableChildrenWhenDisabled tsc.com.relegationupdated:disableChildrenWhenDisabled}</code></td><td></td></tr>
-           <tr><td><code>{@link #Spinner_popupPromptView tsc.com.relegationupdated:popupPromptView}</code></td><td></td></tr>
-           <tr><td><code>{@link #Spinner_prompt tsc.com.relegationupdated:prompt}</code></td><td></td></tr>
-           <tr><td><code>{@link #Spinner_spinnerMode tsc.com.relegationupdated:spinnerMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #Spinner_disableChildrenWhenDisabled tsc.com.relegation:disableChildrenWhenDisabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #Spinner_popupPromptView tsc.com.relegation:popupPromptView}</code></td><td></td></tr>
+           <tr><td><code>{@link #Spinner_prompt tsc.com.relegation:prompt}</code></td><td></td></tr>
+           <tr><td><code>{@link #Spinner_spinnerMode tsc.com.relegation:spinnerMode}</code></td><td></td></tr>
            </table>
            @see #Spinner_android_background
            @see #Spinner_android_dropDownHorizontalOffset
@@ -6533,7 +6546,7 @@ containing a value of this type.
         */
         public static final int Spinner_android_popupBackground = 3;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#disableChildrenWhenDisabled}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#disableChildrenWhenDisabled}
           attribute's value can be found in the {@link #Spinner} array.
 
 
@@ -6543,31 +6556,31 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name tsc.com.relegationupdated:disableChildrenWhenDisabled
+          @attr name tsc.com.relegation:disableChildrenWhenDisabled
         */
         public static final int Spinner_disableChildrenWhenDisabled = 10;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#popupPromptView}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#popupPromptView}
           attribute's value can be found in the {@link #Spinner} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name tsc.com.relegationupdated:popupPromptView
+          @attr name tsc.com.relegation:popupPromptView
         */
         public static final int Spinner_popupPromptView = 9;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#prompt}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#prompt}
           attribute's value can be found in the {@link #Spinner} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name tsc.com.relegationupdated:prompt
+          @attr name tsc.com.relegation:prompt
         */
         public static final int Spinner_prompt = 7;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#spinnerMode}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#spinnerMode}
           attribute's value can be found in the {@link #Spinner} array.
 
 
@@ -6580,7 +6593,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>dialog</code></td><td>0</td><td></td></tr>
 <tr><td><code>dropdown</code></td><td>1</td><td></td></tr>
 </table>
-          @attr name tsc.com.relegationupdated:spinnerMode
+          @attr name tsc.com.relegation:spinnerMode
         */
         public static final int Spinner_spinnerMode = 8;
         /** Attributes that can be used with a SwitchCompat.
@@ -6592,13 +6605,13 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <tr><td><code>{@link #SwitchCompat_android_textOff android:textOff}</code></td><td></td></tr>
            <tr><td><code>{@link #SwitchCompat_android_textOn android:textOn}</code></td><td></td></tr>
            <tr><td><code>{@link #SwitchCompat_android_thumb android:thumb}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_showText tsc.com.relegationupdated:showText}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_splitTrack tsc.com.relegationupdated:splitTrack}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_switchMinWidth tsc.com.relegationupdated:switchMinWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_switchPadding tsc.com.relegationupdated:switchPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_switchTextAppearance tsc.com.relegationupdated:switchTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_thumbTextPadding tsc.com.relegationupdated:thumbTextPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_track tsc.com.relegationupdated:track}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_showText tsc.com.relegation:showText}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_splitTrack tsc.com.relegation:splitTrack}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_switchMinWidth tsc.com.relegation:switchMinWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_switchPadding tsc.com.relegation:switchPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_switchTextAppearance tsc.com.relegation:switchTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_thumbTextPadding tsc.com.relegation:thumbTextPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_track tsc.com.relegation:track}</code></td><td></td></tr>
            </table>
            @see #SwitchCompat_android_textOff
            @see #SwitchCompat_android_textOn
@@ -6635,7 +6648,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int SwitchCompat_android_thumb = 2;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#showText}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#showText}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -6645,11 +6658,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name tsc.com.relegationupdated:showText
+          @attr name tsc.com.relegation:showText
         */
         public static final int SwitchCompat_showText = 9;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#splitTrack}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#splitTrack}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -6659,11 +6672,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name tsc.com.relegationupdated:splitTrack
+          @attr name tsc.com.relegation:splitTrack
         */
         public static final int SwitchCompat_splitTrack = 8;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#switchMinWidth}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#switchMinWidth}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -6675,11 +6688,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name tsc.com.relegationupdated:switchMinWidth
+          @attr name tsc.com.relegation:switchMinWidth
         */
         public static final int SwitchCompat_switchMinWidth = 6;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#switchPadding}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#switchPadding}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -6691,21 +6704,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name tsc.com.relegationupdated:switchPadding
+          @attr name tsc.com.relegation:switchPadding
         */
         public static final int SwitchCompat_switchPadding = 7;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#switchTextAppearance}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#switchTextAppearance}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name tsc.com.relegationupdated:switchTextAppearance
+          @attr name tsc.com.relegation:switchTextAppearance
         */
         public static final int SwitchCompat_switchTextAppearance = 5;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#thumbTextPadding}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#thumbTextPadding}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -6717,17 +6730,17 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name tsc.com.relegationupdated:thumbTextPadding
+          @attr name tsc.com.relegation:thumbTextPadding
         */
         public static final int SwitchCompat_thumbTextPadding = 4;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#track}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#track}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name tsc.com.relegationupdated:track
+          @attr name tsc.com.relegation:track
         */
         public static final int SwitchCompat_track = 3;
         /** Attributes that can be used with a TabLayout.
@@ -6736,22 +6749,22 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #TabLayout_tabBackground tsc.com.relegationupdated:tabBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabContentStart tsc.com.relegationupdated:tabContentStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabGravity tsc.com.relegationupdated:tabGravity}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabIndicatorColor tsc.com.relegationupdated:tabIndicatorColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabIndicatorHeight tsc.com.relegationupdated:tabIndicatorHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabMaxWidth tsc.com.relegationupdated:tabMaxWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabMinWidth tsc.com.relegationupdated:tabMinWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabMode tsc.com.relegationupdated:tabMode}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabPadding tsc.com.relegationupdated:tabPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabPaddingBottom tsc.com.relegationupdated:tabPaddingBottom}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabPaddingEnd tsc.com.relegationupdated:tabPaddingEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabPaddingStart tsc.com.relegationupdated:tabPaddingStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabPaddingTop tsc.com.relegationupdated:tabPaddingTop}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabSelectedTextColor tsc.com.relegationupdated:tabSelectedTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabTextAppearance tsc.com.relegationupdated:tabTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabTextColor tsc.com.relegationupdated:tabTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabBackground tsc.com.relegation:tabBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabContentStart tsc.com.relegation:tabContentStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabGravity tsc.com.relegation:tabGravity}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabIndicatorColor tsc.com.relegation:tabIndicatorColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabIndicatorHeight tsc.com.relegation:tabIndicatorHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabMaxWidth tsc.com.relegation:tabMaxWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabMinWidth tsc.com.relegation:tabMinWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabMode tsc.com.relegation:tabMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabPadding tsc.com.relegation:tabPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabPaddingBottom tsc.com.relegation:tabPaddingBottom}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabPaddingEnd tsc.com.relegation:tabPaddingEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabPaddingStart tsc.com.relegation:tabPaddingStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabPaddingTop tsc.com.relegation:tabPaddingTop}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabSelectedTextColor tsc.com.relegation:tabSelectedTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabTextAppearance tsc.com.relegation:tabTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabTextColor tsc.com.relegation:tabTextColor}</code></td><td></td></tr>
            </table>
            @see #TabLayout_tabBackground
            @see #TabLayout_tabContentStart
@@ -6777,17 +6790,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f0100b4, 0x7f0100b5, 0x7f0100b6, 0x7f0100b7
         };
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#tabBackground}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#tabBackground}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name tsc.com.relegationupdated:tabBackground
+          @attr name tsc.com.relegation:tabBackground
         */
         public static final int TabLayout_tabBackground = 3;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#tabContentStart}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#tabContentStart}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -6799,11 +6812,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name tsc.com.relegationupdated:tabContentStart
+          @attr name tsc.com.relegation:tabContentStart
         */
         public static final int TabLayout_tabContentStart = 2;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#tabGravity}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#tabGravity}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -6816,11 +6829,11 @@ containing a value of this type.
 <tr><td><code>fill</code></td><td>0</td><td></td></tr>
 <tr><td><code>center</code></td><td>1</td><td></td></tr>
 </table>
-          @attr name tsc.com.relegationupdated:tabGravity
+          @attr name tsc.com.relegation:tabGravity
         */
         public static final int TabLayout_tabGravity = 5;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#tabIndicatorColor}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#tabIndicatorColor}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -6831,11 +6844,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name tsc.com.relegationupdated:tabIndicatorColor
+          @attr name tsc.com.relegation:tabIndicatorColor
         */
         public static final int TabLayout_tabIndicatorColor = 0;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#tabIndicatorHeight}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#tabIndicatorHeight}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -6847,11 +6860,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name tsc.com.relegationupdated:tabIndicatorHeight
+          @attr name tsc.com.relegation:tabIndicatorHeight
         */
         public static final int TabLayout_tabIndicatorHeight = 1;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#tabMaxWidth}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#tabMaxWidth}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -6863,11 +6876,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name tsc.com.relegationupdated:tabMaxWidth
+          @attr name tsc.com.relegation:tabMaxWidth
         */
         public static final int TabLayout_tabMaxWidth = 7;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#tabMinWidth}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#tabMinWidth}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -6879,11 +6892,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name tsc.com.relegationupdated:tabMinWidth
+          @attr name tsc.com.relegation:tabMinWidth
         */
         public static final int TabLayout_tabMinWidth = 6;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#tabMode}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#tabMode}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -6896,11 +6909,11 @@ containing a value of this type.
 <tr><td><code>scrollable</code></td><td>0</td><td></td></tr>
 <tr><td><code>fixed</code></td><td>1</td><td></td></tr>
 </table>
-          @attr name tsc.com.relegationupdated:tabMode
+          @attr name tsc.com.relegation:tabMode
         */
         public static final int TabLayout_tabMode = 4;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#tabPadding}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#tabPadding}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -6912,11 +6925,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name tsc.com.relegationupdated:tabPadding
+          @attr name tsc.com.relegation:tabPadding
         */
         public static final int TabLayout_tabPadding = 15;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#tabPaddingBottom}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#tabPaddingBottom}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -6928,11 +6941,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name tsc.com.relegationupdated:tabPaddingBottom
+          @attr name tsc.com.relegation:tabPaddingBottom
         */
         public static final int TabLayout_tabPaddingBottom = 14;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#tabPaddingEnd}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#tabPaddingEnd}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -6944,11 +6957,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name tsc.com.relegationupdated:tabPaddingEnd
+          @attr name tsc.com.relegation:tabPaddingEnd
         */
         public static final int TabLayout_tabPaddingEnd = 13;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#tabPaddingStart}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#tabPaddingStart}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -6960,11 +6973,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name tsc.com.relegationupdated:tabPaddingStart
+          @attr name tsc.com.relegation:tabPaddingStart
         */
         public static final int TabLayout_tabPaddingStart = 11;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#tabPaddingTop}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#tabPaddingTop}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -6976,11 +6989,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name tsc.com.relegationupdated:tabPaddingTop
+          @attr name tsc.com.relegation:tabPaddingTop
         */
         public static final int TabLayout_tabPaddingTop = 12;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#tabSelectedTextColor}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#tabSelectedTextColor}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -6991,21 +7004,21 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name tsc.com.relegationupdated:tabSelectedTextColor
+          @attr name tsc.com.relegation:tabSelectedTextColor
         */
         public static final int TabLayout_tabSelectedTextColor = 10;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#tabTextAppearance}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#tabTextAppearance}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name tsc.com.relegationupdated:tabTextAppearance
+          @attr name tsc.com.relegation:tabTextAppearance
         */
         public static final int TabLayout_tabTextAppearance = 8;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#tabTextColor}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#tabTextColor}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -7016,7 +7029,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name tsc.com.relegationupdated:tabTextColor
+          @attr name tsc.com.relegation:tabTextColor
         */
         public static final int TabLayout_tabTextColor = 9;
         /** Attributes that can be used with a TextAppearance.
@@ -7029,7 +7042,7 @@ containing a value of this type.
            <tr><td><code>{@link #TextAppearance_android_textSize android:textSize}</code></td><td></td></tr>
            <tr><td><code>{@link #TextAppearance_android_textStyle android:textStyle}</code></td><td></td></tr>
            <tr><td><code>{@link #TextAppearance_android_typeface android:typeface}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextAppearance_textAllCaps tsc.com.relegationupdated:textAllCaps}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextAppearance_textAllCaps tsc.com.relegation:textAllCaps}</code></td><td></td></tr>
            </table>
            @see #TextAppearance_android_textColor
            @see #TextAppearance_android_textSize
@@ -7066,14 +7079,14 @@ containing a value of this type.
         */
         public static final int TextAppearance_android_typeface = 1;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#textAllCaps}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#textAllCaps}
           attribute's value can be found in the {@link #TextAppearance} array.
 
 
           <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a boolean value, either "<code>true</code>" or "<code>false</code>".
-          @attr name tsc.com.relegationupdated:textAllCaps
+          @attr name tsc.com.relegation:textAllCaps
         */
         public static final int TextAppearance_textAllCaps = 4;
         /** Attributes that can be used with a TextInputLayout.
@@ -7083,9 +7096,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #TextInputLayout_android_hint android:hint}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_errorEnabled tsc.com.relegationupdated:errorEnabled}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_errorTextAppearance tsc.com.relegationupdated:errorTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_hintTextAppearance tsc.com.relegationupdated:hintTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_errorEnabled tsc.com.relegation:errorEnabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_errorTextAppearance tsc.com.relegation:errorTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_hintTextAppearance tsc.com.relegation:hintTextAppearance}</code></td><td></td></tr>
            </table>
            @see #TextInputLayout_android_hint
            @see #TextInputLayout_errorEnabled
@@ -7102,7 +7115,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int TextInputLayout_android_hint = 0;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#errorEnabled}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#errorEnabled}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
@@ -7112,27 +7125,27 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name tsc.com.relegationupdated:errorEnabled
+          @attr name tsc.com.relegation:errorEnabled
         */
         public static final int TextInputLayout_errorEnabled = 2;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#errorTextAppearance}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#errorTextAppearance}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name tsc.com.relegationupdated:errorTextAppearance
+          @attr name tsc.com.relegation:errorTextAppearance
         */
         public static final int TextInputLayout_errorTextAppearance = 3;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#hintTextAppearance}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#hintTextAppearance}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name tsc.com.relegationupdated:hintTextAppearance
+          @attr name tsc.com.relegation:hintTextAppearance
         */
         public static final int TextInputLayout_hintTextAppearance = 1;
         /** Attributes that can be used with a Theme.
@@ -7141,113 +7154,113 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #Theme_actionBarDivider tsc.com.relegationupdated:actionBarDivider}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarItemBackground tsc.com.relegationupdated:actionBarItemBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarPopupTheme tsc.com.relegationupdated:actionBarPopupTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarSize tsc.com.relegationupdated:actionBarSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarSplitStyle tsc.com.relegationupdated:actionBarSplitStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarStyle tsc.com.relegationupdated:actionBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarTabBarStyle tsc.com.relegationupdated:actionBarTabBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarTabStyle tsc.com.relegationupdated:actionBarTabStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarTabTextStyle tsc.com.relegationupdated:actionBarTabTextStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarTheme tsc.com.relegationupdated:actionBarTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarWidgetTheme tsc.com.relegationupdated:actionBarWidgetTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionButtonStyle tsc.com.relegationupdated:actionButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionDropDownStyle tsc.com.relegationupdated:actionDropDownStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionMenuTextAppearance tsc.com.relegationupdated:actionMenuTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionMenuTextColor tsc.com.relegationupdated:actionMenuTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeBackground tsc.com.relegationupdated:actionModeBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeCloseButtonStyle tsc.com.relegationupdated:actionModeCloseButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeCloseDrawable tsc.com.relegationupdated:actionModeCloseDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeCopyDrawable tsc.com.relegationupdated:actionModeCopyDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeCutDrawable tsc.com.relegationupdated:actionModeCutDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeFindDrawable tsc.com.relegationupdated:actionModeFindDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModePasteDrawable tsc.com.relegationupdated:actionModePasteDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModePopupWindowStyle tsc.com.relegationupdated:actionModePopupWindowStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeSelectAllDrawable tsc.com.relegationupdated:actionModeSelectAllDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeShareDrawable tsc.com.relegationupdated:actionModeShareDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeSplitBackground tsc.com.relegationupdated:actionModeSplitBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeStyle tsc.com.relegationupdated:actionModeStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeWebSearchDrawable tsc.com.relegationupdated:actionModeWebSearchDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionOverflowButtonStyle tsc.com.relegationupdated:actionOverflowButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionOverflowMenuStyle tsc.com.relegationupdated:actionOverflowMenuStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_activityChooserViewStyle tsc.com.relegationupdated:activityChooserViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_alertDialogButtonGroupStyle tsc.com.relegationupdated:alertDialogButtonGroupStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_alertDialogCenterButtons tsc.com.relegationupdated:alertDialogCenterButtons}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_alertDialogStyle tsc.com.relegationupdated:alertDialogStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_alertDialogTheme tsc.com.relegationupdated:alertDialogTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarDivider tsc.com.relegation:actionBarDivider}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarItemBackground tsc.com.relegation:actionBarItemBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarPopupTheme tsc.com.relegation:actionBarPopupTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarSize tsc.com.relegation:actionBarSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarSplitStyle tsc.com.relegation:actionBarSplitStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarStyle tsc.com.relegation:actionBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarTabBarStyle tsc.com.relegation:actionBarTabBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarTabStyle tsc.com.relegation:actionBarTabStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarTabTextStyle tsc.com.relegation:actionBarTabTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarTheme tsc.com.relegation:actionBarTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarWidgetTheme tsc.com.relegation:actionBarWidgetTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionButtonStyle tsc.com.relegation:actionButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionDropDownStyle tsc.com.relegation:actionDropDownStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionMenuTextAppearance tsc.com.relegation:actionMenuTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionMenuTextColor tsc.com.relegation:actionMenuTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeBackground tsc.com.relegation:actionModeBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeCloseButtonStyle tsc.com.relegation:actionModeCloseButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeCloseDrawable tsc.com.relegation:actionModeCloseDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeCopyDrawable tsc.com.relegation:actionModeCopyDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeCutDrawable tsc.com.relegation:actionModeCutDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeFindDrawable tsc.com.relegation:actionModeFindDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModePasteDrawable tsc.com.relegation:actionModePasteDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModePopupWindowStyle tsc.com.relegation:actionModePopupWindowStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeSelectAllDrawable tsc.com.relegation:actionModeSelectAllDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeShareDrawable tsc.com.relegation:actionModeShareDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeSplitBackground tsc.com.relegation:actionModeSplitBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeStyle tsc.com.relegation:actionModeStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeWebSearchDrawable tsc.com.relegation:actionModeWebSearchDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionOverflowButtonStyle tsc.com.relegation:actionOverflowButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionOverflowMenuStyle tsc.com.relegation:actionOverflowMenuStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_activityChooserViewStyle tsc.com.relegation:activityChooserViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_alertDialogButtonGroupStyle tsc.com.relegation:alertDialogButtonGroupStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_alertDialogCenterButtons tsc.com.relegation:alertDialogCenterButtons}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_alertDialogStyle tsc.com.relegation:alertDialogStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_alertDialogTheme tsc.com.relegation:alertDialogTheme}</code></td><td></td></tr>
            <tr><td><code>{@link #Theme_android_windowAnimationStyle android:windowAnimationStyle}</code></td><td></td></tr>
            <tr><td><code>{@link #Theme_android_windowIsFloating android:windowIsFloating}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_autoCompleteTextViewStyle tsc.com.relegationupdated:autoCompleteTextViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_borderlessButtonStyle tsc.com.relegationupdated:borderlessButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_buttonBarButtonStyle tsc.com.relegationupdated:buttonBarButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_buttonBarNegativeButtonStyle tsc.com.relegationupdated:buttonBarNegativeButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_buttonBarNeutralButtonStyle tsc.com.relegationupdated:buttonBarNeutralButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_buttonBarPositiveButtonStyle tsc.com.relegationupdated:buttonBarPositiveButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_buttonBarStyle tsc.com.relegationupdated:buttonBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_buttonStyle tsc.com.relegationupdated:buttonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_buttonStyleSmall tsc.com.relegationupdated:buttonStyleSmall}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_checkboxStyle tsc.com.relegationupdated:checkboxStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_checkedTextViewStyle tsc.com.relegationupdated:checkedTextViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_colorAccent tsc.com.relegationupdated:colorAccent}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_colorButtonNormal tsc.com.relegationupdated:colorButtonNormal}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_colorControlActivated tsc.com.relegationupdated:colorControlActivated}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_colorControlHighlight tsc.com.relegationupdated:colorControlHighlight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_colorControlNormal tsc.com.relegationupdated:colorControlNormal}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_colorPrimary tsc.com.relegationupdated:colorPrimary}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_colorPrimaryDark tsc.com.relegationupdated:colorPrimaryDark}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_colorSwitchThumbNormal tsc.com.relegationupdated:colorSwitchThumbNormal}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_dialogPreferredPadding tsc.com.relegationupdated:dialogPreferredPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_dialogTheme tsc.com.relegationupdated:dialogTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_dividerHorizontal tsc.com.relegationupdated:dividerHorizontal}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_dividerVertical tsc.com.relegationupdated:dividerVertical}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_dropDownListViewStyle tsc.com.relegationupdated:dropDownListViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_dropdownListPreferredItemHeight tsc.com.relegationupdated:dropdownListPreferredItemHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_editTextBackground tsc.com.relegationupdated:editTextBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_editTextColor tsc.com.relegationupdated:editTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_editTextStyle tsc.com.relegationupdated:editTextStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_homeAsUpIndicator tsc.com.relegationupdated:homeAsUpIndicator}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_listChoiceBackgroundIndicator tsc.com.relegationupdated:listChoiceBackgroundIndicator}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_listDividerAlertDialog tsc.com.relegationupdated:listDividerAlertDialog}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_listPopupWindowStyle tsc.com.relegationupdated:listPopupWindowStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_listPreferredItemHeight tsc.com.relegationupdated:listPreferredItemHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_listPreferredItemHeightLarge tsc.com.relegationupdated:listPreferredItemHeightLarge}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_listPreferredItemHeightSmall tsc.com.relegationupdated:listPreferredItemHeightSmall}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_listPreferredItemPaddingLeft tsc.com.relegationupdated:listPreferredItemPaddingLeft}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_listPreferredItemPaddingRight tsc.com.relegationupdated:listPreferredItemPaddingRight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_panelBackground tsc.com.relegationupdated:panelBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_panelMenuListTheme tsc.com.relegationupdated:panelMenuListTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_panelMenuListWidth tsc.com.relegationupdated:panelMenuListWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_popupMenuStyle tsc.com.relegationupdated:popupMenuStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_popupWindowStyle tsc.com.relegationupdated:popupWindowStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_radioButtonStyle tsc.com.relegationupdated:radioButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_ratingBarStyle tsc.com.relegationupdated:ratingBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_searchViewStyle tsc.com.relegationupdated:searchViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_selectableItemBackground tsc.com.relegationupdated:selectableItemBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_selectableItemBackgroundBorderless tsc.com.relegationupdated:selectableItemBackgroundBorderless}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_spinnerDropDownItemStyle tsc.com.relegationupdated:spinnerDropDownItemStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_spinnerStyle tsc.com.relegationupdated:spinnerStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_switchStyle tsc.com.relegationupdated:switchStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_textAppearanceLargePopupMenu tsc.com.relegationupdated:textAppearanceLargePopupMenu}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_textAppearanceListItem tsc.com.relegationupdated:textAppearanceListItem}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_textAppearanceListItemSmall tsc.com.relegationupdated:textAppearanceListItemSmall}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_textAppearanceSearchResultSubtitle tsc.com.relegationupdated:textAppearanceSearchResultSubtitle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_textAppearanceSearchResultTitle tsc.com.relegationupdated:textAppearanceSearchResultTitle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_textAppearanceSmallPopupMenu tsc.com.relegationupdated:textAppearanceSmallPopupMenu}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_textColorAlertDialogListItem tsc.com.relegationupdated:textColorAlertDialogListItem}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_textColorSearchUrl tsc.com.relegationupdated:textColorSearchUrl}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_toolbarNavigationButtonStyle tsc.com.relegationupdated:toolbarNavigationButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_toolbarStyle tsc.com.relegationupdated:toolbarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_windowActionBar tsc.com.relegationupdated:windowActionBar}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_windowActionBarOverlay tsc.com.relegationupdated:windowActionBarOverlay}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_windowActionModeOverlay tsc.com.relegationupdated:windowActionModeOverlay}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_windowFixedHeightMajor tsc.com.relegationupdated:windowFixedHeightMajor}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_windowFixedHeightMinor tsc.com.relegationupdated:windowFixedHeightMinor}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_windowFixedWidthMajor tsc.com.relegationupdated:windowFixedWidthMajor}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_windowFixedWidthMinor tsc.com.relegationupdated:windowFixedWidthMinor}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_windowMinWidthMajor tsc.com.relegationupdated:windowMinWidthMajor}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_windowMinWidthMinor tsc.com.relegationupdated:windowMinWidthMinor}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_windowNoTitle tsc.com.relegationupdated:windowNoTitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_autoCompleteTextViewStyle tsc.com.relegation:autoCompleteTextViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_borderlessButtonStyle tsc.com.relegation:borderlessButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_buttonBarButtonStyle tsc.com.relegation:buttonBarButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_buttonBarNegativeButtonStyle tsc.com.relegation:buttonBarNegativeButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_buttonBarNeutralButtonStyle tsc.com.relegation:buttonBarNeutralButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_buttonBarPositiveButtonStyle tsc.com.relegation:buttonBarPositiveButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_buttonBarStyle tsc.com.relegation:buttonBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_buttonStyle tsc.com.relegation:buttonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_buttonStyleSmall tsc.com.relegation:buttonStyleSmall}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_checkboxStyle tsc.com.relegation:checkboxStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_checkedTextViewStyle tsc.com.relegation:checkedTextViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_colorAccent tsc.com.relegation:colorAccent}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_colorButtonNormal tsc.com.relegation:colorButtonNormal}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_colorControlActivated tsc.com.relegation:colorControlActivated}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_colorControlHighlight tsc.com.relegation:colorControlHighlight}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_colorControlNormal tsc.com.relegation:colorControlNormal}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_colorPrimary tsc.com.relegation:colorPrimary}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_colorPrimaryDark tsc.com.relegation:colorPrimaryDark}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_colorSwitchThumbNormal tsc.com.relegation:colorSwitchThumbNormal}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_dialogPreferredPadding tsc.com.relegation:dialogPreferredPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_dialogTheme tsc.com.relegation:dialogTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_dividerHorizontal tsc.com.relegation:dividerHorizontal}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_dividerVertical tsc.com.relegation:dividerVertical}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_dropDownListViewStyle tsc.com.relegation:dropDownListViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_dropdownListPreferredItemHeight tsc.com.relegation:dropdownListPreferredItemHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_editTextBackground tsc.com.relegation:editTextBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_editTextColor tsc.com.relegation:editTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_editTextStyle tsc.com.relegation:editTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_homeAsUpIndicator tsc.com.relegation:homeAsUpIndicator}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_listChoiceBackgroundIndicator tsc.com.relegation:listChoiceBackgroundIndicator}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_listDividerAlertDialog tsc.com.relegation:listDividerAlertDialog}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_listPopupWindowStyle tsc.com.relegation:listPopupWindowStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_listPreferredItemHeight tsc.com.relegation:listPreferredItemHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_listPreferredItemHeightLarge tsc.com.relegation:listPreferredItemHeightLarge}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_listPreferredItemHeightSmall tsc.com.relegation:listPreferredItemHeightSmall}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_listPreferredItemPaddingLeft tsc.com.relegation:listPreferredItemPaddingLeft}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_listPreferredItemPaddingRight tsc.com.relegation:listPreferredItemPaddingRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_panelBackground tsc.com.relegation:panelBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_panelMenuListTheme tsc.com.relegation:panelMenuListTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_panelMenuListWidth tsc.com.relegation:panelMenuListWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_popupMenuStyle tsc.com.relegation:popupMenuStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_popupWindowStyle tsc.com.relegation:popupWindowStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_radioButtonStyle tsc.com.relegation:radioButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_ratingBarStyle tsc.com.relegation:ratingBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_searchViewStyle tsc.com.relegation:searchViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_selectableItemBackground tsc.com.relegation:selectableItemBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_selectableItemBackgroundBorderless tsc.com.relegation:selectableItemBackgroundBorderless}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_spinnerDropDownItemStyle tsc.com.relegation:spinnerDropDownItemStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_spinnerStyle tsc.com.relegation:spinnerStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_switchStyle tsc.com.relegation:switchStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_textAppearanceLargePopupMenu tsc.com.relegation:textAppearanceLargePopupMenu}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_textAppearanceListItem tsc.com.relegation:textAppearanceListItem}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_textAppearanceListItemSmall tsc.com.relegation:textAppearanceListItemSmall}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_textAppearanceSearchResultSubtitle tsc.com.relegation:textAppearanceSearchResultSubtitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_textAppearanceSearchResultTitle tsc.com.relegation:textAppearanceSearchResultTitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_textAppearanceSmallPopupMenu tsc.com.relegation:textAppearanceSmallPopupMenu}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_textColorAlertDialogListItem tsc.com.relegation:textColorAlertDialogListItem}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_textColorSearchUrl tsc.com.relegation:textColorSearchUrl}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_toolbarNavigationButtonStyle tsc.com.relegation:toolbarNavigationButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_toolbarStyle tsc.com.relegation:toolbarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_windowActionBar tsc.com.relegation:windowActionBar}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_windowActionBarOverlay tsc.com.relegation:windowActionBarOverlay}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_windowActionModeOverlay tsc.com.relegation:windowActionModeOverlay}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_windowFixedHeightMajor tsc.com.relegation:windowFixedHeightMajor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_windowFixedHeightMinor tsc.com.relegation:windowFixedHeightMinor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_windowFixedWidthMajor tsc.com.relegation:windowFixedWidthMajor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_windowFixedWidthMinor tsc.com.relegation:windowFixedWidthMinor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_windowMinWidthMajor tsc.com.relegation:windowMinWidthMajor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_windowMinWidthMinor tsc.com.relegation:windowMinWidthMinor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_windowNoTitle tsc.com.relegation:windowNoTitle}</code></td><td></td></tr>
            </table>
            @see #Theme_actionBarDivider
            @see #Theme_actionBarItemBackground
@@ -7387,37 +7400,37 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f010121, 0x7f010122, 0x7f010123
         };
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#actionBarDivider}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#actionBarDivider}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name tsc.com.relegationupdated:actionBarDivider
+          @attr name tsc.com.relegation:actionBarDivider
         */
         public static final int Theme_actionBarDivider = 23;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#actionBarItemBackground}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#actionBarItemBackground}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name tsc.com.relegationupdated:actionBarItemBackground
+          @attr name tsc.com.relegation:actionBarItemBackground
         */
         public static final int Theme_actionBarItemBackground = 24;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#actionBarPopupTheme}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#actionBarPopupTheme}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name tsc.com.relegationupdated:actionBarPopupTheme
+          @attr name tsc.com.relegation:actionBarPopupTheme
         */
         public static final int Theme_actionBarPopupTheme = 17;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#actionBarSize}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#actionBarSize}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -7437,111 +7450,111 @@ containing a value of this type.
 <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
 <tr><td><code>wrap_content</code></td><td>0</td><td></td></tr>
 </table>
-          @attr name tsc.com.relegationupdated:actionBarSize
+          @attr name tsc.com.relegation:actionBarSize
         */
         public static final int Theme_actionBarSize = 22;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#actionBarSplitStyle}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#actionBarSplitStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name tsc.com.relegationupdated:actionBarSplitStyle
+          @attr name tsc.com.relegation:actionBarSplitStyle
         */
         public static final int Theme_actionBarSplitStyle = 19;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#actionBarStyle}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#actionBarStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name tsc.com.relegationupdated:actionBarStyle
+          @attr name tsc.com.relegation:actionBarStyle
         */
         public static final int Theme_actionBarStyle = 18;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#actionBarTabBarStyle}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#actionBarTabBarStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name tsc.com.relegationupdated:actionBarTabBarStyle
+          @attr name tsc.com.relegation:actionBarTabBarStyle
         */
         public static final int Theme_actionBarTabBarStyle = 13;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#actionBarTabStyle}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#actionBarTabStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name tsc.com.relegationupdated:actionBarTabStyle
+          @attr name tsc.com.relegation:actionBarTabStyle
         */
         public static final int Theme_actionBarTabStyle = 12;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#actionBarTabTextStyle}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#actionBarTabTextStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name tsc.com.relegationupdated:actionBarTabTextStyle
+          @attr name tsc.com.relegation:actionBarTabTextStyle
         */
         public static final int Theme_actionBarTabTextStyle = 14;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#actionBarTheme}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#actionBarTheme}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name tsc.com.relegationupdated:actionBarTheme
+          @attr name tsc.com.relegation:actionBarTheme
         */
         public static final int Theme_actionBarTheme = 20;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#actionBarWidgetTheme}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#actionBarWidgetTheme}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name tsc.com.relegationupdated:actionBarWidgetTheme
+          @attr name tsc.com.relegation:actionBarWidgetTheme
         */
         public static final int Theme_actionBarWidgetTheme = 21;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#actionButtonStyle}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#actionButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name tsc.com.relegationupdated:actionButtonStyle
+          @attr name tsc.com.relegation:actionButtonStyle
         */
         public static final int Theme_actionButtonStyle = 49;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#actionDropDownStyle}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#actionDropDownStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name tsc.com.relegationupdated:actionDropDownStyle
+          @attr name tsc.com.relegation:actionDropDownStyle
         */
         public static final int Theme_actionDropDownStyle = 45;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#actionMenuTextAppearance}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#actionMenuTextAppearance}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name tsc.com.relegationupdated:actionMenuTextAppearance
+          @attr name tsc.com.relegation:actionMenuTextAppearance
         */
         public static final int Theme_actionMenuTextAppearance = 25;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#actionMenuTextColor}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#actionMenuTextColor}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -7549,181 +7562,181 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name tsc.com.relegationupdated:actionMenuTextColor
+          @attr name tsc.com.relegation:actionMenuTextColor
         */
         public static final int Theme_actionMenuTextColor = 26;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#actionModeBackground}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#actionModeBackground}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name tsc.com.relegationupdated:actionModeBackground
+          @attr name tsc.com.relegation:actionModeBackground
         */
         public static final int Theme_actionModeBackground = 29;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#actionModeCloseButtonStyle}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#actionModeCloseButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name tsc.com.relegationupdated:actionModeCloseButtonStyle
+          @attr name tsc.com.relegation:actionModeCloseButtonStyle
         */
         public static final int Theme_actionModeCloseButtonStyle = 28;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#actionModeCloseDrawable}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#actionModeCloseDrawable}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name tsc.com.relegationupdated:actionModeCloseDrawable
+          @attr name tsc.com.relegation:actionModeCloseDrawable
         */
         public static final int Theme_actionModeCloseDrawable = 31;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#actionModeCopyDrawable}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#actionModeCopyDrawable}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name tsc.com.relegationupdated:actionModeCopyDrawable
+          @attr name tsc.com.relegation:actionModeCopyDrawable
         */
         public static final int Theme_actionModeCopyDrawable = 33;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#actionModeCutDrawable}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#actionModeCutDrawable}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name tsc.com.relegationupdated:actionModeCutDrawable
+          @attr name tsc.com.relegation:actionModeCutDrawable
         */
         public static final int Theme_actionModeCutDrawable = 32;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#actionModeFindDrawable}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#actionModeFindDrawable}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name tsc.com.relegationupdated:actionModeFindDrawable
+          @attr name tsc.com.relegation:actionModeFindDrawable
         */
         public static final int Theme_actionModeFindDrawable = 37;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#actionModePasteDrawable}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#actionModePasteDrawable}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name tsc.com.relegationupdated:actionModePasteDrawable
+          @attr name tsc.com.relegation:actionModePasteDrawable
         */
         public static final int Theme_actionModePasteDrawable = 34;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#actionModePopupWindowStyle}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#actionModePopupWindowStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name tsc.com.relegationupdated:actionModePopupWindowStyle
+          @attr name tsc.com.relegation:actionModePopupWindowStyle
         */
         public static final int Theme_actionModePopupWindowStyle = 39;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#actionModeSelectAllDrawable}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#actionModeSelectAllDrawable}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name tsc.com.relegationupdated:actionModeSelectAllDrawable
+          @attr name tsc.com.relegation:actionModeSelectAllDrawable
         */
         public static final int Theme_actionModeSelectAllDrawable = 35;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#actionModeShareDrawable}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#actionModeShareDrawable}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name tsc.com.relegationupdated:actionModeShareDrawable
+          @attr name tsc.com.relegation:actionModeShareDrawable
         */
         public static final int Theme_actionModeShareDrawable = 36;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#actionModeSplitBackground}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#actionModeSplitBackground}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name tsc.com.relegationupdated:actionModeSplitBackground
+          @attr name tsc.com.relegation:actionModeSplitBackground
         */
         public static final int Theme_actionModeSplitBackground = 30;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#actionModeStyle}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#actionModeStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name tsc.com.relegationupdated:actionModeStyle
+          @attr name tsc.com.relegation:actionModeStyle
         */
         public static final int Theme_actionModeStyle = 27;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#actionModeWebSearchDrawable}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#actionModeWebSearchDrawable}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name tsc.com.relegationupdated:actionModeWebSearchDrawable
+          @attr name tsc.com.relegation:actionModeWebSearchDrawable
         */
         public static final int Theme_actionModeWebSearchDrawable = 38;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#actionOverflowButtonStyle}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#actionOverflowButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name tsc.com.relegationupdated:actionOverflowButtonStyle
+          @attr name tsc.com.relegation:actionOverflowButtonStyle
         */
         public static final int Theme_actionOverflowButtonStyle = 15;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#actionOverflowMenuStyle}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#actionOverflowMenuStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name tsc.com.relegationupdated:actionOverflowMenuStyle
+          @attr name tsc.com.relegation:actionOverflowMenuStyle
         */
         public static final int Theme_actionOverflowMenuStyle = 16;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#activityChooserViewStyle}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#activityChooserViewStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name tsc.com.relegationupdated:activityChooserViewStyle
+          @attr name tsc.com.relegation:activityChooserViewStyle
         */
         public static final int Theme_activityChooserViewStyle = 57;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#alertDialogButtonGroupStyle}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#alertDialogButtonGroupStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name tsc.com.relegationupdated:alertDialogButtonGroupStyle
+          @attr name tsc.com.relegation:alertDialogButtonGroupStyle
         */
         public static final int Theme_alertDialogButtonGroupStyle = 90;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#alertDialogCenterButtons}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#alertDialogCenterButtons}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -7733,27 +7746,27 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name tsc.com.relegationupdated:alertDialogCenterButtons
+          @attr name tsc.com.relegation:alertDialogCenterButtons
         */
         public static final int Theme_alertDialogCenterButtons = 91;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#alertDialogStyle}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#alertDialogStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name tsc.com.relegationupdated:alertDialogStyle
+          @attr name tsc.com.relegation:alertDialogStyle
         */
         public static final int Theme_alertDialogStyle = 89;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#alertDialogTheme}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#alertDialogTheme}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name tsc.com.relegationupdated:alertDialogTheme
+          @attr name tsc.com.relegation:alertDialogTheme
         */
         public static final int Theme_alertDialogTheme = 92;
         /**
@@ -7769,117 +7782,117 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_android_windowIsFloating = 0;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#autoCompleteTextViewStyle}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#autoCompleteTextViewStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name tsc.com.relegationupdated:autoCompleteTextViewStyle
+          @attr name tsc.com.relegation:autoCompleteTextViewStyle
         */
         public static final int Theme_autoCompleteTextViewStyle = 97;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#borderlessButtonStyle}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#borderlessButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name tsc.com.relegationupdated:borderlessButtonStyle
+          @attr name tsc.com.relegation:borderlessButtonStyle
         */
         public static final int Theme_borderlessButtonStyle = 54;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#buttonBarButtonStyle}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#buttonBarButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name tsc.com.relegationupdated:buttonBarButtonStyle
+          @attr name tsc.com.relegation:buttonBarButtonStyle
         */
         public static final int Theme_buttonBarButtonStyle = 51;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#buttonBarNegativeButtonStyle}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#buttonBarNegativeButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name tsc.com.relegationupdated:buttonBarNegativeButtonStyle
+          @attr name tsc.com.relegation:buttonBarNegativeButtonStyle
         */
         public static final int Theme_buttonBarNegativeButtonStyle = 95;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#buttonBarNeutralButtonStyle}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#buttonBarNeutralButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name tsc.com.relegationupdated:buttonBarNeutralButtonStyle
+          @attr name tsc.com.relegation:buttonBarNeutralButtonStyle
         */
         public static final int Theme_buttonBarNeutralButtonStyle = 96;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#buttonBarPositiveButtonStyle}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#buttonBarPositiveButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name tsc.com.relegationupdated:buttonBarPositiveButtonStyle
+          @attr name tsc.com.relegation:buttonBarPositiveButtonStyle
         */
         public static final int Theme_buttonBarPositiveButtonStyle = 94;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#buttonBarStyle}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#buttonBarStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name tsc.com.relegationupdated:buttonBarStyle
+          @attr name tsc.com.relegation:buttonBarStyle
         */
         public static final int Theme_buttonBarStyle = 50;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#buttonStyle}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#buttonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name tsc.com.relegationupdated:buttonStyle
+          @attr name tsc.com.relegation:buttonStyle
         */
         public static final int Theme_buttonStyle = 98;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#buttonStyleSmall}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#buttonStyleSmall}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name tsc.com.relegationupdated:buttonStyleSmall
+          @attr name tsc.com.relegation:buttonStyleSmall
         */
         public static final int Theme_buttonStyleSmall = 99;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#checkboxStyle}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#checkboxStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name tsc.com.relegationupdated:checkboxStyle
+          @attr name tsc.com.relegation:checkboxStyle
         */
         public static final int Theme_checkboxStyle = 100;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#checkedTextViewStyle}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#checkedTextViewStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name tsc.com.relegationupdated:checkedTextViewStyle
+          @attr name tsc.com.relegation:checkedTextViewStyle
         */
         public static final int Theme_checkedTextViewStyle = 101;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#colorAccent}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#colorAccent}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -7890,11 +7903,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name tsc.com.relegationupdated:colorAccent
+          @attr name tsc.com.relegation:colorAccent
         */
         public static final int Theme_colorAccent = 83;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#colorButtonNormal}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#colorButtonNormal}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -7905,11 +7918,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name tsc.com.relegationupdated:colorButtonNormal
+          @attr name tsc.com.relegation:colorButtonNormal
         */
         public static final int Theme_colorButtonNormal = 87;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#colorControlActivated}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#colorControlActivated}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -7920,11 +7933,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name tsc.com.relegationupdated:colorControlActivated
+          @attr name tsc.com.relegation:colorControlActivated
         */
         public static final int Theme_colorControlActivated = 85;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#colorControlHighlight}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#colorControlHighlight}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -7935,11 +7948,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name tsc.com.relegationupdated:colorControlHighlight
+          @attr name tsc.com.relegation:colorControlHighlight
         */
         public static final int Theme_colorControlHighlight = 86;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#colorControlNormal}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#colorControlNormal}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -7950,11 +7963,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name tsc.com.relegationupdated:colorControlNormal
+          @attr name tsc.com.relegation:colorControlNormal
         */
         public static final int Theme_colorControlNormal = 84;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#colorPrimary}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#colorPrimary}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -7965,11 +7978,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name tsc.com.relegationupdated:colorPrimary
+          @attr name tsc.com.relegation:colorPrimary
         */
         public static final int Theme_colorPrimary = 81;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#colorPrimaryDark}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#colorPrimaryDark}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -7980,11 +7993,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name tsc.com.relegationupdated:colorPrimaryDark
+          @attr name tsc.com.relegation:colorPrimaryDark
         */
         public static final int Theme_colorPrimaryDark = 82;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#colorSwitchThumbNormal}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#colorSwitchThumbNormal}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -7995,11 +8008,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name tsc.com.relegationupdated:colorSwitchThumbNormal
+          @attr name tsc.com.relegation:colorSwitchThumbNormal
         */
         public static final int Theme_colorSwitchThumbNormal = 88;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#dialogPreferredPadding}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#dialogPreferredPadding}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -8011,51 +8024,51 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name tsc.com.relegationupdated:dialogPreferredPadding
+          @attr name tsc.com.relegation:dialogPreferredPadding
         */
         public static final int Theme_dialogPreferredPadding = 43;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#dialogTheme}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#dialogTheme}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name tsc.com.relegationupdated:dialogTheme
+          @attr name tsc.com.relegation:dialogTheme
         */
         public static final int Theme_dialogTheme = 42;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#dividerHorizontal}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#dividerHorizontal}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name tsc.com.relegationupdated:dividerHorizontal
+          @attr name tsc.com.relegation:dividerHorizontal
         */
         public static final int Theme_dividerHorizontal = 56;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#dividerVertical}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#dividerVertical}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name tsc.com.relegationupdated:dividerVertical
+          @attr name tsc.com.relegation:dividerVertical
         */
         public static final int Theme_dividerVertical = 55;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#dropDownListViewStyle}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#dropDownListViewStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name tsc.com.relegationupdated:dropDownListViewStyle
+          @attr name tsc.com.relegation:dropDownListViewStyle
         */
         public static final int Theme_dropDownListViewStyle = 73;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#dropdownListPreferredItemHeight}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#dropdownListPreferredItemHeight}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -8067,21 +8080,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name tsc.com.relegationupdated:dropdownListPreferredItemHeight
+          @attr name tsc.com.relegation:dropdownListPreferredItemHeight
         */
         public static final int Theme_dropdownListPreferredItemHeight = 46;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#editTextBackground}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#editTextBackground}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name tsc.com.relegationupdated:editTextBackground
+          @attr name tsc.com.relegation:editTextBackground
         */
         public static final int Theme_editTextBackground = 63;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#editTextColor}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#editTextColor}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -8089,61 +8102,61 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name tsc.com.relegationupdated:editTextColor
+          @attr name tsc.com.relegation:editTextColor
         */
         public static final int Theme_editTextColor = 62;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#editTextStyle}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#editTextStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name tsc.com.relegationupdated:editTextStyle
+          @attr name tsc.com.relegation:editTextStyle
         */
         public static final int Theme_editTextStyle = 102;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#homeAsUpIndicator}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#homeAsUpIndicator}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name tsc.com.relegationupdated:homeAsUpIndicator
+          @attr name tsc.com.relegation:homeAsUpIndicator
         */
         public static final int Theme_homeAsUpIndicator = 48;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#listChoiceBackgroundIndicator}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#listChoiceBackgroundIndicator}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name tsc.com.relegationupdated:listChoiceBackgroundIndicator
+          @attr name tsc.com.relegation:listChoiceBackgroundIndicator
         */
         public static final int Theme_listChoiceBackgroundIndicator = 80;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#listDividerAlertDialog}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#listDividerAlertDialog}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name tsc.com.relegationupdated:listDividerAlertDialog
+          @attr name tsc.com.relegation:listDividerAlertDialog
         */
         public static final int Theme_listDividerAlertDialog = 44;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#listPopupWindowStyle}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#listPopupWindowStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name tsc.com.relegationupdated:listPopupWindowStyle
+          @attr name tsc.com.relegation:listPopupWindowStyle
         */
         public static final int Theme_listPopupWindowStyle = 74;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#listPreferredItemHeight}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#listPreferredItemHeight}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -8155,11 +8168,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name tsc.com.relegationupdated:listPreferredItemHeight
+          @attr name tsc.com.relegation:listPreferredItemHeight
         */
         public static final int Theme_listPreferredItemHeight = 68;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#listPreferredItemHeightLarge}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#listPreferredItemHeightLarge}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -8171,11 +8184,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name tsc.com.relegationupdated:listPreferredItemHeightLarge
+          @attr name tsc.com.relegation:listPreferredItemHeightLarge
         */
         public static final int Theme_listPreferredItemHeightLarge = 70;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#listPreferredItemHeightSmall}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#listPreferredItemHeightSmall}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -8187,11 +8200,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name tsc.com.relegationupdated:listPreferredItemHeightSmall
+          @attr name tsc.com.relegation:listPreferredItemHeightSmall
         */
         public static final int Theme_listPreferredItemHeightSmall = 69;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#listPreferredItemPaddingLeft}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#listPreferredItemPaddingLeft}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -8203,11 +8216,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name tsc.com.relegationupdated:listPreferredItemPaddingLeft
+          @attr name tsc.com.relegation:listPreferredItemPaddingLeft
         */
         public static final int Theme_listPreferredItemPaddingLeft = 71;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#listPreferredItemPaddingRight}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#listPreferredItemPaddingRight}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -8219,31 +8232,31 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name tsc.com.relegationupdated:listPreferredItemPaddingRight
+          @attr name tsc.com.relegation:listPreferredItemPaddingRight
         */
         public static final int Theme_listPreferredItemPaddingRight = 72;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#panelBackground}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#panelBackground}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name tsc.com.relegationupdated:panelBackground
+          @attr name tsc.com.relegation:panelBackground
         */
         public static final int Theme_panelBackground = 77;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#panelMenuListTheme}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#panelMenuListTheme}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name tsc.com.relegationupdated:panelMenuListTheme
+          @attr name tsc.com.relegation:panelMenuListTheme
         */
         public static final int Theme_panelMenuListTheme = 79;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#panelMenuListWidth}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#panelMenuListWidth}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -8255,171 +8268,171 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name tsc.com.relegationupdated:panelMenuListWidth
+          @attr name tsc.com.relegation:panelMenuListWidth
         */
         public static final int Theme_panelMenuListWidth = 78;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#popupMenuStyle}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#popupMenuStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name tsc.com.relegationupdated:popupMenuStyle
+          @attr name tsc.com.relegation:popupMenuStyle
         */
         public static final int Theme_popupMenuStyle = 60;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#popupWindowStyle}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#popupWindowStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name tsc.com.relegationupdated:popupWindowStyle
+          @attr name tsc.com.relegation:popupWindowStyle
         */
         public static final int Theme_popupWindowStyle = 61;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#radioButtonStyle}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#radioButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name tsc.com.relegationupdated:radioButtonStyle
+          @attr name tsc.com.relegation:radioButtonStyle
         */
         public static final int Theme_radioButtonStyle = 103;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#ratingBarStyle}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#ratingBarStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name tsc.com.relegationupdated:ratingBarStyle
+          @attr name tsc.com.relegation:ratingBarStyle
         */
         public static final int Theme_ratingBarStyle = 104;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#searchViewStyle}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#searchViewStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name tsc.com.relegationupdated:searchViewStyle
+          @attr name tsc.com.relegation:searchViewStyle
         */
         public static final int Theme_searchViewStyle = 67;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#selectableItemBackground}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#selectableItemBackground}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name tsc.com.relegationupdated:selectableItemBackground
+          @attr name tsc.com.relegation:selectableItemBackground
         */
         public static final int Theme_selectableItemBackground = 52;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#selectableItemBackgroundBorderless}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#selectableItemBackgroundBorderless}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name tsc.com.relegationupdated:selectableItemBackgroundBorderless
+          @attr name tsc.com.relegation:selectableItemBackgroundBorderless
         */
         public static final int Theme_selectableItemBackgroundBorderless = 53;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#spinnerDropDownItemStyle}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#spinnerDropDownItemStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name tsc.com.relegationupdated:spinnerDropDownItemStyle
+          @attr name tsc.com.relegation:spinnerDropDownItemStyle
         */
         public static final int Theme_spinnerDropDownItemStyle = 47;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#spinnerStyle}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#spinnerStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name tsc.com.relegationupdated:spinnerStyle
+          @attr name tsc.com.relegation:spinnerStyle
         */
         public static final int Theme_spinnerStyle = 105;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#switchStyle}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#switchStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name tsc.com.relegationupdated:switchStyle
+          @attr name tsc.com.relegation:switchStyle
         */
         public static final int Theme_switchStyle = 106;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#textAppearanceLargePopupMenu}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#textAppearanceLargePopupMenu}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name tsc.com.relegationupdated:textAppearanceLargePopupMenu
+          @attr name tsc.com.relegation:textAppearanceLargePopupMenu
         */
         public static final int Theme_textAppearanceLargePopupMenu = 40;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#textAppearanceListItem}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#textAppearanceListItem}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name tsc.com.relegationupdated:textAppearanceListItem
+          @attr name tsc.com.relegation:textAppearanceListItem
         */
         public static final int Theme_textAppearanceListItem = 75;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#textAppearanceListItemSmall}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#textAppearanceListItemSmall}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name tsc.com.relegationupdated:textAppearanceListItemSmall
+          @attr name tsc.com.relegation:textAppearanceListItemSmall
         */
         public static final int Theme_textAppearanceListItemSmall = 76;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#textAppearanceSearchResultSubtitle}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#textAppearanceSearchResultSubtitle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name tsc.com.relegationupdated:textAppearanceSearchResultSubtitle
+          @attr name tsc.com.relegation:textAppearanceSearchResultSubtitle
         */
         public static final int Theme_textAppearanceSearchResultSubtitle = 65;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#textAppearanceSearchResultTitle}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#textAppearanceSearchResultTitle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name tsc.com.relegationupdated:textAppearanceSearchResultTitle
+          @attr name tsc.com.relegation:textAppearanceSearchResultTitle
         */
         public static final int Theme_textAppearanceSearchResultTitle = 64;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#textAppearanceSmallPopupMenu}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#textAppearanceSmallPopupMenu}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name tsc.com.relegationupdated:textAppearanceSmallPopupMenu
+          @attr name tsc.com.relegation:textAppearanceSmallPopupMenu
         */
         public static final int Theme_textAppearanceSmallPopupMenu = 41;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#textColorAlertDialogListItem}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#textColorAlertDialogListItem}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -8427,11 +8440,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name tsc.com.relegationupdated:textColorAlertDialogListItem
+          @attr name tsc.com.relegation:textColorAlertDialogListItem
         */
         public static final int Theme_textColorAlertDialogListItem = 93;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#textColorSearchUrl}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#textColorSearchUrl}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -8439,31 +8452,31 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name tsc.com.relegationupdated:textColorSearchUrl
+          @attr name tsc.com.relegation:textColorSearchUrl
         */
         public static final int Theme_textColorSearchUrl = 66;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#toolbarNavigationButtonStyle}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#toolbarNavigationButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name tsc.com.relegationupdated:toolbarNavigationButtonStyle
+          @attr name tsc.com.relegation:toolbarNavigationButtonStyle
         */
         public static final int Theme_toolbarNavigationButtonStyle = 59;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#toolbarStyle}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#toolbarStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name tsc.com.relegationupdated:toolbarStyle
+          @attr name tsc.com.relegation:toolbarStyle
         */
         public static final int Theme_toolbarStyle = 58;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#windowActionBar}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#windowActionBar}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -8473,11 +8486,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name tsc.com.relegationupdated:windowActionBar
+          @attr name tsc.com.relegation:windowActionBar
         */
         public static final int Theme_windowActionBar = 2;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#windowActionBarOverlay}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#windowActionBarOverlay}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -8487,11 +8500,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name tsc.com.relegationupdated:windowActionBarOverlay
+          @attr name tsc.com.relegation:windowActionBarOverlay
         */
         public static final int Theme_windowActionBarOverlay = 4;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#windowActionModeOverlay}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#windowActionModeOverlay}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -8501,11 +8514,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name tsc.com.relegationupdated:windowActionModeOverlay
+          @attr name tsc.com.relegation:windowActionModeOverlay
         */
         public static final int Theme_windowActionModeOverlay = 5;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#windowFixedHeightMajor}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#windowFixedHeightMajor}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -8520,11 +8533,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name tsc.com.relegationupdated:windowFixedHeightMajor
+          @attr name tsc.com.relegation:windowFixedHeightMajor
         */
         public static final int Theme_windowFixedHeightMajor = 9;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#windowFixedHeightMinor}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#windowFixedHeightMinor}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -8539,11 +8552,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name tsc.com.relegationupdated:windowFixedHeightMinor
+          @attr name tsc.com.relegation:windowFixedHeightMinor
         */
         public static final int Theme_windowFixedHeightMinor = 7;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#windowFixedWidthMajor}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#windowFixedWidthMajor}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -8558,11 +8571,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name tsc.com.relegationupdated:windowFixedWidthMajor
+          @attr name tsc.com.relegation:windowFixedWidthMajor
         */
         public static final int Theme_windowFixedWidthMajor = 6;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#windowFixedWidthMinor}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#windowFixedWidthMinor}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -8577,11 +8590,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name tsc.com.relegationupdated:windowFixedWidthMinor
+          @attr name tsc.com.relegation:windowFixedWidthMinor
         */
         public static final int Theme_windowFixedWidthMinor = 8;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#windowMinWidthMajor}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#windowMinWidthMajor}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -8596,11 +8609,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name tsc.com.relegationupdated:windowMinWidthMajor
+          @attr name tsc.com.relegation:windowMinWidthMajor
         */
         public static final int Theme_windowMinWidthMajor = 10;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#windowMinWidthMinor}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#windowMinWidthMinor}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -8615,11 +8628,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name tsc.com.relegationupdated:windowMinWidthMinor
+          @attr name tsc.com.relegation:windowMinWidthMinor
         */
         public static final int Theme_windowMinWidthMinor = 11;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#windowNoTitle}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#windowNoTitle}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -8629,7 +8642,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name tsc.com.relegationupdated:windowNoTitle
+          @attr name tsc.com.relegation:windowNoTitle
         */
         public static final int Theme_windowNoTitle = 3;
         /** Attributes that can be used with a Toolbar.
@@ -8640,25 +8653,25 @@ containing a value of this type.
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #Toolbar_android_gravity android:gravity}</code></td><td></td></tr>
            <tr><td><code>{@link #Toolbar_android_minHeight android:minHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_collapseContentDescription tsc.com.relegationupdated:collapseContentDescription}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_collapseIcon tsc.com.relegationupdated:collapseIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetEnd tsc.com.relegationupdated:contentInsetEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetLeft tsc.com.relegationupdated:contentInsetLeft}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetRight tsc.com.relegationupdated:contentInsetRight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetStart tsc.com.relegationupdated:contentInsetStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_maxButtonHeight tsc.com.relegationupdated:maxButtonHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_navigationContentDescription tsc.com.relegationupdated:navigationContentDescription}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_navigationIcon tsc.com.relegationupdated:navigationIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_popupTheme tsc.com.relegationupdated:popupTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_subtitle tsc.com.relegationupdated:subtitle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_subtitleTextAppearance tsc.com.relegationupdated:subtitleTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_title tsc.com.relegationupdated:title}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMarginBottom tsc.com.relegationupdated:titleMarginBottom}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMarginEnd tsc.com.relegationupdated:titleMarginEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMarginStart tsc.com.relegationupdated:titleMarginStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMarginTop tsc.com.relegationupdated:titleMarginTop}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMargins tsc.com.relegationupdated:titleMargins}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleTextAppearance tsc.com.relegationupdated:titleTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_collapseContentDescription tsc.com.relegation:collapseContentDescription}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_collapseIcon tsc.com.relegation:collapseIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetEnd tsc.com.relegation:contentInsetEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetLeft tsc.com.relegation:contentInsetLeft}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetRight tsc.com.relegation:contentInsetRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetStart tsc.com.relegation:contentInsetStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_maxButtonHeight tsc.com.relegation:maxButtonHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_navigationContentDescription tsc.com.relegation:navigationContentDescription}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_navigationIcon tsc.com.relegation:navigationIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_popupTheme tsc.com.relegation:popupTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_subtitle tsc.com.relegation:subtitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_subtitleTextAppearance tsc.com.relegation:subtitleTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_title tsc.com.relegation:title}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMarginBottom tsc.com.relegation:titleMarginBottom}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMarginEnd tsc.com.relegation:titleMarginEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMarginStart tsc.com.relegation:titleMarginStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMarginTop tsc.com.relegation:titleMarginTop}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMargins tsc.com.relegation:titleMargins}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleTextAppearance tsc.com.relegation:titleTextAppearance}</code></td><td></td></tr>
            </table>
            @see #Toolbar_android_gravity
            @see #Toolbar_android_minHeight
@@ -8703,7 +8716,7 @@ containing a value of this type.
         */
         public static final int Toolbar_android_minHeight = 1;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#collapseContentDescription}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#collapseContentDescription}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -8713,21 +8726,21 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name tsc.com.relegationupdated:collapseContentDescription
+          @attr name tsc.com.relegation:collapseContentDescription
         */
         public static final int Toolbar_collapseContentDescription = 18;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#collapseIcon}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#collapseIcon}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name tsc.com.relegationupdated:collapseIcon
+          @attr name tsc.com.relegation:collapseIcon
         */
         public static final int Toolbar_collapseIcon = 17;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#contentInsetEnd}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#contentInsetEnd}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -8739,11 +8752,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name tsc.com.relegationupdated:contentInsetEnd
+          @attr name tsc.com.relegation:contentInsetEnd
         */
         public static final int Toolbar_contentInsetEnd = 5;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#contentInsetLeft}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#contentInsetLeft}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -8755,11 +8768,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name tsc.com.relegationupdated:contentInsetLeft
+          @attr name tsc.com.relegation:contentInsetLeft
         */
         public static final int Toolbar_contentInsetLeft = 6;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#contentInsetRight}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#contentInsetRight}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -8771,11 +8784,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name tsc.com.relegationupdated:contentInsetRight
+          @attr name tsc.com.relegation:contentInsetRight
         */
         public static final int Toolbar_contentInsetRight = 7;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#contentInsetStart}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#contentInsetStart}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -8787,11 +8800,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name tsc.com.relegationupdated:contentInsetStart
+          @attr name tsc.com.relegation:contentInsetStart
         */
         public static final int Toolbar_contentInsetStart = 4;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#maxButtonHeight}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#maxButtonHeight}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -8803,11 +8816,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name tsc.com.relegationupdated:maxButtonHeight
+          @attr name tsc.com.relegation:maxButtonHeight
         */
         public static final int Toolbar_maxButtonHeight = 16;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#navigationContentDescription}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#navigationContentDescription}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -8817,31 +8830,31 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name tsc.com.relegationupdated:navigationContentDescription
+          @attr name tsc.com.relegation:navigationContentDescription
         */
         public static final int Toolbar_navigationContentDescription = 20;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#navigationIcon}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#navigationIcon}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name tsc.com.relegationupdated:navigationIcon
+          @attr name tsc.com.relegation:navigationIcon
         */
         public static final int Toolbar_navigationIcon = 19;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#popupTheme}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#popupTheme}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name tsc.com.relegationupdated:popupTheme
+          @attr name tsc.com.relegation:popupTheme
         */
         public static final int Toolbar_popupTheme = 8;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#subtitle}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#subtitle}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -8851,21 +8864,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name tsc.com.relegationupdated:subtitle
+          @attr name tsc.com.relegation:subtitle
         */
         public static final int Toolbar_subtitle = 3;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#subtitleTextAppearance}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#subtitleTextAppearance}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name tsc.com.relegationupdated:subtitleTextAppearance
+          @attr name tsc.com.relegation:subtitleTextAppearance
         */
         public static final int Toolbar_subtitleTextAppearance = 10;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#title}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#title}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -8875,11 +8888,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name tsc.com.relegationupdated:title
+          @attr name tsc.com.relegation:title
         */
         public static final int Toolbar_title = 2;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#titleMarginBottom}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#titleMarginBottom}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -8891,11 +8904,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name tsc.com.relegationupdated:titleMarginBottom
+          @attr name tsc.com.relegation:titleMarginBottom
         */
         public static final int Toolbar_titleMarginBottom = 15;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#titleMarginEnd}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#titleMarginEnd}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -8907,11 +8920,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name tsc.com.relegationupdated:titleMarginEnd
+          @attr name tsc.com.relegation:titleMarginEnd
         */
         public static final int Toolbar_titleMarginEnd = 13;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#titleMarginStart}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#titleMarginStart}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -8923,11 +8936,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name tsc.com.relegationupdated:titleMarginStart
+          @attr name tsc.com.relegation:titleMarginStart
         */
         public static final int Toolbar_titleMarginStart = 12;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#titleMarginTop}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#titleMarginTop}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -8939,11 +8952,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name tsc.com.relegationupdated:titleMarginTop
+          @attr name tsc.com.relegation:titleMarginTop
         */
         public static final int Toolbar_titleMarginTop = 14;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#titleMargins}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#titleMargins}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -8955,17 +8968,17 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name tsc.com.relegationupdated:titleMargins
+          @attr name tsc.com.relegation:titleMargins
         */
         public static final int Toolbar_titleMargins = 11;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#titleTextAppearance}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#titleTextAppearance}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name tsc.com.relegationupdated:titleTextAppearance
+          @attr name tsc.com.relegation:titleTextAppearance
         */
         public static final int Toolbar_titleTextAppearance = 9;
         /** Attributes that can be used with a View.
@@ -8976,11 +8989,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #View_android_focusable android:focusable}</code></td><td></td></tr>
            <tr><td><code>{@link #View_android_theme android:theme}</code></td><td></td></tr>
-           <tr><td><code>{@link #View_backgroundTint tsc.com.relegationupdated:backgroundTint}</code></td><td></td></tr>
-           <tr><td><code>{@link #View_backgroundTintMode tsc.com.relegationupdated:backgroundTintMode}</code></td><td></td></tr>
-           <tr><td><code>{@link #View_paddingEnd tsc.com.relegationupdated:paddingEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #View_paddingStart tsc.com.relegationupdated:paddingStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #View_theme tsc.com.relegationupdated:theme}</code></td><td></td></tr>
+           <tr><td><code>{@link #View_backgroundTint tsc.com.relegation:backgroundTint}</code></td><td></td></tr>
+           <tr><td><code>{@link #View_backgroundTintMode tsc.com.relegation:backgroundTintMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #View_paddingEnd tsc.com.relegation:paddingEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #View_paddingStart tsc.com.relegation:paddingStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #View_theme tsc.com.relegation:theme}</code></td><td></td></tr>
            </table>
            @see #View_android_focusable
            @see #View_android_theme
@@ -9007,7 +9020,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int View_android_theme = 0;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#backgroundTint}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#backgroundTint}
           attribute's value can be found in the {@link #View} array.
 
 
@@ -9018,11 +9031,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name tsc.com.relegationupdated:backgroundTint
+          @attr name tsc.com.relegation:backgroundTint
         */
         public static final int View_backgroundTint = 5;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#backgroundTintMode}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#backgroundTintMode}
           attribute's value can be found in the {@link #View} array.
 
 
@@ -9038,11 +9051,11 @@ containing a value of this type.
 <tr><td><code>multiply</code></td><td>14</td><td></td></tr>
 <tr><td><code>screen</code></td><td>15</td><td></td></tr>
 </table>
-          @attr name tsc.com.relegationupdated:backgroundTintMode
+          @attr name tsc.com.relegation:backgroundTintMode
         */
         public static final int View_backgroundTintMode = 6;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#paddingEnd}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#paddingEnd}
           attribute's value can be found in the {@link #View} array.
 
 
@@ -9054,11 +9067,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name tsc.com.relegationupdated:paddingEnd
+          @attr name tsc.com.relegation:paddingEnd
         */
         public static final int View_paddingEnd = 3;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#paddingStart}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#paddingStart}
           attribute's value can be found in the {@link #View} array.
 
 
@@ -9070,17 +9083,17 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name tsc.com.relegationupdated:paddingStart
+          @attr name tsc.com.relegation:paddingStart
         */
         public static final int View_paddingStart = 2;
         /**
-          <p>This symbol is the offset where the {@link tsc.com.relegationupdated.R.attr#theme}
+          <p>This symbol is the offset where the {@link tsc.com.relegation.R.attr#theme}
           attribute's value can be found in the {@link #View} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name tsc.com.relegationupdated:theme
+          @attr name tsc.com.relegation:theme
         */
         public static final int View_theme = 4;
         /** Attributes that can be used with a ViewStubCompat.

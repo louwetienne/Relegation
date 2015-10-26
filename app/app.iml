@@ -94,7 +94,8 @@
     <orderEntry type="library" exported="" name="support-annotations-22.2.0" level="project" />
     <orderEntry type="library" exported="" name="support-v4-22.2.0" level="project" />
     <orderEntry type="library" exported="" name="material-dialogs-0.7.6.0" level="project" />
-    <orderEntry type="library" exported="" name="mpandroidchartlibrary-1-7-4" level="project" />
+    <orderEntry type="library" exported="" name="mpandroidchartlibrary-2-1-5" level="project" />
+    <orderEntry type="library" exported="" name="1_mpandroidchartlibrary-2-1-5" level="project" />
     <orderEntry type="library" exported="" name="appcompat-v7-22.2.0" level="project" />
     <orderEntry type="library" exported="" name="design-22.2.0" level="project" />
     <orderEntry type="library" exported="" name="cardview-v7-22.2.0" level="project" />

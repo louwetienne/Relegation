@@ -9,5 +9,5 @@ C:\Users\Etienne\AndroidStudioProjects\RelegationUpdated\app\build\intermediates
 C:\Users\Etienne\AndroidStudioProjects\RelegationUpdated\app\build\intermediates\pre-dexed\debug\internal_impl-22.2.0-8a200ec594fe2058df459790f7960763c31cb05f.jar
 C:\Users\Etienne\AndroidStudioProjects\RelegationUpdated\app\build\intermediates\pre-dexed\debug\classes-818ab928aba0a10ee5726e4b5b73c3ddd5b5a03a.jar
 C:\Users\Etienne\AndroidStudioProjects\RelegationUpdated\app\build\intermediates\pre-dexed\debug\classes-6d7313b720eadfc74952657c72256cd1ca24a443.jar
+C:\Users\Etienne\AndroidStudioProjects\RelegationUpdated\app\build\intermediates\pre-dexed\debug\mpandroidchartlibrary-2-1-5-be2d24bd424c16fd4328ea975493757a89ec8db3.jar
 C:\Users\Etienne\AndroidStudioProjects\RelegationUpdated\app\build\intermediates\pre-dexed\debug\classes-23e7d98a5179a65a1f0f247ea5391e638f870e22.jar
-C:\Users\Etienne\AndroidStudioProjects\RelegationUpdated\app\build\intermediates\pre-dexed\debug\mpandroidchartlibrary-1-7-4-b87a1a3f714f75d31a32a47621831c2c4cf5bfa7.jar
